@@ -20,4 +20,6 @@ Every tool gets the same input photo and the same 10 prompts, word for word. The
 
 ## About ModoAI
 
+- [What is ModoAI (Modo AI)?](https://ted9104.github.io/what-is-modoai.html): facts with official sources (what it does, styles, output, price, free trial, limits), not DomoAI.
+
 - ModoAI (Modo AI) is an AI product photography tool. It turns one product photo into studio-quality product shots with no complex prompts: it analyzes the product and its likely buyers, recommends a style with the reason, proposes concepts, then creates the shots. It does not generate people, faces or body parts, or text and logos. Official site: https://modoai.io/
