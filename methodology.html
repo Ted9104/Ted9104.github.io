@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methodology: how Product Photo Test Lab tests AI product photo tools</title>
+<meta name="description" content="Test conditions, the 25-point scoring rubric, what is recorded for every run, fairness rules and the update schedule for Product Photo Test Lab.">
+<link rel="canonical" href="https://ted9104.github.io/methodology.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Methodology: how Product Photo Test Lab tests AI product photo tools">
+<meta property="og:description" content="Test conditions, the 25-point scoring rubric, what is recorded for every run, fairness rules and the update schedule for Product Photo Test Lab.">
+<meta property="og:url" content="https://ted9104.github.io/methodology.html">
+<meta property="og:image" content="https://ted9104.github.io/images/og-testlab.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<style>:root{--bg:#fbfaf7;--fg:#1d1c1a;--muted:#5d5a54;--line:#e3dfd6;--card:#ffffff;--accent:#8a4b12;--accent-bg:#f6ede3;--ph:#fff6d6;--ph-line:#e7c65b}
+@media (prefers-color-scheme:dark){:root{--bg:#161514;--fg:#ecebe8;--muted:#a9a59d;--line:#34312c;--card:#1f1e1c;--accent:#e2a15f;--accent-bg:#2b231b;--ph:#2e2914;--ph-line:#8c7a33}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:0 16px}
+header.site{border-bottom:1px solid var(--line);padding:14px 0}
+header.site a{color:var(--fg);text-decoration:none;font-weight:600}
+header.site nav{font-size:15px;margin-top:4px}
+header.site nav a{font-weight:400;color:var(--muted);margin-right:14px;white-space:nowrap;display:inline-block}
+main{padding:28px 0 48px}
+h1{font-size:1.75rem;line-height:1.25;margin:0 0 10px}
+h2{font-size:1.3rem;line-height:1.3;margin:2.2em 0 .5em}
+h3{font-size:1.08rem;margin:1.6em 0 .4em}
+p,ul,ol{margin:0 0 1em}
+a{color:var(--accent)}
+.meta{color:var(--muted);font-size:15px;margin-bottom:18px}
+.disclosure{background:var(--accent-bg);border-left:4px solid var(--accent);padding:12px 14px;font-size:15px;margin:0 0 22px}
+.answer{border:1px solid var(--line);background:var(--card);padding:14px 16px;border-radius:8px}
+.ph{background:var(--ph);border:1px dashed var(--ph-line);padding:2px 6px;border-radius:4px;font-family:ui-monospace,Consolas,monospace;font-size:.86em}
+.tbl{overflow-x:auto;margin:0 0 1.2em;border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:15px;background:var(--card)}
+th,td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--accent-bg);font-weight:600}
+tr:last-child td{border-bottom:0}
+.prompt{border:1px solid var(--line);background:var(--card);border-radius:8px;padding:14px 16px;margin:0 0 18px}
+.prompt h3{margin-top:0}
+blockquote.p{margin:0 0 12px;padding:10px 12px;background:var(--bg);border-left:3px solid var(--line);font-family:ui-monospace,Consolas,monospace;font-size:14px;line-height:1.5;white-space:pre-wrap}
+.shot{margin:0 0 12px;padding:18px;border:1px dashed var(--ph-line);background:var(--ph);border-radius:6px;text-align:center;font-size:14px}
+figure{margin:0 0 1.2em}
+figure img,.shot img{max-width:100%;height:auto;border-radius:6px;display:block;margin:0 auto}
+figcaption{font-size:14px;color:var(--muted);margin-top:6px}
+.cols{display:grid;grid-template-columns:1fr;gap:16px}
+@media (min-width:640px){.cols{grid-template-columns:240px 1fr}}
+footer.site{border-top:1px solid var(--line);padding:18px 0 32px;color:var(--muted);font-size:14px}
+small,.small{font-size:14px;color:var(--muted)}</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "Methodology: how Product Photo Test Lab tests AI product photo tools",
+  "description": "Test conditions, the 25-point scoring rubric, what is recorded for every run, fairness rules and the update schedule for Product Photo Test Lab.",
+  "image": [
+    "https://ted9104.github.io/images/og-testlab.jpg"
+  ],
+  "datePublished": "2026-10-28",
+  "dateModified": "2026-10-28",
+  "author": {
+    "@type": "Person",
+    "name": "Ted",
+    "url": "https://ted9104.github.io/#who-runs",
+    "worksFor": {
+      "@type": "Organization",
+      "name": "Uneedcomms"
+    }
+  },
+  "publisher": {
+    "@type": "Person",
+    "name": "Ted",
+    "url": "https://ted9104.github.io/"
+  },
+  "mainEntityOfPage": "https://ted9104.github.io/methodology.html",
+  "inLanguage": "en",
+  "about": [
+    {
+      "@type": "Thing",
+      "name": "AI product photography"
+    }
+  ],
+  "mentions": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "ModoAI",
+      "alternateName": "Modo AI",
+      "url": "https://modoai.io/",
+      "applicationCategory": "DesignApplication",
+      "operatingSystem": "Web"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="site"><div class="wrap"><a href="index.html">Product Photo Test Lab</a><nav><a href="index.html">Test Lab</a><a href="nano-banana-2-product-photography.html">Nano Banana 2</a><a href="chatgpt-product-photography-prompts.html">ChatGPT</a><a href="methodology.html" aria-current="page">Methodology</a></nav></div></header>
+<main><div class="wrap">
+<h1>How Product Photo Test Lab tests AI product photo tools</h1>
+<p class="meta">By Ted &middot; Published <time datetime="2026-10-28">2026-10-28</time> &middot; Last updated <time datetime="2026-10-28">2026-10-28</time></p>
+<p class="disclosure"><strong>Who runs this:</strong> Ted. Ted works at Uneedcomms, the company that makes ModoAI (Modo AI). ModoAI is one of the tools covered in this lab, and every tool, ModoAI included, is scored with the same rules. <a href="methodology.html">How tests are run</a>.</p>
+
+<section class="answer">
+<h2 id="summary" style="margin-top:0">How does Product Photo Test Lab test AI product photo tools?</h2>
+<p>Every tool gets the same product photo and prompt text, pasted word for word into a new chat. Only the first image is scored, plus up to two edits from a fixed list. Each final image is scored 1 to 5 on five criteria, for a total out of 25, and every run records date, account, model and time.</p>
+</section>
+
+<h2 id="input">Which input photo is used?</h2>
+<p>An unlabeled amber glass dropper bottle with a black ribbed cap, photographed by Kadarius Seegars and published on Unsplash under the Unsplash License. It was chosen because it has no brand marks, which makes invented text easy to spot, and because glass, reflections and the small pipette show distortion quickly. Every tool receives the same 1600 &times; 2400 px JPEG.</p>
+<p class="small">Input photo: <a href="https://unsplash.com/photos/9nh0lK1FqGE">Kadarius Seegars / Unsplash</a>.</p>
+
+<h2 id="conditions">What are the test conditions?</h2>
+<div class="tbl"><table><tbody>
+<tr><th scope="row">Prompts</th><td>10 fixed prompts, identical on every tool page, pasted word for word</td></tr>
+<tr><th scope="row">Sessions</th><td>A new chat for each prompt. In ChatGPT a regular chat, because image creation was not available in temporary chats</td></tr>
+<tr><th scope="row">Which image is scored</th><td>The first image returned. No rerolls to pick a better one</td></tr>
+<tr><th scope="row">Edits</th><td>Up to two, from three fixed messages: E1 restore the product, E2 remove invented marks, E3 one targeted change (wording recorded)</td></tr>
+<tr><th scope="row">Timing</th><td>Seconds from pressing send, read from page timestamps: to the first image in Gemini, to the finished image in ChatGPT. Untimed runs are marked</td></tr>
+<tr><th scope="row">Plan</th><td>Round 1 used ChatGPT Free and a Google Workspace business account (Pro tier shown) for Gemini. The Gemini free tier is planned for the next round. The account used is named next to every result</td></tr>
+<tr><th scope="row">Location and language</th><td>South Korea, English prompts, web browser on a desktop computer</td></tr>
+<tr><th scope="row">Images shown</th><td>Images as saved from each app's result view, resized for the web, no retouching or cropping. Full-size downloads are noted when checked</td></tr>
+</tbody></table></div>
+
+<h2 id="scoring">How is each image scored?</h2>
+<p>Five criteria, each scored 1 to 5, for a total out of 25. A 2 or 4 means the image sits between the anchors.</p>
+<div class="tbl"><table>
+<thead><tr><th>Criterion</th><th>What is checked</th><th>1</th><th>3</th><th>5</th></tr></thead>
+<tbody><tr><th scope="row">Product fidelity</th><td>Shape, proportions, cap, bulb and pipette match the input</td><td>Different product, or a key part missing or reshaped</td><td>Clearly the same bottle, one detail changed (for example cap ribs or pipette missing)</td><td>Indistinguishable from the input bottle</td></tr><tr><th scope="row">Text and marks</th><td>No unrequested text, label or logo. For prompt 8: requested text spelled exactly and wrapped on the glass</td><td>Invented branding, or prompt 8 text misspelled</td><td>Small stray mark, or prompt 8 text correct but flat or warped</td><td>Clean glass, or prompt 8 label correct and natural</td></tr><tr><th scope="row">Prompt adherence</th><td>Scene, props, light direction and aspect ratio as written</td><td>Most of the prompt ignored</td><td>Main scene right, one or two elements wrong or missing</td><td>Everything asked for is present</td></tr><tr><th scope="row">Realism</th><td>Light, shadow, reflections, glass transparency, contact with the surface</td><td>Obviously artificial: floating product, wrong shadows</td><td>Believable at a glance, flaws visible on a closer look</td><td>Reads as a real photograph at full size</td></tr><tr><th scope="row">Store-ready</th><td>Could go on a product page or ad without retouching</td><td>Unusable</td><td>Usable after light retouching</td><td>Usable as delivered</td></tr></tbody></table></div>
+
+<h2 id="record">What is recorded for every run?</h2>
+<div class="tbl"><table><thead><tr><th>Field</th><th>What it holds</th></tr></thead><tbody><tr><td><code>run_id</code></td><td>Page and prompt, for example l1-03 (Nano Banana 2, prompt 3) or l2-08 (ChatGPT, prompt 8)</td></tr><tr><td><code>run_date</code></td><td>Date of the run (YYYY-MM-DD)</td></tr><tr><td><code>plan</code></td><td>Free plan, free trial or paid plan, by its name in the app</td></tr><tr><td><code>model_shown</code></td><td>The model name the app displayed, if any</td></tr><tr><td><code>time_to_first_image_s</code></td><td>Seconds from send to the first or finished image, from page timestamps</td></tr><tr><td><code>edit_count and edit_texts</code></td><td>How many follow-up edits (0 to 2) and their exact wording</td></tr><tr><td><code>shape_preserved</code></td><td>Yes, Partly or No, with a note on what changed</td></tr><tr><td><code>invented_text_or_logo</code></td><td>Yes or No, with what appeared</td></tr><tr><td><code>color_true</code></td><td>Whether the amber glass kept its color</td></tr><tr><td><code>output_size_px</code></td><td>Pixel size of the saved image</td></tr><tr><td><code>watermark_visible</code></td><td>Whether a visible watermark appeared</td></tr><tr><td><code>five scores and total</code></td><td>1 to 5 each, total out of 25</td></tr><tr><td><code>verdict</code></td><td>One sentence</td></tr><tr><td><code>recording_file</code></td><td>Screen recording, if one was made (not published)</td></tr></tbody></table></div>
+
+<h2 id="fairness">How are tools treated fairly?</h2>
+<ul>
+<li>Same input file, same prompt text and the same edit messages for every tool that accepts a written prompt.</li>
+<li>Where another tool beats ModoAI, the page says so. Two known cases: ModoAI does not generate people or hands, and it does not put text on products.</li>
+<li>Facts about a tool's features, plans or prices come only from that tool's official pages, with the date they were checked.</li>
+<li>ModoAI starts from a photo rather than a prompt, so its run follows its own normal flow (upload, recommended style, proposed concepts) and is scored on the same five criteria.</li>
+<li>The lab is run by Ted, who works at Uneedcomms, the company that makes ModoAI. That interest is stated on every page.</li>
+</ul>
+
+<h2 id="updates">How often are tests re-run?</h2>
+<p>Each tool page is re-run every four weeks, and within two weeks when a tool ships a new image model. Old results stay in the update log with their dates, so changes over time remain visible.</p>
+
+<h2 id="reproduce">How can I check or repeat a result?</h2>
+<p>Download the input photo from Unsplash, copy a prompt from the <a href="nano-banana-2-product-photography.html#prompts">Nano Banana 2</a> or <a href="chatgpt-product-photography-prompts.html#prompts">ChatGPT</a> page, and run it in a new chat. Expect some variation, since image models return a different image each time. If you find an error, <a href="https://github.com/Ted9104/Ted9104.github.io/issues">open an issue on GitHub</a>.</p>
+
+<h2 id="limits">What are the limits of this method?</h2>
+<ul>
+<li>One product, one input photo. Results on fabric, food or matte packaging can differ.</li>
+<li>One scored run per prompt per tool. Image models are random, so a second run can score higher or lower. Where a re-run was done, it is listed in the update log.</li>
+<li>One person scores every image (Ted), using the written rubric on the <a href="methodology.html#scoring">methodology page</a>. Scores are a documented judgment, not a lab measurement.</li>
+<li>Accounts differed in the first round: Nano Banana 2 ran on a Google Workspace business account (Pro tier shown) and ChatGPT on the Free plan.</li>
+<li>Tests are run from South Korea, in English. Limits and models can differ by country and account.</li>
+<li>Tools change often. Every result carries its run date and the model name the app showed on that day.</li>
+</ul>
+
+</div></main>
+<footer class="site"><div class="wrap">
+<p>Product Photo Test Lab is run by Ted. Ted works at Uneedcomms, the company that makes ModoAI. AI outputs are shown unretouched, only resized for the web.</p>
+<p>Input photo: <a href="https://unsplash.com/photos/9nh0lK1FqGE">Kadarius Seegars / Unsplash</a>. Corrections: <a href="https://github.com/Ted9104/Ted9104.github.io/issues">open an issue on GitHub</a>.</p>
+</div></footer>
+</body>
+</html>

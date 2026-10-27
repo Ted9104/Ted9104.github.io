@@ -1,0 +1,5 @@
+# Product Photo Test Lab: all crawlers, including AI search and AI assistant crawlers, may read every page.
+User-agent: *
+Allow: /
+
+Sitemap: https://ted9104.github.io/sitemap.xml

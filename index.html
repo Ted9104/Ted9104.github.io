@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Product Photo Test Lab: AI product photo tools tested on one real product</title>
+<meta name="description" content="Product Photo Test Lab runs the same product photo through Nano Banana 2, ChatGPT and other AI tools and publishes the prompts, unretouched outputs, timing and a 25-point score for each run.">
+<link rel="canonical" href="https://ted9104.github.io/">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Product Photo Test Lab: AI product photo tools tested on one real product">
+<meta property="og:description" content="Product Photo Test Lab runs the same product photo through Nano Banana 2, ChatGPT and other AI tools and publishes the prompts, unretouched outputs, timing and a 25-point score for each run.">
+<meta property="og:url" content="https://ted9104.github.io/">
+<meta property="og:image" content="https://ted9104.github.io/images/og-testlab.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<style>:root{--bg:#fbfaf7;--fg:#1d1c1a;--muted:#5d5a54;--line:#e3dfd6;--card:#ffffff;--accent:#8a4b12;--accent-bg:#f6ede3;--ph:#fff6d6;--ph-line:#e7c65b}
+@media (prefers-color-scheme:dark){:root{--bg:#161514;--fg:#ecebe8;--muted:#a9a59d;--line:#34312c;--card:#1f1e1c;--accent:#e2a15f;--accent-bg:#2b231b;--ph:#2e2914;--ph-line:#8c7a33}}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.6 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:0 16px}
+header.site{border-bottom:1px solid var(--line);padding:14px 0}
+header.site a{color:var(--fg);text-decoration:none;font-weight:600}
+header.site nav{font-size:15px;margin-top:4px}
+header.site nav a{font-weight:400;color:var(--muted);margin-right:14px;white-space:nowrap;display:inline-block}
+main{padding:28px 0 48px}
+h1{font-size:1.75rem;line-height:1.25;margin:0 0 10px}
+h2{font-size:1.3rem;line-height:1.3;margin:2.2em 0 .5em}
+h3{font-size:1.08rem;margin:1.6em 0 .4em}
+p,ul,ol{margin:0 0 1em}
+a{color:var(--accent)}
+.meta{color:var(--muted);font-size:15px;margin-bottom:18px}
+.disclosure{background:var(--accent-bg);border-left:4px solid var(--accent);padding:12px 14px;font-size:15px;margin:0 0 22px}
+.answer{border:1px solid var(--line);background:var(--card);padding:14px 16px;border-radius:8px}
+.ph{background:var(--ph);border:1px dashed var(--ph-line);padding:2px 6px;border-radius:4px;font-family:ui-monospace,Consolas,monospace;font-size:.86em}
+.tbl{overflow-x:auto;margin:0 0 1.2em;border:1px solid var(--line);border-radius:8px}
+table{border-collapse:collapse;width:100%;font-size:15px;background:var(--card)}
+th,td{border-bottom:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--accent-bg);font-weight:600}
+tr:last-child td{border-bottom:0}
+.prompt{border:1px solid var(--line);background:var(--card);border-radius:8px;padding:14px 16px;margin:0 0 18px}
+.prompt h3{margin-top:0}
+blockquote.p{margin:0 0 12px;padding:10px 12px;background:var(--bg);border-left:3px solid var(--line);font-family:ui-monospace,Consolas,monospace;font-size:14px;line-height:1.5;white-space:pre-wrap}
+.shot{margin:0 0 12px;padding:18px;border:1px dashed var(--ph-line);background:var(--ph);border-radius:6px;text-align:center;font-size:14px}
+figure{margin:0 0 1.2em}
+figure img,.shot img{max-width:100%;height:auto;border-radius:6px;display:block;margin:0 auto}
+figcaption{font-size:14px;color:var(--muted);margin-top:6px}
+.cols{display:grid;grid-template-columns:1fr;gap:16px}
+@media (min-width:640px){.cols{grid-template-columns:240px 1fr}}
+footer.site{border-top:1px solid var(--line);padding:18px 0 32px;color:var(--muted);font-size:14px}
+small,.small{font-size:14px;color:var(--muted)}</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://ted9104.github.io/#website",
+      "name": "Product Photo Test Lab",
+      "url": "https://ted9104.github.io/",
+      "description": "Product Photo Test Lab runs the same product photo through Nano Banana 2, ChatGPT and other AI tools and publishes the prompts, unretouched outputs, timing and a 25-point score for each run.",
+      "inLanguage": "en",
+      "author": {
+        "@type": "Person",
+        "name": "Ted",
+        "url": "https://ted9104.github.io/#who-runs",
+        "worksFor": {
+          "@type": "Organization",
+          "name": "Uneedcomms"
+        }
+      },
+      "publisher": {
+        "@type": "Person",
+        "name": "Ted",
+        "url": "https://ted9104.github.io/"
+      }
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://ted9104.github.io/#webpage",
+      "url": "https://ted9104.github.io/",
+      "name": "Product Photo Test Lab: AI product photo tools tested on one real product",
+      "isPartOf": {
+        "@id": "https://ted9104.github.io/#website"
+      },
+      "datePublished": "2026-10-28",
+      "dateModified": "2026-10-28"
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<header class="site"><div class="wrap"><a href="index.html">Product Photo Test Lab</a><nav><a href="index.html" aria-current="page">Test Lab</a><a href="nano-banana-2-product-photography.html">Nano Banana 2</a><a href="chatgpt-product-photography-prompts.html">ChatGPT</a><a href="methodology.html">Methodology</a></nav></div></header>
+<main><div class="wrap">
+<h1>Product Photo Test Lab</h1>
+<p class="meta">By Ted &middot; Published <time datetime="2026-10-28">2026-10-28</time> &middot; Last updated <time datetime="2026-10-28">2026-10-28</time></p>
+<p class="disclosure"><strong>Who runs this:</strong> Ted. Ted works at Uneedcomms, the company that makes ModoAI (Modo AI). ModoAI is one of the tools covered in this lab, and every tool, ModoAI included, is scored with the same rules. <a href="methodology.html">How tests are run</a>.</p>
+
+<section class="answer">
+<h2 id="what" style="margin-top:0">What is Product Photo Test Lab?</h2>
+<p>Product Photo Test Lab runs one real product photo through popular AI image tools and publishes everything: the exact prompts, the unretouched outputs, the time each run took, the edits used and a 25-point score. It is for online sellers deciding how to make product photos with AI, and it is run by Ted.</p>
+<p>First round (2026-10-27): on the same 10 prompts, ChatGPT Free kept the bottle's shape in all 10 runs (fidelity 4 of 5, 9 of 10 runs at 22 of 25), while Nano Banana 2 redrew it as a generic dropper bottle in all 10 (fidelity 2 of 5, totals 16 to 18). Nano Banana 2 spelled the text label better and returned images faster. ModoAI has not been run yet.</p>
+</section>
+
+<h2 id="why">Why test AI product photography on one photo?</h2>
+<p>A prompt only helps a seller if the tool keeps the actual product intact: its shape, color, small parts and labels. Using one photo for every tool makes the results comparable. Publishing the first image returned, plus every edit, shows how much work a usable shot takes, including the runs that failed.</p>
+
+<h2 id="tests">Which tests are published?</h2>
+<div class="tbl"><table><thead><tr><th>Test</th><th>What it covers</th></tr></thead><tbody>
+<tr><td><a href="nano-banana-2-product-photography.html">Nano Banana 2 product photography: 10 prompts tested on one product photo (2026)</a></td><td>Gemini app, 10 prompts, results, edits, scores</td></tr>
+<tr><td><a href="chatgpt-product-photography-prompts.html">ChatGPT product photography prompts: what worked on a real product (2026)</a></td><td>ChatGPT Images, the same 10 prompts, results, edits, scores</td></tr>
+<tr><td><a href="methodology.html">Methodology</a></td><td>Test conditions, scoring rubric, fairness rules, update schedule</td></tr>
+</tbody></table></div>
+<p class="small">Next: Photoroom AI Backgrounds, Nano Banana 2, ChatGPT and ModoAI on the same product on the same day.</p>
+
+<h2 id="scoring">How are results scored?</h2>
+<p>Each final image gets 1 to 5 points on five criteria: product fidelity, text and marks, prompt adherence, realism and store-readiness. The total is out of 25. Every run also records the date, plan, model name, seconds to the first image and edits used. The anchors for each score are on the <a href="methodology.html#scoring">methodology page</a>.</p>
+
+<h2 id="who-runs">Who runs this lab, and what is the conflict of interest?</h2>
+<p>Ted runs Product Photo Test Lab as a personal site. Ted works at Uneedcomms, the company that makes ModoAI (Modo AI), an AI product photography tool that is included in these tests. To keep that interest from shaping results, every tool gets the same photo, prompts and rubric, competitor facts come only from official pages with dates, and pages state where other tools beat ModoAI.</p>
+
+<h2 id="updates">How often are the tests updated?</h2>
+<p>Every four weeks, and within two weeks of a tool releasing a new image model. Each page shows its last updated date and keeps an update log.</p>
+
+</div></main>
+<footer class="site"><div class="wrap">
+<p>Product Photo Test Lab is run by Ted. Ted works at Uneedcomms, the company that makes ModoAI. AI outputs are shown unretouched, only resized for the web.</p>
+<p>Input photo: <a href="https://unsplash.com/photos/9nh0lK1FqGE">Kadarius Seegars / Unsplash</a>. Corrections: <a href="https://github.com/Ted9104/Ted9104.github.io/issues">open an issue on GitHub</a>.</p>
+</div></footer>
+</body>
+</html>

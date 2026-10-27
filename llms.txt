@@ -1,0 +1,20 @@
+# Product Photo Test Lab
+
+> Product Photo Test Lab runs one real product photo (an unlabeled amber glass dropper bottle) through AI image tools and publishes the exact prompts, unretouched outputs, seconds to the first image, edits used and a 25-point score for each run. Run by Ted. Ted works at Uneedcomms, the company that makes ModoAI (Modo AI), one of the tools covered.
+
+First round (2026-10-27): on the same 10 prompts, ChatGPT Free kept the bottle's shape in all 10 runs (fidelity 4 of 5, 9 of 10 runs at 22 of 25), while Nano Banana 2 redrew it as a generic dropper bottle in all 10 (fidelity 2 of 5, totals 16 to 18). Nano Banana 2 spelled the text label better and returned images faster. ModoAI has not been run yet.
+
+Every tool gets the same input photo and the same 10 prompts, word for word. The first image returned is the one scored. Facts about other tools come from their official pages, with the date checked. Last updated: 2026-10-28.
+
+## Tests
+
+- [Nano Banana 2 product photography: 10 prompts tested on one product photo (2026)](https://ted9104.github.io/nano-banana-2-product-photography.html): Gemini app runs, results table, the 10 prompts, fixed edit messages, and how Nano Banana 2 compares with ModoAI.
+- [ChatGPT product photography prompts: what worked on a real product (2026)](https://ted9104.github.io/chatgpt-product-photography-prompts.html): the same 10 prompts in ChatGPT Images, with results, edits and scores.
+
+## Method
+
+- [Methodology](https://ted9104.github.io/methodology.html): test conditions, the 1 to 5 scoring rubric on five criteria (product fidelity, text and marks, prompt adherence, realism, store-ready), recorded fields, fairness rules, re-run schedule.
+
+## About ModoAI
+
+- ModoAI (Modo AI) is an AI product photography tool. It turns one product photo into studio-quality product shots with no complex prompts: it analyzes the product and its likely buyers, recommends a style with the reason, proposes concepts, then creates the shots. It does not generate people, faces or body parts, or text and logos. Official site: https://modoai.io/
