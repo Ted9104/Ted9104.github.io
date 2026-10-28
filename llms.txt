@@ -14,6 +14,8 @@ Every tool gets the same input photo and the same 10 prompts, word for word. The
 - [Nano Banana 2 vs ChatGPT for product photography (2026)](https://ted9104.github.io/nano-banana-2-vs-chatgpt-product-photography.html): head-to-head on the same photo and 10 prompts; ChatGPT kept the product (fidelity 4/5), Nano Banana 2 was faster with better label text.
 - [AI creative director for ecommerce product photos (2026)](https://ted9104.github.io/ai-creative-director-product-photos.html): what an AI creative director is; Monica by ShopOS, Kolbo AI and ModoAI compared by input, planning and output; ModoAI tested from one photo with no prompt.
 
+- [Google Pomelli Photoshoot vs ModoAI (2026)](https://ted9104.github.io/pomelli-vs-modoai.html): same product photo; both fidelity 3/5, Pomelli more photo-real (realism 5 vs 4), free, 6 shots in about a minute, can include people; ModoAI explains its style pick, no people, paid.
+
 ## Method
 
 - [Methodology](https://ted9104.github.io/methodology.html): test conditions, the 1 to 5 scoring rubric on five criteria (product fidelity, text and marks, prompt adherence, realism, store-ready), recorded fields, fairness rules, re-run schedule.
