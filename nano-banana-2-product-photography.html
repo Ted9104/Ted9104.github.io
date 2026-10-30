@@ -107,7 +107,7 @@ small,.small{font-size:14px;color:var(--muted)}</style>
       "name": "How do you use Nano Banana for product photos?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Open the Gemini app, attach one clear photo of your product, and write the scene, light and framing in plain sentences, naming the parts that must not change. Check the first image against your photo before you edit. In our test, Nano Banana 2 followed scenes well but redrew the bottle in 10 of 10 runs."
+        "text": "Open the Gemini app, attach one clear photo of your product, and write the scene, light and framing in plain sentences, naming the parts that must not change. Check every image against your photo before you use it. In our test on one amber dropper bottle, Nano Banana 2 followed scenes well but redrew the bottle in 10 of 10 runs, and a restore edit fixed 0 of 10."
       }
     },
     {
@@ -123,7 +123,7 @@ small,.small{font-size:14px;color:var(--muted)}</style>
       "name": "How should you write a Nano Banana product photo prompt?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Write the scene, the light, the framing and the aspect ratio in plain sentences. Then name the parts that must not change and say what must not be added, for example: \"Keep the bottle exactly as in the photo: same shape, amber glass, black ribbed dropper cap and glass pipette. Do not add a label, text or logo.\" All 10 prompts below follow this pattern."
+        "text": "Write the scene, the light, the framing and the aspect ratio in plain sentences. Then name the parts that must not change and say what must not be added, for example: \"Keep the bottle exactly as in the photo: same shape, amber glass, black ribbed dropper cap and glass pipette. Do not add a label, text or logo.\" Prompt 1 uses this full wording; the other nine say what to keep in shorter words. The bottle was redrawn in 10 of 10 runs either way."
       }
     },
     {
@@ -139,7 +139,7 @@ small,.small{font-size:14px;color:var(--muted)}</style>
       "name": "Can one edit message fix a product that Nano Banana changed?",
       "acceptedAnswer": {
         "@type": "Answer",
-        "text": "Not in our test. In 10 runs on 2026-10-30, a restore message in the same chat (keep everything else the same, but make the bottle match the attached original photo exactly) returned almost the same image every time: 0 of 10 bottles were restored. Naming the parts kept the amber color and stopped added text, but not the exact shape, so check every image against your photo."
+        "text": "Not in our test. In 10 runs on 2026-10-30, a restore message in the same chat (keep everything else the same, but make the bottle match the attached original photo exactly) restored 0 of 10 bottles; the fidelity score stayed at 2 of 5. The amber color held in 10 of 10 first-round images and 8 of 10 rerun images, and no unrequested text appeared in any of the 20 images, but the exact shape never held. We did not test prompts without a keep line, so we cannot say the line caused this."
       }
     },
     {
@@ -159,11 +159,16 @@ small,.small{font-size:14px;color:var(--muted)}</style>
   "@type": "VideoObject",
   "name": "How to Use Nano Banana for Product Photos (Tested 10 Prompts on a Real Product)",
   "description": "Five steps for product photos with Nano Banana 2 in the Gemini app, tested on one real amber dropper bottle: the bottle was redrawn in 10 of 10 runs and a restore message fixed 0 of 10.",
-  "thumbnailUrl": "https://i.ytimg.com/vi/c5GLMczggSk/hqdefault.jpg",
+  "thumbnailUrl": "https://i.ytimg.com/vi/74pOcdI_wyY/hqdefault.jpg",
   "uploadDate": "2026-10-30",
-  "duration": "PT1M31S",
-  "embedUrl": "https://www.youtube.com/embed/c5GLMczggSk",
-  "url": "https://youtu.be/c5GLMczggSk"
+  "duration": "PT1M33S",
+  "embedUrl": "https://www.youtube.com/embed/74pOcdI_wyY",
+  "url": "https://youtu.be/74pOcdI_wyY",
+  "author": {
+    "@type": "Organization",
+    "name": "AI Tools Explained",
+    "url": "https://www.youtube.com/channel/UCksk4J8bYUFlQ0f6jjvwSkw"
+  }
 }
 </script>
 </head>
@@ -176,7 +181,7 @@ small,.small{font-size:14px;color:var(--muted)}</style>
 
 <section class="answer">
 <h2 id="how" style="margin-top:0">How do you use Nano Banana for product photos?</h2>
-<p>Open the Gemini app, attach one clear photo of your product, and write the scene, light and framing in plain sentences, naming the parts that must not change. Check the first image against your photo before you edit. In our test, Nano Banana 2 followed scenes well but redrew the bottle in 10 of 10 runs.</p>
+<p>Open the Gemini app, attach one clear photo of your product, and write the scene, light and framing in plain sentences, naming the parts that must not change. Check every image against your photo before you use it. In our test on one amber dropper bottle, Nano Banana 2 followed scenes well but redrew the bottle in 10 of 10 runs, and a restore edit fixed 0 of 10.</p>
 </section>
 <figure><img src="images/compare-p01.jpg" width="1600" height="647" alt="Side by side: the input amber dropper bottle, the Nano Banana 2 result for prompt 1 and the ChatGPT Free result for prompt 1, both on white backgrounds"><figcaption><strong>Same photo, same prompt 1, first images.</strong> Nano Banana 2 (middle) redrew the bottle with a shorter ribbed collar and a thinner pipette and scored 2 of 5 on product fidelity. ChatGPT Free (right) kept the tall cap, the wide pipette tube and the bubbles near the base and scored 4 of 5. Both kept the amber color and added no text.</figcaption></figure>
 
@@ -184,7 +189,7 @@ small,.small{font-size:14px;color:var(--muted)}</style>
 <p>Use one clear, well-lit photo where the whole product and its small parts are visible. Use the same file every time so results stay comparable. In this test we used one 1600 &times; 2400 px JPEG of an unlabeled amber dropper bottle, attached in a new chat for every prompt.</p>
 
 <h2 id="step2">Step 2: How should you write the prompt?</h2>
-<p>Write the scene, the light, the framing and the aspect ratio in plain sentences. Then name the parts that must not change and say what must not be added, for example: &ldquo;Keep the bottle exactly as in the photo: same shape, amber glass, black ribbed dropper cap and glass pipette. Do not add a label, text or logo.&rdquo; All 10 prompts below follow this pattern. In our runs this kept the color and stopped added text, but not the exact shape (see Step 4).</p>
+<p>Write the scene, the light, the framing and the aspect ratio in plain sentences. Then name the parts that must not change and say what must not be added, for example: &ldquo;Keep the bottle exactly as in the photo: same shape, amber glass, black ribbed dropper cap and glass pipette. Do not add a label, text or logo.&rdquo; Prompt 1 uses this full wording. The other nine say what to keep in shorter words, such as &ldquo;Keep the bottle exactly as in the photo&rdquo; (prompt 8 adds a label and keeps everything else). The bottle was redrawn in 10 of 10 runs either way.</p>
 
 <h2 id="step3">Step 3: How do you check the result against your photo?</h2>
 <p>Put the first image next to your photo and check shape and proportions, small parts, color, any invented text and any watermark. In our 10 runs the amber color stayed true 10 of 10 times and no unrequested text was added, but the bottle shape changed in 10 of 10 runs and a small Gemini sparkle mark showed in 8 of 10 images.</p>
@@ -192,8 +197,9 @@ small,.small{font-size:14px;color:var(--muted)}</style>
 <h2 id="fix">Step 4: Can one edit message fix a changed product?</h2>
 <p>Not in our test. We replied in the same chat with one restore message that names the parts and says to keep everything else, the exact wording below:</p>
 <p class="answer"><strong>E1 Restore the product:</strong> Keep everything else the same, but make the bottle match the attached original photo exactly: same shape, black ribbed dropper cap, glass pipette and amber glass color.</p>
-<p>In 10 runs on 2026-10-30 (new chat per prompt, first image, then this one message), Nano Banana 2 returned almost the same image every time: 0 of 10 bottles were restored, and the product fidelity score stayed at 2 of 5 before and after the edit in all 10 runs. So name the parts that must not change anyway, because it kept the amber color and stopped added text, but do not count on an edit to bring back the exact shape. If the exact product matters, check every image against your photo before you use it. On the same 10 prompts, ChatGPT Free kept the bottle closer (fidelity 4 of 5).</p>
-<figure><a href="https://youtu.be/c5GLMczggSk"><img src="https://i.ytimg.com/vi/c5GLMczggSk/hqdefault.jpg" width="480" height="360" alt="Video thumbnail: the input amber dropper bottle next to the Nano Banana 2 result, with the collar and pipette circled, captioned 10/10 changed"></a><figcaption><strong>Video (1:31):</strong> <a href="https://youtu.be/c5GLMczggSk">How to Use Nano Banana for Product Photos (Tested 10 Prompts on a Real Product)</a>, the same five steps with the close-up crops and the restore test.</figcaption></figure>
+<p>In 10 runs on 2026-10-30 (new chat per prompt, first image, then this one message), 0 of 10 bottles were restored, and the product fidelity score stayed at 2 of 5 before and after the edit in all 10. Eight edits returned almost the same image; in prompt 7 the pipette tip became visible, and in prompt 9 the glass turned a lighter amber, but the shape stayed generic in both.</p>
+<p>What held and what did not: the amber color stayed true in 10 of 10 images in the first round (2026-10-27) and 8 of 10 first images in this rerun (two came out darker brown), and no unrequested text or logo appeared in any of the 20 images. The exact shape did not hold, with a keep line in the first prompt or with the restore edit. We did not test prompts without a keep line, so we cannot say the line caused the color or text result. If the exact product matters, check every image before you use it, or use a tool that kept the shape better on the same prompts (ChatGPT Free scored 4 of 5).</p>
+<figure><a href="https://youtu.be/74pOcdI_wyY"><img src="https://i.ytimg.com/vi/74pOcdI_wyY/hqdefault.jpg" width="480" height="360" alt="Video thumbnail: the input amber dropper bottle next to the Nano Banana 2 result, with the collar and pipette circled, captioned 10/10 changed"></a><figcaption><strong>Video (1:31):</strong> <a href="https://youtu.be/74pOcdI_wyY">How to Use Nano Banana for Product Photos (Tested 10 Prompts on a Real Product)</a>, the same five steps with the close-up crops and the restore test. The video is from our own channel, AI Tools Explained, run by the same team.</figcaption></figure>
 
 <h2 id="step5">Step 5: How do you get the right size for your store?</h2>
 <p>Ask for the aspect ratio in the prompt. Every ratio we asked for came back: 1:1 (1024 &times; 1024), 4:5 (825 &times; 1024), 3:4 (765 &times; 1024) and 9:16 (572 &times; 1024), measured on images saved from the app view. Google says Nano Banana 2 can output from 512px up to 4K; we did not check the app's full-size download, so compare the saved size with your store's image rules before uploading.</p>
@@ -222,6 +228,7 @@ small,.small{font-size:14px;color:var(--muted)}</style>
 </ul>
 
 <h2 id="results">What are the best Nano Banana prompts for product photography?</h2>
+<p>On our 25-point rubric, seven of the 10 prompts tied at 18 of 25 (prompts 2, 4, 5, 6, 7, 9 and 10), and each of them scored 5 of 5 on following the scene. Prompts 1 and 3 scored 17 and the text-label prompt 8 scored 16. No prompt kept the exact bottle: product fidelity was 2 of 5 in all 10.</p>
 <div class="tbl"><table><thead><tr><th>Prompt</th><th>Score /25</th><th>Edits</th><th>Seconds</th><th>Product fidelity /5</th></tr></thead><tbody><tr><td><a href="#p01">1. Pure white background for a product listing</a></td><td>17</td><td>0</td><td>Not measured</td><td>2</td></tr><tr><td><a href="#p02">2. Marble bathroom counter, soft window light</a></td><td>18</td><td>0</td><td>Not measured</td><td>2</td></tr><tr><td><a href="#p03">3. Travertine stone in still water, spa mood</a></td><td>17</td><td>0</td><td>15</td><td>2</td></tr><tr><td><a href="#p04">4. Clean studio remake of the original scene</a></td><td>18</td><td>0</td><td>15</td><td>2</td></tr><tr><td><a href="#p05">5. Color pop: terracotta monochrome set</a></td><td>18</td><td>0</td><td>21</td><td>2</td></tr><tr><td><a href="#p06">6. Top-down flat lay on linen</a></td><td>18</td><td>0</td><td>19</td><td>2</td></tr><tr><td><a href="#p07">7. Hand holding the bottle</a></td><td>18</td><td>0</td><td>18</td><td>2</td></tr><tr><td><a href="#p08">8. Add a text label to the bottle</a></td><td>16</td><td>0</td><td>21</td><td>2</td></tr><tr><td><a href="#p09">9. Holiday gift scene</a></td><td>18</td><td>0</td><td>15</td><td>2</td></tr><tr><td><a href="#p10">10. Vertical ad with empty space for a headline</a></td><td>18</td><td>0</td><td>19</td><td>2</td></tr></tbody></table></div>
 <p>What we saw across the 10 runs:</p>
 <div><ul><li>Scene control was strong: 7 of 10 runs scored 5 of 5 on prompt adherence and the other 3 scored 4, and totals ranged from 16 to 18 out of 25.</li><li>Product fidelity was the weak point: in all 10 runs the bottle was redrawn as a generic dropper bottle, with a shorter ribbed collar, a thinner pipette and different body proportions, so every run scored 2 of 5 on fidelity.</li><li>No run added unrequested text or logos, and the amber color stayed true in all 10, including the orange set in prompt 5.</li><li>Prompt 7 produced a natural hand at a believable scale, and prompt 8 spelled ROSEHIP FACE OIL correctly (text score 4 of 5, one point higher than ChatGPT on the same prompt).</li><li>A small Gemini sparkle mark was visible in the bottom-right corner in 8 of 10 images.</li><li>On the same 10 prompts, ChatGPT Free kept the bottle much closer to the input (fidelity 4 of 5 in all 10 runs); see the ChatGPT page.</li></ul></div>
@@ -304,7 +311,7 @@ small,.small{font-size:14px;color:var(--muted)}</style>
 <ul><li><strong>E2 Remove invented marks:</strong> Remove any text, label or logo that you added to the bottle. Change nothing else.</li><li><strong>E3 One targeted change:</strong> Free-form, one change only (for example lighting or a prop). The exact wording is recorded with the result.</li></ul>
 
 <h2 id="no-prompts">If you'd rather not write prompts, what can you use instead?</h2>
-<p>ModoAI is an AI product photography tool that turns one product photo into studio-quality product shots with no complex prompts. It analyzes the product and its likely buyers, recommends a style with the reason, proposes concepts, then creates the shots. You change any shot with a one-sentence edit, and the first edit is free.</p>
+<p>ModoAI is an AI product photography tool that turns one product photo into product shots with no complex prompts. It analyzes the product and its likely buyers, recommends a style with the reason, proposes concepts, then creates the shots. You change any shot with a one-sentence edit, and the first edit is free.</p>
 <p>It fits a different job from Nano Banana 2. With Nano Banana 2 you decide the scene and write it out. ModoAI decides what to shoot for the likely buyer and explains why. Where each one comes out ahead, from official pages and this test:</p>
 <div class="tbl"><table>
 <thead><tr><th></th><th>Nano Banana 2 (Gemini app)</th><th>ModoAI</th></tr></thead>
