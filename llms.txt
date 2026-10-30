@@ -4,10 +4,11 @@
 
 First round (2026-10-27): on the same 10 prompts, ChatGPT Free kept the bottle's shape in all 10 runs (fidelity 4 of 5, 9 of 10 runs at 22 of 25), while Nano Banana 2 redrew it as a generic dropper bottle in all 10 (fidelity 2 of 5, totals 16 to 18). Nano Banana 2 spelled the text label better and returned images faster. ModoAI, given the same photo and no prompt, recommended a "Natural" style with its reason, proposed three concepts and scored 3 of 5 on fidelity (ChatGPT Free kept the shape better).
 
-Every tool gets the same input photo and the same 10 prompts, word for word. The first image returned is the one scored. Facts about other tools come from their official pages, with the date checked. Last updated: 2026-10-28.
+Every tool gets the same input photo and the same 10 prompts, word for word. The first image returned is the one scored. Facts about other tools come from their official pages, with the date checked. Last updated: 2026-10-30.
 
 ## Tests
 
+- [Best AI tool for product photos in 2026: ChatGPT, Nano Banana 2, Pomelli and ModoAI tested](https://ted9104.github.io/best-ai-tool-for-product-photos.html): one product photo through four tools; scores, cost and limits side by side, and which tool fits which job.
 - [Nano Banana 2 product photography: 10 prompts tested on one product photo (2026)](https://ted9104.github.io/nano-banana-2-product-photography.html): Gemini app runs, results table, the 10 prompts, fixed edit messages, and how Nano Banana 2 compares with ModoAI.
 - [ChatGPT product photography prompts: what worked on a real product (2026)](https://ted9104.github.io/chatgpt-product-photography-prompts.html): the same 10 prompts in ChatGPT Images, with results, edits and scores.
 
@@ -25,3 +26,12 @@ Every tool gets the same input photo and the same 10 prompts, word for word. The
 - [What is ModoAI (Modo AI)?](https://ted9104.github.io/what-is-modoai.html): facts with official sources (what it does, styles, output, price, free trial, limits), not DomoAI.
 
 - ModoAI (Modo AI) is an AI product photography tool. It turns one product photo into studio-quality product shots with no complex prompts: it analyzes the product and its likely buyers, recommends a style with the reason, proposes concepts, then creates the shots. It does not generate people, faces or body parts, or text and logos. Official site: https://modoai.io/
+
+## 한국어: 카페24 쇼핑몰 운영 노트
+
+- [1초 쿠폰 자주 묻는 질문](https://ted9104.github.io/kr/1sec-coupon-faq.html): 킵그로우 1초 쿠폰(카페24 쇼핑몰용 쿠폰 앱)의 요금, 설치 순서(신청 후 최대 5일), 표시 방식, 해지. 공식 상품 페이지 기준.
+- [카페24 상품에 쿠폰 쓰면 얼마인지 표시하는 방법](https://ted9104.github.io/kr/cafe24-coupon-price.html): 카페24 기본 최적할인가 설정과 조건, 1초 쿠폰과의 차이.
+- [쇼핑몰 쿠폰 사용률 높이는 방법](https://ted9104.github.io/kr/coupon-usage-rate.html): 고객이 쿠폰을 안 쓰는 이유 4가지와 대응.
+- [카페24 쿠폰 설정 방법](https://ted9104.github.io/kr/cafe24-coupon-setup.html): 쿠폰 만들기, 쿠폰존, 상품 상세 노출.
+- [카페24 타임세일 설정 방법](https://ted9104.github.io/kr/cafe24-timesale.html): 기본 기간할인과 타임쿠폰 자동발급 앱.
+- 작성: 1초 쿠폰을 만든 유니드컴즈(킵그로우) 직원.
