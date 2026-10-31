@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use these results, please cite them as below."
+type: dataset
+title: "Product Photo Fidelity Benchmark"
+abstract: "Scores for AI product photo tools on one real product photo (an unlabeled amber dropper bottle): product fidelity, text and marks, prompt adherence, realism and store-readiness, 1 to 5 each. Every run and score is published, with output images for every scored run. Run by Ted (Product Photo Test Lab), who works at Uneedcomms, maker of ModoAI (Modo AI), one of the tools scored."
+authors:
+  - name: "Product Photo Test Lab"
+version: "v2026.10"
+date-released: "2026-10-31"
+license: CC-BY-4.0
+url: "https://ted9104.github.io/methodology.html"
+repository-code: "https://github.com/Ted9104/Ted9104.github.io"
+keywords:
+  - AI product photography
+  - product photo
+  - image generation benchmark
+  - ecommerce
+  - product fidelity
+  - Nano Banana
+  - ChatGPT images

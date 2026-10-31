@@ -1,0 +1,73 @@
+{
+  "version": "v2026.10",
+  "generated": "2026-10-31",
+  "source": "runs.csv, run_type = main, status = measured",
+  "license": "CC-BY-4.0",
+  "caveats": [
+    "one product (an unlabeled amber dropper bottle)",
+    "one scorer",
+    "tool_flow tools scored on 3 criteria with n = 1",
+    "timings are not a speed comparison: Gemini timed to the first image, ChatGPT to the finished image"
+  ],
+  "tools": {
+    "Gemini app (Nano Banana 2)": {
+      "runs": 10,
+      "criteria_scored": 5,
+      "fidelity_mode": 2,
+      "fidelity_mean": 2,
+      "fidelity_min": 2,
+      "fidelity_max": 2,
+      "realism_mean": 4,
+      "store_ready_mean": 2,
+      "time_to_image_s_range": [
+        15.0,
+        21.0
+      ],
+      "e1_restore": "0 / 10"
+    },
+    "ChatGPT": {
+      "runs": 10,
+      "criteria_scored": 5,
+      "fidelity_mode": 4,
+      "fidelity_mean": 4,
+      "fidelity_min": 4,
+      "fidelity_max": 4,
+      "realism_mean": 4,
+      "store_ready_mean": 3.9,
+      "time_to_image_s_range": [
+        25.0,
+        33.0
+      ]
+    },
+    "ModoAI": {
+      "runs": 1,
+      "criteria_scored": 3,
+      "fidelity_mode": 3,
+      "fidelity_mean": 3,
+      "fidelity_min": 3,
+      "fidelity_max": 3,
+      "realism_mean": 4,
+      "store_ready_mean": 3,
+      "time_to_image_s_range": [
+        70.0,
+        70.0
+      ],
+      "time_note": "excludes the 2-3 minute concept planning step"
+    },
+    "Google Pomelli Photoshoot": {
+      "runs": 1,
+      "criteria_scored": 3,
+      "fidelity_mode": 3,
+      "fidelity_mean": 3,
+      "fidelity_min": 3,
+      "fidelity_max": 3,
+      "realism_mean": 5,
+      "store_ready_mean": 4,
+      "time_to_image_s_range": null,
+      "selection_note": "Studio shot scored, 1 of 6 template shots from one session"
+    },
+    "Photoroom": {
+      "status": "not measured (card required)"
+    }
+  }
+}
