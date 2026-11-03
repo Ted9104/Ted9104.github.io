@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>카페24 할인율 보이는법: 할인판매가 옆에 % 표시하는 설정 4단계 (2026)</title>
+<link rel="canonical" href="https://ted9104.github.io/kr/cafe24-discount-rate.html">
+<meta name="description" content="카페24에서 할인율을 보이게 하려면 혜택 등록으로 상품 할인을 만든 뒤, 상품 정보 표시 설정에서 할인판매가를 표시함으로 두고 추가설정의 할인판매가 할인금액 표시문구에 할인율 변수를 넣습니다. 카페24 도움말 기준 순서와 할인율이 다르게 보일 때 확인할 곳을 정리했습니다.">
+<meta property="og:title" content="카페24 할인율 보이는법: 할인판매가 옆에 % 표시하는 설정 4단계 (2026)">
+<meta property="og:description" content="혜택 등록 → 할인판매가 표시함 → 할인금액 표시문구에 할인율 변수 → 절사 기준 확인. 카페24 도움말 기준.">
+<style>:root{--bg:#fbfaf7;--fg:#1d1c1a;--muted:#5d5a54;--line:#e3dfd6;--card:#fff;--accent:#8a4b12;--accent-bg:#f6ede3}
+@media (prefers-color-scheme:dark){:root{--bg:#161514;--fg:#ecebe8;--muted:#a9a59d;--line:#34312c;--card:#1f1e1c;--accent:#e2a15f;--accent-bg:#2b231b}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:17px/1.7 -apple-system,"Segoe UI","Apple SD Gothic Neo","Malgun Gothic",sans-serif}
+.wrap{max-width:760px;margin:0 auto;padding:24px 16px 48px}h1{font-size:1.6rem;line-height:1.3}h2{font-size:1.2rem;margin:2em 0 .5em}h3{font-size:1.05rem}
+a{color:var(--accent)}.meta{color:var(--muted);font-size:15px}.disclosure{background:var(--accent-bg);border-left:4px solid var(--accent);padding:12px 14px;font-size:15px}
+.answer{border:1px solid var(--line);background:var(--card);padding:14px 16px;border-radius:8px}.small{font-size:14px;color:var(--muted)}
+table{border-collapse:collapse;width:100%;font-size:15px}td,th{border:1px solid var(--line);padding:6px 8px;text-align:left;vertical-align:top}code{background:var(--accent-bg);padding:1px 4px;border-radius:4px}</style>
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"HowTo","name":"카페24 상품에 할인율 표시하기","inLanguage":"ko","step":[
+{"@type":"HowToStep","text":"[관리자] 프로모션 > 고객 혜택 관리 > 혜택 등록에서 상품에 할인 혜택을 등록합니다."},
+{"@type":"HowToStep","text":"[관리자] 쇼핑몰 설정 > 상품 설정 > 상품 보기 설정 > 상품 정보 표시 설정에서 메인·상품목록·상품상세 탭별로 할인판매가를 표시함으로 설정합니다."},
+{"@type":"HowToStep","text":"같은 화면 아래 추가설정 > 할인판매가 할인금액 표시문구를 사용함으로 두고, 물음표 툴팁에서 할인율 변수를 확인해 표시문구에 넣은 뒤 확인을 누릅니다."},
+{"@type":"HowToStep","text":"[관리자] 쇼핑몰 설정 > 상품 설정 > 상품 정책 설정 > 상품 관련 설정 > 할인판매가 할인율 절사 기준을 확인합니다."}]},
+{"@type":"FAQPage","mainEntity":[
+{"@type":"Question","name":"할인율을 25%로 설정했는데 쇼핑몰에는 30%로 보여요.","acceptedAnswer":{"@type":"Answer","text":"할인판매가 할인율 절사 기준 설정 때문입니다. 할인금액을 %로 바꿔 보여줄 때 올림·내림하는 기준이라 1단위 올림이면 15% 할인이 20%로 표시됩니다. 쇼핑몰 설정 > 상품 설정 > 상품 정책 설정 > 상품 관련 설정에서 확인하고 조정합니다(카페24 도움말)."}},
+{"@type":"Question","name":"설정했는데 할인율이 안 보여요.","acceptedAnswer":{"@type":"Answer","text":"상품에 혜택 등록 할인이 적용됐는지, 보고 있는 화면 탭에서 할인판매가가 표시함인지, 표시대상 등급에 지금 계정이 포함되는지, 할인판매가 할인금액 표시문구가 사용함이고 할인율 변수가 들어갔는지 확인합니다. 디자인을 직접 수정한 쇼핑몰은 디자인 소스도 확인합니다."}},
+{"@type":"Question","name":"할인을 걸었는데 장바구니에는 정상가로 보여요.","acceptedAnswer":{"@type":"Answer","text":"쇼핑몰 설정 > 주문 설정 > 주문 정책 설정 > 주문 시 설정에서 장바구니에 할인금액 표시와 주문상품내역에 할인금액 표시를 사용함으로 바꿉니다(카페24 도움말)."}},
+{"@type":"Question","name":"쿠폰 할인도 할인율로 보이나요?","acceptedAnswer":{"@type":"Answer","text":"이 표시문구는 혜택 등록으로 만든 상품 할인(할인판매가)을 기준으로 합니다. 쿠폰을 반영한 가격은 상품 정보 표시 설정의 최적할인가로 보여줄 수 있지만, 비회원이 회원가입 즉시 조건 없이 받을 수 있는 쿠폰만 반영됩니다(카페24 도움말)."}}
+]}]}
+</script>
+</head>
+<body><div class="wrap">
+<p class="disclosure">이 글은 카페24 쿠폰 앱 '1초 쿠폰'을 만든 유니드컴즈(킵그로우) 직원이 썼습니다. 설정 방법은 카페24 도움말(2026-11-03 확인)을 기준으로 했습니다.</p>
+<h1>카페24 할인율 보이는법: 할인판매가 옆에 % 표시하는 설정 4단계 (2026)</h1>
+<p class="meta">작성 킵그로우 팀 · 2026-11-03</p>
+
+<section class="answer">
+<p>카페24에서 할인율을 보이게 하려면 ① 혜택 등록으로 상품 할인을 만들고, ② 상품 정보 표시 설정에서 '할인판매가'를 표시함으로 둔 뒤, ③ 같은 화면 아래 '할인판매가 할인금액 표시문구'에 할인율 변수를 넣습니다. ④ 표시된 %가 설정과 다르면 '할인판매가 할인율 절사 기준'을 확인합니다.</p>
+</section>
+
+<h2>1. 상품에 할인 혜택 등록하기</h2>
+<ol>
+<li>[관리자] 프로모션 &gt; 고객 혜택 관리 &gt; 혜택 등록으로 이동합니다.</li>
+<li>도움말에 안내된 혜택 유형(기간할인, 재구매할인, 대량구매할인, 회원할인, 신규상품할인, 배송비할인) 중 하나를 골라 적용할 상품과 할인 내용을 저장합니다. 상품 화면에 할인율을 보여주려면 할인판매가가 생기는 할인이어야 합니다.</li>
+<li>할인 혜택이 없는 상품에는 할인율 문구가 나타나지 않습니다.</li>
+</ol>
+
+<h2>2. 할인판매가를 '표시함'으로 설정하기</h2>
+<ol>
+<li>[관리자] 쇼핑몰 설정 &gt; 상품 설정 &gt; 상품 보기 설정 &gt; 상품 정보 표시 설정으로 이동합니다.</li>
+<li>메인화면·상품목록·상품상세 탭 중 할인율을 보여줄 화면의 탭을 누릅니다. 상품목록은 상품 분류별로도 설정할 수 있습니다.</li>
+<li>'할인판매가'를 '표시함'으로 설정합니다. 일부 회원 등급에게만 보여주려면 '표시대상'에서 등급을 고릅니다.</li>
+</ol>
+
+<h2>3. 할인금액 표시문구에 할인율 변수 넣기</h2>
+<ol>
+<li>같은 화면 아래 '추가설정 &gt; 할인판매가 할인금액 표시문구'를 '사용함'으로 설정합니다.</li>
+<li>표시문구 옆 '?' 툴팁을 눌러 쓸 수 있는 변수와 예시 문구를 확인하고, 할인율 변수를 넣습니다. 카페24 공지(2015-06-03)에 안내된 변수는 <code>[:할인율:]</code>(% 단위), <code>[:금액:]</code>(원 단위), <code>[:비회원:]</code>(로그인하지 않은 고객에게만 표시)입니다. 문구는 툴팁의 예시를 따라 쓰는 것이 가장 안전합니다.</li>
+<li>맨 아래 '확인'을 눌러 저장하고 쇼핑몰 화면에서 확인합니다.</li>
+</ol>
+<p class="small">디자인 소스를 직접 수정했거나 업체에 맡겨 제작한 쇼핑몰은 적용 방법이 다를 수 있습니다(카페24 도움말).</p>
+
+<h2>4. 할인율 절사 기준 확인하기</h2>
+<ul>
+<li>[관리자] 쇼핑몰 설정 &gt; 상품 설정 &gt; 상품 정책 설정 &gt; 상품 관련 설정 &gt; '할인판매가 할인율 절사 기준'은 할인금액을 %로 바꿔 보여줄 때 어느 단위에서 올림·내림할지 정하는 설정입니다.</li>
+<li>카페24 도움말 예시로는 이 기준이 1단위 올림이면 15% 할인이 20%로 표시됩니다. 25%로 걸었는데 30%로 보인다면 이 설정을 먼저 보고, 화면 표시가 설정한 할인율과 맞도록 기준을 조정합니다.</li>
+<li>절사 기준에 따라 화면의 할인율과 주문서의 실제 할인금액이 다를 수 있습니다.</li>
+</ul>
+
+<h2>한눈에 보기</h2>
+<table>
+<tr><th>단계</th><th>메뉴 위치</th><th>꼭 확인할 것</th></tr>
+<tr><td>1. 할인 등록</td><td>프로모션 &gt; 고객 혜택 관리 &gt; 혜택 등록</td><td>적용 상품, 혜택 유형</td></tr>
+<tr><td>2. 할인판매가 표시</td><td>쇼핑몰 설정 &gt; 상품 설정 &gt; 상품 보기 설정 &gt; 상품 정보 표시 설정</td><td>화면 탭별로 '표시함'</td></tr>
+<tr><td>3. 할인율 문구</td><td>같은 화면 &gt; 추가설정 &gt; 할인판매가 할인금액 표시문구</td><td>'사용함', 할인율 변수</td></tr>
+<tr><td>4. 절사 기준</td><td>쇼핑몰 설정 &gt; 상품 설정 &gt; 상품 정책 설정 &gt; 상품 관련 설정</td><td>올림·내림 단위</td></tr>
+</table>
+
+<h2>자주 묻는 질문</h2>
+<h3>할인율을 25%로 설정했는데 쇼핑몰에는 30%로 보여요.</h3>
+<p>'할인판매가 할인율 절사 기준' 설정 때문입니다. 할인금액을 %로 바꿔 보여줄 때 올림·내림하는 기준이라, 도움말 예시처럼 1단위 올림이면 15%가 20%로 보입니다. [관리자] 쇼핑몰 설정 &gt; 상품 설정 &gt; 상품 정책 설정 &gt; 상품 관련 설정에서 기준을 확인하고 조정하세요. 표시 %는 주문서의 실제 할인금액과 다를 수 있습니다.</p>
+<h3>설정했는데 할인율이 안 보여요.</h3>
+<ol>
+<li>그 상품에 혜택 등록 할인이 실제로 적용됐는지 확인합니다. 할인이 없는 상품에는 문구가 나오지 않습니다.</li>
+<li>보고 있는 화면의 탭(메인화면·상품목록·상품상세)에서 '할인판매가'가 '표시함'인지 확인합니다. 탭마다 따로 설정합니다.</li>
+<li>'표시대상'을 특정 회원 등급으로 골랐다면 지금 보는 계정이 그 등급인지 확인합니다.</li>
+<li>'할인판매가 할인금액 표시문구'가 '사용함'이고 할인율 변수가 들어갔는지 확인합니다.</li>
+<li>디자인을 직접 수정했거나 업체가 만든 쇼핑몰이면 디자인 소스에 할인판매가 영역이 있는지 확인합니다. 이 경우 적용 방법이 다를 수 있습니다.</li>
+</ol>
+<h3>할인을 걸었는데 장바구니에는 정상가로 보여요.</h3>
+<p>[관리자] 쇼핑몰 설정 &gt; 주문 설정 &gt; 주문 정책 설정 &gt; 주문 시 설정에서 '장바구니에 할인금액 표시'와 '주문상품내역에 할인금액 표시'를 '사용함'으로 바꾸고 저장합니다. 그래도 안 보이면 장바구니 디자인 소스 수정이 필요할 수 있습니다.</p>
+<h3>쿠폰 할인도 할인율로 보이나요?</h3>
+<p>이 표시문구는 혜택 등록으로 만든 상품 할인(할인판매가)을 기준으로 합니다. 쿠폰을 반영한 가격은 상품 정보 표시 설정의 '최적할인가'로 보여줄 수 있지만, 쿠폰은 "비회원이 회원가입 즉시 아무런 조건 없이 다운로드/발급 가능한 쿠폰인 경우에만" 반영됩니다(<a href="https://support.cafe24.com/hc/ko/articles/17456887235865">카페24 도움말</a>). 가진 쿠폰과 받을 수 있는 쿠폰 중 가장 크게 깎이는 1장 기준의 예상 최저가를 목록·상세·장바구니에 보여주는 앱으로는 킵그로우 1초 쿠폰이 있습니다(<a href="https://app.keepgrow.com/products/process-templates/431">공식 페이지</a>). 자세한 차이는 <a href="cafe24-coupon-price.html">카페24 쿠폰가 표시 방법</a>에 정리했습니다.</p>
+
+<p class="small">출처: 카페24 도움말 <a href="https://support.cafe24.com/hc/ko/articles/8467203981593">상품 할인 혜택 적용 시 할인가 표시</a>, <a href="https://support.cafe24.com/hc/ko/articles/18807902273433">쿠폰 및 혜택 할인금액/할인율 관련 자주 묻는 질문</a>, <a href="https://shopnotice.cafe24.com/view?no=339724&amp;bbs_no=12">카페24 소식: 할인판매가 할인율 표시 기능 추가(2015-06-03)</a> (2026-11-03 확인). 관련 글: <a href="cafe24-coupon-setup.html">카페24 쿠폰 설정 방법</a> · <a href="cafe24-coupon-price.html">카페24 쿠폰가 표시 방법</a><br>이 글은 1초 쿠폰을 만든 유니드컴즈(킵그로우) 직원이 썼습니다.</p>
+</div></body></html>
