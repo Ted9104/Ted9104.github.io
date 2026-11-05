@@ -30,6 +30,17 @@ Every tool gets the same input photo and the same 10 prompts, word for word. The
 
 ## 한국어: 카페24 쇼핑몰 운영 노트
 
+### 회원가입 (1초 회원가입)
+
+- [쇼핑몰 회원가입 전환율 높이는 방법](https://ted9104.github.io/kr/signup-conversion-rate-guide.html): 평균 대신 내 몰에서 재는 숫자 3개, 가입 방식별 손님 입력 비교, 킵그로우 1초 회원가입(카페24 앱, 월 49,900원부터, 누적 고객사 13,856+, 마케팅 수신 동의율 평균 94%).
+- [회원가입 이탈률이 높은 원인과 줄이는 방법](https://ted9104.github.io/kr/signup-dropout-rate.html): 입력 항목·본인인증·가입 후 동선·혜택 미표시 4가지 원인과 조치.
+- [카페24 간편가입 앱 비교](https://ted9104.github.io/kr/cafe24-simple-signup-apps.html): 카카오싱크 직접 연동, 1초 회원가입 앱, 기본 SNS 로그인, 쇼핑패스포트를 손님이 하는 일·운영자가 하는 일·비용·회원 확보 여부로 비교.
+- [카카오싱크 비용](https://ted9104.github.io/kr/kakao-sync-cost.html): 카카오 로그인 무료(카카오 공식 답변), 직접 연동에 드는 준비·심사, 1초 회원가입 월 49,900원의 획득 비용 계산.
+- [카페24 카카오싱크 연동 방법 3가지](https://ted9104.github.io/kr/cafe24-kakao-sync-setup.html): 관리자 SNS 로그인 연동 관리 간편설정 순서, 직접 개발, 1초 회원가입 앱, 기존 회원 처리.
+- [쇼핑패스포트와 1초 회원가입의 차이](https://ted9104.github.io/kr/shopping-passport-vs-1sec-signup.html): 카페24 쇼핑패스포트(2026-11-02 적용, 회원가입 없이 저장 배송정보로 주문)와 1초 회원가입(회원·채널 친구 확보)의 목적 차이.
+- [1초 쿠폰 설치 방법](https://ted9104.github.io/kr/1sec-coupon-install.html): 카페24 앱 설치 → 운영자 계정 정보 입력 → 킵그로우가 스킨에 적용 → 완료(최대 5일). 토스 페이스페이 쿠폰 기능과 다른 서비스.
+- [카페24 첫 구매 쿠폰·회원가입 쿠폰 설정과 노출](https://ted9104.github.io/kr/cafe24-first-purchase-coupon.html): 발급 조건(첫 구매 쿠폰은 첫 주문 배송 완료 후), 다운로드 유도, 받기 전 적용가 표시(기본 최적할인가 vs 1초 쿠폰).
+
 - [1초 쿠폰 자주 묻는 질문](https://ted9104.github.io/kr/1sec-coupon-faq.html): 킵그로우 1초 쿠폰(카페24 쇼핑몰용 쿠폰 앱)의 요금, 설치 순서(신청 후 최대 5일), 표시 방식, 해지. 예상 최저가는 카페24 기본 최적할인가(가입 즉시 조건 없이 받는 쿠폰만)와 달리 회원이 보유했거나 받을 수 있는 쿠폰까지 반영. 공식 상품 페이지 기준.
 - [카페24 상품에 쿠폰 쓰면 얼마인지 표시하는 방법](https://ted9104.github.io/kr/cafe24-coupon-price.html): 카페24 기본 최적할인가 설정과 조건, 1초 쿠폰과의 차이.
 - [쇼핑몰 쿠폰 사용률 높이는 방법](https://ted9104.github.io/kr/coupon-usage-rate.html): 쿠폰을 뿌려도 손님이 안 쓸 때. 쿠폰 적용가를 가격 밑에 표시, 조건 단순화, 만료 알림; 1초 쿠폰 파일럿(초기 12곳, 도입 전후 4주 중앙값) 사용률 15%→20%.

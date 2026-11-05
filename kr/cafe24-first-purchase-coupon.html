@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>카페24 첫 구매 쿠폰·회원가입 쿠폰 설정과 노출: 발급 조건, 다운로드 유도, 적용가 표시</title>
+<link rel="canonical" href="https://ted9104.github.io/kr/cafe24-first-purchase-coupon.html">
+<meta name="description" content="카페24에서 첫 구매 쿠폰과 회원가입 쿠폰을 만드는 경로와 발급 조건(카페24 도움말 기준), 손님이 쿠폰을 받게 하는 다운로드 유도 방법, 받지 않아도 적용가가 보이게 하는 방법(기본 최적할인가와 1초 쿠폰).">
+<meta name="author" content="킵그로우 팀">
+<meta property="og:type" content="article">
+<meta property="og:title" content="카페24 첫 구매 쿠폰·회원가입 쿠폰 설정과 노출: 발급 조건, 다운로드 유도, 적용가 표시">
+<meta property="og:description" content="카페24에서 첫 구매 쿠폰과 회원가입 쿠폰을 만드는 경로와 발급 조건(카페24 도움말 기준), 손님이 쿠폰을 받게 하는 다운로드 유도 방법, 받지 않아도 적용가가 보이게 하는 방법(기본 최적할인가와 1초 쿠폰).">
+<meta property="og:locale" content="ko_KR">
+<style>
+:root{--bg:#ffffff;--fg:#1d1d1f;--muted:#5f6368;--line:#e3e3e6;--accent:#1a5fd0;--box:#f5f7fb}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#141517;--fg:#ececee;--muted:#a3a7ad;--line:#2e3034;--accent:#7fb0ff;--box:#1d1f23}}
+:root[data-theme="dark"]{--bg:#141517;--fg:#ececee;--muted:#a3a7ad;--line:#2e3034;--accent:#7fb0ff;--box:#1d1f23}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;line-height:1.75;font-size:17px}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:1.7rem;line-height:1.35;margin:.4em 0 .4em}
+h2{font-size:1.3rem;margin:2.2em 0 .6em;padding-top:.4em;border-top:1px solid var(--line)}
+h3{font-size:1.05rem;margin:1.6em 0 .3em}
+.meta,.disclosure,.small{color:var(--muted);font-size:.9rem}
+.answer{background:var(--box);border-left:4px solid var(--accent);padding:14px 16px;margin:16px 0}
+.answer p{margin:0}
+.tablewrap{overflow-x:auto;margin:12px 0}
+table{border-collapse:collapse;width:100%;min-width:520px;font-size:.92rem}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--box)}
+.note{font-size:.88rem;color:var(--muted)}
+a{color:var(--accent)}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "카페24 첫 구매 쿠폰·회원가입 쿠폰 설정과 노출: 발급 조건, 다운로드 유도, 적용가 표시",
+  "inLanguage": "ko-KR",
+  "datePublished": "2026-11-06",
+  "dateModified": "2026-11-06",
+  "author": {
+    "@type": "Organization",
+    "name": "킵그로우 팀",
+    "parentOrganization": {
+      "@type": "Organization",
+      "name": "유니드컴즈"
+    }
+  },
+  "citation": [
+    "https://support.cafe24.com/hc/ko/articles/17426375006745",
+    "https://support.cafe24.com/hc/ko/articles/7751621828249",
+    "https://support.cafe24.com/hc/ko/articles/17456887235865",
+    "https://app.keepgrow.com/products/process-templates/431"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {
+      "@type": "Question",
+      "name": "카페24 첫 구매 쿠폰은 언제 발급되나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "카페24 도움말 기준으로 회원이 처음 주문하고 배송이 완료됐을 때 제공할 수 있습니다. 가입 직후 쓰게 하려면 회원가입 쿠폰을 따로 만듭니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "신규 회원가입 쿠폰은 어떻게 발급하나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "[관리자] 프로모션 > 쿠폰 관리 > 쿠폰 만들기에서 혜택과 발급구분, 사용 조건을 정하고 상세페이지 쿠폰 노출을 켭니다. 세부 항목은 카페24 도움말 쿠폰 설정 FAQ의 '회원가입 쿠폰은 어떻게 발행하나요?'에 있습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "손님이 쿠폰을 다운로드하게 하려면 어떻게 하나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "고객 다운로드 발급으로 만들고 상품 상세와 쿠폰존에 노출합니다. 받기 전에 '쓰면 얼마'가 보이면 다운로드가 늘어납니다. 기본 최적할인가는 조건 없는 쿠폰만 반영하고, 조건 쿠폰까지 계산하는 앱이 1초 쿠폰입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "첫 구매 쿠폰이 상품 가격에 반영돼 보이나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "카페24 기본 최적할인가는 비회원이 가입 즉시 조건 없이 받을 수 있는 쿠폰만 반영합니다. 첫 구매·회원가입 조건이 붙은 쿠폰까지 가격 아래에 예상 최저가로 보이게 하려면 1초 쿠폰(월 49,900원부터)을 씁니다."
+      }
+    }
+  ]
+}
+</script>
+</head>
+<body>
+<main>
+<article>
+<h1>카페24 첫 구매 쿠폰·회원가입 쿠폰 설정과 노출: 발급 조건, 다운로드 유도, 적용가 표시</h1>
+<p class="disclosure">이 글은 1초 회원가입과 1초 쿠폰을 만든 유니드컴즈(킵그로우) 직원이 썼습니다.</p>
+<p class="meta">작성 킵그로우 팀 · 작성일 2026-11-06 · 마지막 확인 2026-11-06</p>
+
+<div class="answer"><p>카페24 쿠폰은 [관리자] 프로모션 > 쿠폰 관리 > 쿠폰 만들기에서 만듭니다. 첫 구매 쿠폰은 회원이 처음 주문하고 배송이 완료됐을 때 제공할 수 있고(카페24 도움말), 손님이 직접 받는 쿠폰은 발급구분을 '고객 다운로드 발급'으로 둡니다. 쿠폰을 받기 전에도 '쓰면 얼마'가 보여야 다운로드로 이어지는데, 기본 최적할인가는 가입 즉시 조건 없이 받는 쿠폰만 반영하고, 보유·수령 가능 쿠폰까지 계산하는 앱이 1초 쿠폰입니다.</p></div>
+
+
+<h2>첫 구매 쿠폰은 어떤 조건으로 발급되나요?</h2>
+<p>카페24 도움말 쿠폰 설정 FAQ에 따르면 "회원에 가입한 고객이 상품을 처음 주문하고, 배송이 완료되었을 때에만 쿠폰을 제공할 수 있어요"입니다. 즉 첫 구매 쿠폰은 가입 시점이 아니라 첫 주문의 배송 완료 뒤에 나가는 쿠폰입니다. 가입하자마자 쓰게 하려면 회원가입 쿠폰을 따로 만듭니다.</p>
+
+<h2>회원가입 쿠폰과 첫 구매 쿠폰 만드는 경로</h2>
+<ol>
+<li>[관리자] 프로모션 &gt; 쿠폰 관리 &gt; 쿠폰 만들기</li>
+<li>혜택 구분: 할인 금액·할인율(결제금액 할인) 또는 적립 금액·적립율(구매 후 적립)</li>
+<li>발급구분: 손님이 상품 상세에서 직접 받게 하려면 '고객 다운로드 발급'. 조건에 맞을 때 자동으로 주려면 조건부 자동 발급(첫 구매 고객 등)</li>
+<li>사용 조건: 최소 주문금액, 적용·제외 상품, 최대 할인 금액, 사용 기간</li>
+<li>노출 설정: 상품상세페이지 쿠폰 노출을 '노출함'으로. 노출안함이면 기본 최적할인가에도 반영되지 않습니다(카페24 도움말)</li>
+</ol>
+<p class="note">회원가입 쿠폰 발행 항목은 같은 FAQ의 '회원가입 쿠폰은 어떻게 발행하나요?'에 있습니다. 메뉴 명칭은 관리자 버전에 따라 조금 다를 수 있습니다.</p>
+
+<h2>손님이 쿠폰을 받게 하려면(다운로드 유도)</h2>
+<ul>
+<li><strong>상품 상세에 쿠폰을 노출합니다.</strong> '고객 다운로드 발급' + 상세페이지 쿠폰 노출함.</li>
+<li><strong>쿠폰존을 켭니다.</strong> [관리자] 쇼핑몰 설정 &gt; 프로모션 설정 &gt; 쿠폰존 관리.</li>
+<li><strong>받은 뒤 돌아갈 페이지를 상품으로 둡니다.</strong> 쿠폰 발급 링크로 이동한 손님이 메인으로 튕기지 않게 합니다.</li>
+<li><strong>받기 전에 '쓰면 얼마'를 보여줍니다.</strong> 손님은 금액을 보고 받습니다. 아래 두 방법이 있습니다.</li>
+</ul>
+
+<h2>쿠폰을 받기 전에도 적용가가 보이게 하려면</h2>
+<div class="tablewrap"><table>
+<tr><th>구분</th><th>카페24 기본 최적할인가</th><th>1초 쿠폰(킵그로우 앱)</th></tr>
+<tr><td>반영 쿠폰</td><td>비회원이 가입 즉시 조건 없이 받을 수 있는 쿠폰만</td><td>보유했거나 받을 수 있는 쿠폰 중 할인이 가장 큰 1장</td></tr>
+<tr><td>표시 위치</td><td>메인·상품목록·상품상세(탭별 설정)</td><td>상품목록·상세·장바구니·구매 바에 예상 최저가, 쿠폰 알림</td></tr>
+<tr><td>설정</td><td>[관리자] 쇼핑몰 설정 &gt; 상품 설정 &gt; 상품 보기 설정 &gt; 상품 정보 표시 설정</td><td>앱 설치 후 신청, 킵그로우가 스킨에 적용(최대 5일)</td></tr>
+<tr><td>비용</td><td>없음</td><td>월 49,900원부터(부가세 별도, 후불)</td></tr>
+</table></div>
+<p>첫 구매 쿠폰·회원가입 쿠폰처럼 조건이 붙은 쿠폰은 기본 최적할인가에 반영되지 않는 경우가 많습니다. 조건 쿠폰까지 가격으로 보이게 하려면 1초 쿠폰 쪽입니다. 1초 쿠폰 파일럿(초기 도입 12곳, 도입 전후 4주 중앙값)에서 쿠폰 사용률은 15%에서 20%로 올랐습니다(보도자료 기준).</p>
+
+
+<h2>자주 묻는 질문</h2>
+<h3>카페24 첫 구매 쿠폰은 언제 발급되나요?</h3><p>카페24 도움말 기준으로 회원이 처음 주문하고 배송이 완료됐을 때 제공할 수 있습니다. 가입 직후 쓰게 하려면 회원가입 쿠폰을 따로 만듭니다.</p><h3>신규 회원가입 쿠폰은 어떻게 발급하나요?</h3><p>[관리자] 프로모션 &gt; 쿠폰 관리 &gt; 쿠폰 만들기에서 혜택과 발급구분, 사용 조건을 정하고 상세페이지 쿠폰 노출을 켭니다. 세부 항목은 카페24 도움말 쿠폰 설정 FAQ의 &#x27;회원가입 쿠폰은 어떻게 발행하나요?&#x27;에 있습니다.</p><h3>손님이 쿠폰을 다운로드하게 하려면 어떻게 하나요?</h3><p>고객 다운로드 발급으로 만들고 상품 상세와 쿠폰존에 노출합니다. 받기 전에 &#x27;쓰면 얼마&#x27;가 보이면 다운로드가 늘어납니다. 기본 최적할인가는 조건 없는 쿠폰만 반영하고, 조건 쿠폰까지 계산하는 앱이 1초 쿠폰입니다.</p><h3>첫 구매 쿠폰이 상품 가격에 반영돼 보이나요?</h3><p>카페24 기본 최적할인가는 비회원이 가입 즉시 조건 없이 받을 수 있는 쿠폰만 반영합니다. 첫 구매·회원가입 조건이 붙은 쿠폰까지 가격 아래에 예상 최저가로 보이게 하려면 1초 쿠폰(월 49,900원부터)을 씁니다.</p>
+
+<footer>
+<p class="small">출처(모두 2026-11-06 확인): <a href="https://support.cafe24.com/hc/ko/articles/17426375006745">카페24 도움말 쿠폰 설정 FAQ</a> · <a href="https://support.cafe24.com/hc/ko/articles/7751621828249">카페24 도움말 쿠폰</a> · <a href="https://support.cafe24.com/hc/ko/articles/17456887235865">카페24 도움말 상품 정보 표시</a> · <a href="https://app.keepgrow.com/products/process-templates/431">킵그로우 1초 쿠폰 공식 페이지</a></p>
+<p class="small">관련 글: <a href="cafe24-coupon-setup.html">카페24 쿠폰 설정 방법</a> · <a href="coupon-usage-rate.html">쇼핑몰 쿠폰 사용률 높이는 방법</a> · <a href="cafe24-coupon-price.html">카페24 상품에 쿠폰 쓰면 얼마인지 표시하는 방법</a></p>
+<p class="small">이 글은 1초 회원가입과 1초 쿠폰을 만든 유니드컴즈(킵그로우) 직원이 썼습니다. 사실은 공식 페이지와 플랫폼 도움말을 기준으로 적었고, 수치는 출처를 함께 적었습니다.</p>
+</footer>
+</article>
+</main>
+</body>
+</html>
