@@ -1,0 +1,19 @@
+run_id,product,template_slot,scene,file,product_fidelity,realism,store_ready,note
+p3-01,jar,1,knit pumpkins,orig/p3-jar-1.png,3,4,4,jar narrower and taller than input
+p3-02,jar,2,stone plinth autumn,orig/p3-jar-2.png,3,4,4,jar narrower; label band smaller
+p3-03,jar,3,white studio,orig/p3-jar-3.png,4,4,4,closest proportions; label slightly taller
+p3-04,jar,4,ingredient props,orig/p3-jar-4.png,4,4,4,close to input
+p3-05,jar,5,person holding (lid off),orig/p3-jar-5.png,2,4,3,jar much smaller and narrower
+p3-06,jar,6,hand on counter,orig/p3-jar-6.png,3,4,3,jar narrower and taller
+p3-07,perfume,1,knit pumpkins,orig/p3-perfume-1.png,4,4,4,shape and label kept; text small
+p3-08,perfume,2,stone plinth autumn,orig/p3-perfume-2.png,4,4,4,shape and label kept
+p3-09,perfume,3,white studio,orig/p3-perfume-3.png,5,4,5,WHITE ORCHID / EAU DE PARFUM / 100ml legible
+p3-10,perfume,4,orchids,orig/p3-perfume-4.png,4,4,4,label kept
+p3-11,perfume,5,person holding,orig/p3-perfume-5.png,3,4,3,bottle smaller; small text not legible
+p3-12,perfume,6,winter crystals,orig/p3-perfume-6.png,4,4,4,label kept
+p3-13,amber,1,knit pumpkins,orig/p3-amber-1.png,4,4,4,slim body and ribbed collar kept
+p3-14,amber,2,stone plinth autumn,orig/p3-amber-2.png,4,4,4,slim body kept
+p3-15,amber,3,white studio,orig/p3-amber-3.png,3,4,4,body wider and shorter than input
+p3-16,amber,4,flowers on pedestal,orig/p3-amber-4.png,4,4,4,close to input
+p3-17,amber,5,person applying dropper,orig/p3-amber-5.png,3,4,3,bottle small; proportions changed
+p3-18,amber,6,winter pedestal,orig/p3-amber-6.png,3,4,4,shoulders broader than input

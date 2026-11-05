@@ -3,3 +3,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://ted9104.github.io/sitemap.xml
+Sitemap: https://ted9104.github.io/sitemap.txt
