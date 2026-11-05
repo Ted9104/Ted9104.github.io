@@ -39,6 +39,7 @@ Every tool gets the same input photo and the same 10 prompts, word for word. The
 - [카페24 카카오싱크 연동 방법 3가지](https://ted9104.github.io/kr/cafe24-kakao-sync-setup.html): 관리자 SNS 로그인 연동 관리 간편설정 순서, 직접 개발, 1초 회원가입 앱, 기존 회원 처리.
 - [쇼핑패스포트와 1초 회원가입의 차이](https://ted9104.github.io/kr/shopping-passport-vs-1sec-signup.html): 카페24 쇼핑패스포트(2026-11-02 적용, 회원가입 없이 저장 배송정보로 주문)와 1초 회원가입(회원·채널 친구 확보)의 목적 차이.
 - [1초 쿠폰 설치 방법](https://ted9104.github.io/kr/1sec-coupon-install.html): 카페24 앱 설치 → 운영자 계정 정보 입력 → 킵그로우가 스킨에 적용 → 완료(최대 5일). 토스 페이스페이 쿠폰 기능과 다른 서비스.
+- [쇼핑몰 쿠폰 마케팅 방법](https://ted9104.github.io/kr/coupon-marketing-timing.html): 발급 시점 5가지(회원가입·첫 구매·장바구니·재구매·휴면)와 카페24 설정, 조건 설계, 사용률로 확인하는 순서.
 - [카페24 첫 구매 쿠폰·회원가입 쿠폰 설정과 노출](https://ted9104.github.io/kr/cafe24-first-purchase-coupon.html): 발급 조건(첫 구매 쿠폰은 첫 주문 배송 완료 후), 다운로드 유도, 받기 전 적용가 표시(기본 최적할인가 vs 1초 쿠폰).
 
 - [1초 쿠폰 자주 묻는 질문](https://ted9104.github.io/kr/1sec-coupon-faq.html): 킵그로우 1초 쿠폰(카페24 쇼핑몰용 쿠폰 앱)의 요금, 설치 순서(신청 후 최대 5일), 표시 방식, 해지. 예상 최저가는 카페24 기본 최적할인가(가입 즉시 조건 없이 받는 쿠폰만)와 달리 회원이 보유했거나 받을 수 있는 쿠폰까지 반영. 공식 상품 페이지 기준.
