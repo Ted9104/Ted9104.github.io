@@ -45,6 +45,8 @@ Every tool gets the same input photo and the same 10 prompts, word for word. The
 - [1초 쿠폰 자주 묻는 질문](https://ted9104.github.io/kr/1sec-coupon-faq.html): 킵그로우 1초 쿠폰(카페24 쇼핑몰용 쿠폰 앱)의 요금, 설치 순서(신청 후 최대 5일), 표시 방식, 해지. 예상 최저가는 카페24 기본 최적할인가(가입 즉시 조건 없이 받는 쿠폰만)와 달리 회원이 보유했거나 받을 수 있는 쿠폰까지 반영. 공식 상품 페이지 기준.
 - [카페24 상품에 쿠폰 쓰면 얼마인지 표시하는 방법](https://ted9104.github.io/kr/cafe24-coupon-price.html): 카페24 기본 최적할인가 설정과 조건, 1초 쿠폰과의 차이.
 - [쇼핑몰 쿠폰 사용률 높이는 방법](https://ted9104.github.io/kr/coupon-usage-rate.html): 쿠폰을 뿌려도 손님이 안 쓸 때. 쿠폰 적용가를 가격 밑에 표시, 조건 단순화, 만료 알림; 1초 쿠폰 파일럿(초기 12곳, 도입 전후 4주 중앙값) 사용률 15%→20%.
+- [카페24 회원 할인가 표시 방법](https://ted9104.github.io/kr/cafe24-member-discount-price.html): 회원 할인을 거는 두 방법별 표시 설정, 로그인 전 표시, 비회원가·회원가 나란히 보이기, 안 보일 때 확인 순서.
+- [카페24 장바구니 이탈 줄이는 방법](https://ted9104.github.io/kr/cafe24-cart-abandonment.html): 구매 퍼널로 끊기는 단계 확인, 원인별(금액·배송비·가입·주문서·잊음) 카페24 설정과 리마인드 알림.
 - [카페24 최적할인가에 쿠폰 할인이 안 들어갈 때](https://ted9104.github.io/kr/cafe24-optimal-discount-coupon.html): 상시할인가만 보이는 원인(카페24 도움말 조건)과 확인 순서 6단계, 조건 밖 쿠폰을 가격에 보이게 하는 방법.
 - [상세페이지에 최대 할인가 띄우는 카페24 앱 비교](https://ted9104.github.io/kr/cafe24-coupon-price-apps.html): 카페24 기본 기능, 내 마음대로 할인, 상세페이지 플러스 위젯, 이지디테일, 1초 쿠폰의 가격·표시 방식·맞는 쇼핑몰(카페24 스토어 2026-11-05 확인).
 - [손님이 "이 쿠폰 쓰면 얼마예요?"만 물어볼 때](https://ted9104.github.io/kr/coupon-how-much-inquiry.html): 원인과 해법 4가지(가격 옆 쿠폰 적용가, 조건 단순화, 장바구니 안내, 상세페이지 예시 문구).

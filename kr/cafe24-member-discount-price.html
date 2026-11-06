@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>카페24 회원 할인가 표시 방법: 회원등급 할인가·할인율·취소선 설정과 안 보일 때 확인 순서 (2026)</title>
+<link rel="canonical" href="https://ted9104.github.io/kr/cafe24-member-discount-price.html">
+<meta name="description" content="카페24에서 회원 할인가를 상품 가격에 보이게 하는 설정을 카페24 도움말 기준으로 정리했어요. 회원 할인 등록, 할인판매가 표시기준, 비회원에게 보이기, 할인율·취소선, 모바일에서 안 보일 때, 기본 기능이 못 하는 것까지 담았어요.">
+<meta name="author" content="킵그로우 팀">
+<meta property="og:type" content="article">
+<meta property="og:title" content="카페24 회원 할인가 표시 방법: 회원등급 할인가·할인율·취소선 설정과 안 보일 때 확인 순서 (2026)">
+<meta property="og:description" content="카페24에서 회원 할인가를 상품 가격에 보이게 하는 설정을 카페24 도움말 기준으로 정리했어요. 회원 할인 등록, 할인판매가 표시기준, 비회원에게 보이기, 할인율·취소선, 모바일에서 안 보일 때, 기본 기능이 못 하는 것까지 담았어요.">
+<meta property="og:locale" content="ko_KR">
+<style>
+:root{--bg:#ffffff;--fg:#1d1d1f;--muted:#5f6368;--line:#e3e3e6;--accent:#1a5fd0;--box:#f5f7fb}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#141517;--fg:#ececee;--muted:#a3a7ad;--line:#2e3034;--accent:#7fb0ff;--box:#1d1f23}}
+:root[data-theme="dark"]{--bg:#141517;--fg:#ececee;--muted:#a3a7ad;--line:#2e3034;--accent:#7fb0ff;--box:#1d1f23}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;line-height:1.75;font-size:17px}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:1.7rem;line-height:1.35;margin:.4em 0 .4em}
+h2{font-size:1.3rem;margin:2.2em 0 .6em;padding-top:.4em;border-top:1px solid var(--line)}
+h3{font-size:1.05rem;margin:1.6em 0 .3em}
+.meta,.disclosure{color:var(--muted);font-size:.9rem}
+.q{font-weight:600;margin:12px 0 0}
+.answer{background:var(--box);border-left:4px solid var(--accent);padding:14px 16px;margin:16px 0}
+.answer p{margin:0}
+.tablewrap{overflow-x:auto;margin:12px 0}
+table{border-collapse:collapse;width:100%;min-width:500px;font-size:.92rem}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--box)}
+.note{font-size:.88rem;color:var(--muted)}
+a{color:var(--accent)}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "카페24 회원 할인가 표시 방법: 회원등급 할인가·할인율·취소선 설정과 안 보일 때 확인 순서 (2026)",
+  "inLanguage": "ko-KR",
+  "datePublished": "2026-11-06",
+  "dateModified": "2026-11-06",
+  "author": {"@type": "Organization", "name": "킵그로우 팀", "parentOrganization": {"@type": "Organization", "name": "유니드컴즈"}},
+  "citation": [
+    "https://support.cafe24.com/hc/ko/articles/17456887235865",
+    "https://support.cafe24.com/hc/ko/articles/16352680352793",
+    "https://support.cafe24.com/hc/ko/articles/8467148104729",
+    "https://support.cafe24.com/hc/ko/articles/8467203981593",
+    "https://support.cafe24.com/hc/ko/articles/8467227659673",
+    "https://support.cafe24.com/hc/ko/articles/7751300048281",
+    "https://support.cafe24.com/hc/ko/articles/18771863081625",
+    "https://support.cafe24.com/hc/ko/articles/18807902273433",
+    "https://support.cafe24.com/hc/ko/articles/8467250094489",
+    "https://support.cafe24.com/hc/ko/articles/8469488529945",
+    "https://app.keepgrow.com/products/process-templates/431"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "회원 할인가를 상품 가격에 노출하고 싶은데 어떻게 해야 하나요?",
+     "acceptedAnswer": {"@type": "Answer", "text": "카페24에서 회원 할인가를 가격에 보이게 하려면 프로모션 > 고객 혜택 관리에서 회원할인을 등록하고, 상품 정보 표시 설정에서 '할인판매가'를 표시함으로 두면 돼요. 회원 등급 관리로 등급 할인을 걸었다면 상품 관련 설정의 할인판매가 표시기준도 '상품의 할인가 + 회원등급별 할인가 표시'로 바꾸고, 로그인 전 손님에게도 보이게 하려면 '회원등급별 할인가 표시'를 '로그인 전부터 표시'로 바꿔요."}},
+    {"@type": "Question", "name": "판매가 옆에 할인율이나 할인 금액을 같이 보여 주고 싶은데 어떻게 하나요?",
+     "acceptedAnswer": {"@type": "Answer", "text": "상품 정보 표시 설정 아래 '추가설정 > 할인판매가 할인금액 표시문구'를 '사용함'으로 두고, 옆의 '?' 툴팁에 나온 변수로 문구를 넣어요. 화면의 할인율이 설정과 다르게 보이면 상품 관련 설정의 '할인판매가 할인율 절사 기준'을 확인해요."}},
+    {"@type": "Question", "name": "원가에 취소선이 그어지고 밑에 세일가가 뜨는 게 컴퓨터에서는 되는데 모바일에서는 안 돼요.",
+     "acceptedAnswer": {"@type": "Answer", "text": "카페24 도움말 기준으로 상품정보표시 설정을 했는데 모바일에서만 항목이 안 보이면 모바일 디자인에 해당 소스가 들어가 있지 않은 경우예요. 디자인을 직접 편집하거나 카페24 디자인 유지보수를 이용해야 해요. 취소선은 '판매가 취소선 사용여부'가 사용함이고 할인판매가나 쿠폰적용가가 표시함일 때, 할인이 적용된 상품에만 붙어요."}},
+    {"@type": "Question", "name": "비회원일 때 가격과 회원가입하면 받는 가격을 상품마다 할인율 다르게 설정할 수 있나요?",
+     "acceptedAnswer": {"@type": "Answer", "text": "프로모션 > 고객 혜택 관리 > 혜택 등록에서 혜택 유형을 회원할인으로, 참여대상을 회원으로 두고 상품범위 설정에서 적용 상품을 고르면 상품별로 회원 할인을 걸 수 있어요. 할인율이 다른 상품은 혜택을 나눠 등록해요. 한 상품에 여러 혜택이 걸리면 할인이 합산된 금액으로 표시되니 겹치지 않는지 확인해요. 비회원가와 회원가를 나란히 보여 주려면 상품 정보 표시 설정에서 '할인 판매가'와 '할인 판매가(회원)'를 둘 다 표시함으로 두면 돼요."}},
+    {"@type": "Question", "name": "로그인하지 않은 손님에게도 회원 할인가를 보여 줄 수 있나요?",
+     "acceptedAnswer": {"@type": "Answer", "text": "네. 상품 관련 설정에서 할인판매가 표시기준을 '상품의 할인가 + 회원등급별 할인가'로, 회원등급별 할인가 표시를 '로그인 전부터 표시'로 바꾸면 로그인 전에는 최대로 할인받을 수 있는 회원등급별 할인가가 보여요. '회원 등급별 할인가 적용 등급'에서 체크한 등급의 할인가만 노출돼요."}},
+    {"@type": "Question", "name": "회원이 가진 쿠폰까지 반영한 가격도 보여 줄 수 있나요?",
+     "acceptedAnswer": {"@type": "Answer", "text": "카페24 기본 '최적할인가'는 할인과 쿠폰이 모두 적용된 가격이지만, 쿠폰은 비회원이 회원가입 즉시 아무 조건 없이 받을 수 있는 쿠폰만 들어가요. 회원이 이미 받아 둔 쿠폰까지 보이게 하려면 앱을 써야 해요. 예를 들어 킵그로우 1초 쿠폰은 지금 쓸 수 있는 쿠폰 중 할인이 가장 큰 1장을 적용한 '예상 최저가'를(로그인 전에는 받을 수 있는 쿠폰과 회원가입 쿠폰, 로그인 후에는 보유 쿠폰과 받을 수 있는 쿠폰 기준) 가격 아래에 보여 주고, 쿠폰 사용과 최종 금액은 카페24 주문서에서 정해져요."}}
+  ]
+}
+</script>
+</head>
+<body>
+<main>
+<article>
+<h1>카페24 회원 할인가 표시 방법: 회원등급 할인가·할인율·취소선 설정과 안 보일 때 확인 순서 (2026)</h1>
+
+<div class="answer"><p>카페24에서 회원 할인가를 가격에 보이게 하려면 프로모션 &gt; 고객 혜택 관리에서 회원할인을 등록하고, 상품 정보 표시 설정에서 '할인판매가'를 표시함으로 두면 돼요. 회원 등급 관리로 등급 할인을 걸었다면 상품 관련 설정의 할인판매가 표시기준도 '상품의 할인가 + 회원등급별 할인가 표시'로 바꾸고, 로그인 전 손님에게도 보이게 하려면 '회원등급별 할인가 표시'를 '로그인 전부터 표시'로 바꿔요.</p></div>
+
+<p class="disclosure">이 글은 1초 쿠폰을 만든 유니드컴즈(킵그로우) 직원이 썼습니다. 카페24 조건은 카페24 도움말(2026-11-06 확인)을 그대로 옮겼습니다.</p>
+<p class="meta">작성 킵그로우 팀 · 작성일 2026-11-06</p>
+
+<p>설정이 끝나면 상품 화면에 '판매가 30,000원(취소선) / 회원 할인가 27,000원 (10%)'처럼 보여요. 숫자는 예시예요.</p>
+<h3>요약</h3>
+<ul>
+<li>할인 등록: 고객 혜택 관리(상품별 회원할인) 또는 회원 등급 관리(등급별 할인)</li>
+<li>표시 설정: 상품 정보 표시 설정에서 '할인판매가' 표시함, 상품 관련 설정에서 표시기준에 회원등급별 할인가 포함</li>
+<li>비회원에게 보이기: '회원등급별 할인가 표시'를 '로그인 전부터 표시'로</li>
+<li>할인율·취소선: 추가설정의 '할인판매가 할인금액 표시문구'와 '판매가 취소선 사용여부'</li>
+<li>모바일에서만 안 보이면 모바일 디자인 소스 문제예요.</li>
+<li>회원이 받아 둔 쿠폰까지 반영한 가격은 기본 기능으로 표시되지 않아요.</li>
+</ul>
+
+<h2>회원 할인은 어디서 거나요?</h2>
+<p>카페24 도움말은 회원 할인을 거는 방법을 세 가지로 안내해요. 가격에 바로 보이게 하려면 고객 혜택 관리나 회원 등급 관리를 써요. 쿠폰은 조건이 맞을 때만 가격에 반영돼요.</p>
+<div class="tablewrap">
+<table>
+<thead><tr><th>방법</th><th>메뉴</th><th>이럴 때 써요</th></tr></thead>
+<tbody>
+<tr><td>고객 혜택 관리</td><td>[관리자] 프로모션 &gt; 고객 혜택 관리 &gt; 혜택 등록. 혜택 유형에서 회원할인 등을 고르고, '참여대상 설정'을 회원으로 두고 등급을 고른 뒤 '상품범위 설정'에서 상품을 정해요.</td><td>상품마다 회원 할인율을 다르게 하고 싶을 때</td></tr>
+<tr><td>회원 등급 관리</td><td>[관리자] 쇼핑몰 설정 &gt; 고객 설정 &gt; 회원 정책 설정 &gt; 회원 등급 관리에서 등급의 '구매 시 할인/적립 혜택'을 설정해요.</td><td>등급 전체에 같은 할인을 줄 때</td></tr>
+<tr><td>쿠폰</td><td>[관리자] 프로모션 &gt; 쿠폰 관리 &gt; 쿠폰 만들기에서 '대상자 지정 발급' 쿠폰을 만들어 등급에 발급해요.</td><td>쿠폰함으로 혜택을 줄 때(상품 가격 표시에는 아래 조건이 붙어요)</td></tr>
+</tbody>
+</table>
+</div>
+<p>고객 혜택 관리의 상품별 할인과 회원 등급 할인은 함께 적용할 수 있어요. 등급마다 '상품별 할인과 중복시 설정'이 있어서 '상품별+회원등급별 가격할인 적용', '회원등급별 가격할인만 적용', '상품별 가격할인만 적용' 중 하나를 고르게 돼 있어요. 할인을 걸었는데 주문에 반영되지 않으면 이 설정부터 봐요.</p>
+<p class="note">출처: <a href="https://support.cafe24.com/hc/ko/articles/8467148104729">카페24 도움말 '회원 등급별 할인 혜택을 제공할 수 있나요?'</a>, <a href="https://support.cafe24.com/hc/ko/articles/18807902273433">'쿠폰 및 혜택 할인금액/할인율 관련 자주 묻는 질문'</a> (2026-11-06 확인)</p>
+
+<h2>회원 할인가를 상품 가격에 보이게 하는 설정 순서는?</h2>
+<ol>
+<li><strong>할인판매가 표시:</strong> [관리자] 쇼핑몰 설정 &gt; 상품 설정 &gt; 상품 보기 설정 &gt; 상품 정보 표시 설정에서 메인화면·상품목록·상품상세 탭마다 '할인판매가'를 '표시함'으로 둬요. 탭마다 따로 설정해요. 일부 등급에게만 보이게 하려면 '표시대상'에서 회원등급을 골라요.</li>
+<li><strong>표시기준에 회원 등급 할인 넣기:</strong> [관리자] 쇼핑몰 설정 &gt; 상품 설정 &gt; 상품 정책 설정 &gt; 상품 관련 설정에서 '할인판매가 표시기준'을 '상품의 할인가 + 회원등급별 할인가 표시'로 바꿔요. 등급 할인이 얼마인지 나눠 보여 주려면 '상세 할인내역 표시'도 체크해요.</li>
+<li><strong>적용 등급 체크:</strong> 같은 화면의 '회원 등급별 할인가 적용 등급'에서 체크한 등급의 할인가만 노출돼요. 체크를 해제한 등급은 등급별 할인가가 표시되지 않아요.</li>
+<li><strong>로그인 전 손님에게 보이기:</strong> '회원등급별 할인가 표시'를 '로그인 전부터 표시'로 바꾸면 로그인 전에는 최대로 할인받을 수 있는 회원등급별 할인가가 보여요.</li>
+<li><strong>저장 후 확인:</strong> 로그인한 회원 계정과 로그인하지 않은 상태로 각각 상품 화면을 열어 봐요.</li>
+</ol>
+<p>비회원과 회원에게 할인가를 다르게 보여 줄 수도 있어요. 상품 정보 표시 설정에서 '할인 판매가'와 '할인 판매가(회원)' 항목을 둘 다 표시함으로 두면 돼요. '할인 판매가(회원)' 항목은 회원 대상 항목이라 등급을 따로 고를 수는 없어요.</p>
+<p>반대로 가격 자체를 회원에게만 보이게 하려면 상품 관련 설정의 '회원/비회원 가격표시'를 '회원만 표시함'으로 바꿔요. 이렇게 하면 로그인하지 않은 손님은 가격을 볼 수 없고 구매도 할 수 없어요. 추가설정의 '판매가 비회원 표시문구'로 '회원공개' 같은 문구를 대신 띄울 수 있어요.</p>
+<p class="note">출처: <a href="https://support.cafe24.com/hc/ko/articles/17456887235865">카페24 도움말 '쇼핑몰 상품 정보 표시 관련 자주 묻는 질문'</a>, <a href="https://support.cafe24.com/hc/ko/articles/16352680352793">'할인혜택을 적용하지 않았는데 비회원에게 할인판매가 표시가 되어요'</a>, <a href="https://support.cafe24.com/hc/ko/articles/7751300048281">'상품 정보 표시 설정'</a>, <a href="https://support.cafe24.com/hc/ko/articles/8467250094489">'회원에게만 상품 가격을 표시하고 구매할 수 있게 하고 싶어요'</a> (2026-11-06 확인)</p>
+
+<h2>판매가 옆에 할인율이나 취소선은 어떻게 붙이나요?</h2>
+<h3>할인율·할인 금액</h3>
+<p>상품 정보 표시 설정 아래 '추가설정 &gt; 할인판매가 할인금액 표시문구'를 '사용함'으로 두고 문구를 넣어요. 할인율로 보여 주려면 표시문구 옆 '?' 툴팁에서 변수를 확인해 넣어요. 화면의 할인율이 설정과 다르면 '할인판매가 할인율 절사 기준' 때문일 수 있어요. 단계별 화면은 <a href="cafe24-discount-rate.html">카페24 할인율 보이는법</a>에 정리했어요.</p>
+<h3>판매가 취소선</h3>
+<p>같은 화면 추가설정의 '판매가 취소선 사용여부'를 '사용함'으로 바꿔요. 이때 '쿠폰적용가'나 '할인판매가' 항목이 반드시 표시함이어야 하고, 할인이 적용되지 않은 상품에는 취소선이 붙지 않아요. 소비자가에 취소선을 긋는 기능은 따로 있어요. 소비자가 항목을 표시함으로 두고 '소비자가 취소선 표시'를 사용함으로 바꾼 뒤 상품마다 소비자가를 입력해요.</p>
+<p class="note">출처: <a href="https://support.cafe24.com/hc/ko/articles/8467203981593">카페24 도움말 '상품 할인 혜택 적용 시 상품에 할인가를 표시하려면 어떻게 하나요?'</a>, <a href="https://support.cafe24.com/hc/ko/articles/8467227659673">'할인판매가와 판매가를 동시 표시할 경우, 판매가에 취소선을 적용하고 싶어요'</a>, <a href="https://support.cafe24.com/hc/ko/articles/17456887235865">'쇼핑몰 상품 정보 표시 관련 자주 묻는 질문'</a> (2026-11-06 확인)</p>
+
+<h2>설정했는데 회원 할인가가 안 보이면 무엇을 확인하나요?</h2>
+<div class="tablewrap">
+<table>
+<thead><tr><th>증상</th><th>먼저 볼 곳</th></tr></thead>
+<tbody>
+<tr><td>어디에도 할인가가 안 보여요</td><td>그 상품에 할인 혜택이 실제로 걸렸는지, 보고 있는 화면 탭에서 '할인판매가'가 표시함인지</td></tr>
+<tr><td>상품 할인은 보이는데 등급 할인이 빠져요</td><td>'할인판매가 표시기준'이 '상품의 할인가 + 회원등급별 할인가 표시'인지, '회원 등급별 할인가 적용 등급'에 그 등급이 체크됐는지</td></tr>
+<tr><td>특정 등급 계정에서만 안 보여요</td><td>'표시대상'을 특정 등급으로 골랐는지</td></tr>
+<tr><td>로그인 전에는 안 보여요</td><td>'회원등급별 할인가 표시'가 '로그인 전부터 표시'인지</td></tr>
+<tr><td>PC에서는 보이는데 모바일에서 안 보여요</td><td>모바일 디자인에 해당 항목 소스가 있는지. 도움말은 모바일에서만 안 보이면 디자인 소스가 추가되지 않은 경우라고 안내해요.</td></tr>
+<tr><td>상품 화면엔 보이는데 장바구니엔 정상가로 보여요</td><td>[관리자] 쇼핑몰 설정 &gt; 주문 설정 &gt; 주문 정책 설정 &gt; 주문 시 설정의 '장바구니에 할인금액 표시', '주문상품내역에 할인금액 표시'</td></tr>
+<tr><td>생각보다 할인가가 너무 낮아요</td><td>한 상품에 혜택이 여러 개 걸렸는지. 도움말 예시로는 10,000원 상품에 기간할인 5%, 신규상품할인 10%, 회원할인 30%를 걸면 합쳐진 4,500원이 할인판매가로 보여요.</td></tr>
+</tbody>
+</table>
+</div>
+<p>디자인 소스를 직접 고쳤거나 업체에 맡겨 만든 쇼핑몰은 적용 방법이 다를 수 있다고 도움말에 적혀 있어요. 할인판매가·판매가 취소선 강조 디자인은 PC와 모바일 쇼핑몰에 각각 적용해야 해요.</p>
+<p class="note">출처: <a href="https://support.cafe24.com/hc/ko/articles/17456887235865">카페24 도움말 '쇼핑몰 상품 정보 표시 관련 자주 묻는 질문'</a>, <a href="https://support.cafe24.com/hc/ko/articles/18771863081625">'여러 종류의 혜택이 등록되어 있는 경우 할인가격은 어떤 것을 기준으로 노출되나요?'</a>, <a href="https://support.cafe24.com/hc/ko/articles/18807902273433">'쿠폰 및 혜택 할인금액/할인율 관련 자주 묻는 질문'</a>, <a href="https://support.cafe24.com/hc/ko/articles/8469488529945">'다양한 상품목록에 할인판매가, 판매가취소선, 참조금액 표시하기'</a> (2026-11-06 확인)</p>
+
+<h2>카페24 기본 기능은 어디까지 보여 주나요?</h2>
+<p>회원 할인과 상품 할인은 기본 기능으로 충분히 보여 줄 수 있어요. 쿠폰이 들어가면 조건이 붙어요.</p>
+<div class="tablewrap">
+<table>
+<thead><tr><th>표시 항목</th><th>무엇이 반영되나요</th><th>조건</th></tr></thead>
+<tbody>
+<tr><td>할인판매가</td><td>고객 혜택 관리 할인, 표시기준에 따라 회원등급 할인</td><td>할인이 걸린 상품에만 보여요</td></tr>
+<tr><td>쿠폰적용가</td><td>쿠폰</td><td>발급구분이 '고객 다운로드 발급'인 쿠폰에서만 보여요</td></tr>
+<tr><td>최적할인가</td><td>할인과 쿠폰이 모두 적용된 판매가</td><td>쿠폰은 비회원이 회원가입 즉시 아무 조건 없이 다운로드·발급할 수 있는 쿠폰만 들어가요</td></tr>
+</tbody>
+</table>
+</div>
+<p>그래서 등급 회원에게만 발급한 쿠폰(대상자 지정 발급)이나 손님이 이미 받아 둔 쿠폰은 기본 가격 표시에 들어가지 않아요. 최적할인가에 쿠폰이 빠지는 조건은 <a href="cafe24-optimal-discount-coupon.html">최적할인가에 쿠폰이 안 들어갈 때 확인 순서</a>에 따로 정리했어요.</p>
+<p class="note">출처: <a href="https://support.cafe24.com/hc/ko/articles/7751300048281">카페24 도움말 '상품 정보 표시 설정'</a>, <a href="https://support.cafe24.com/hc/ko/articles/17456887235865">'쇼핑몰 상품 정보 표시 관련 자주 묻는 질문'의 '최적 할인가 표시 방법'</a> (2026-11-06 확인)</p>
+
+<h2>회원이 가진 쿠폰까지 가격에 보이게 하려면?</h2>
+<p>기본 조건 밖의 쿠폰을 가격에 반영하려면 앱을 써야 해요. 카페24 스토어에는 이런 앱이 여러 개 있고, 비교는 <a href="cafe24-coupon-price-apps.html">상세페이지에 최대 할인가 띄우는 카페24 앱 비교</a>에 있어요. 쿠폰 없이 회원 할인만 보여 주면 되는 쇼핑몰은 위의 기본 설정으로 충분해요.</p>
+<p>그중 킵그로우 1초 쿠폰(이 글을 쓴 회사의 앱)은 공식 FAQ 기준으로 이렇게 동작해요.</p>
+<ul>
+<li>로그인 전에는 받을 수 있는 쿠폰과 회원가입 쿠폰을, 로그인 후에는 보유 쿠폰과 받을 수 있는 쿠폰을 계산해요.</li>
+<li>지금 쓸 수 있는 쿠폰 중 할인이 가장 큰 1장을 적용한 '예상 최저가'를 가격 아래에 붙여요. 기존 판매가와 할인가는 바꾸지 않아요.</li>
+<li>기간할인·회원등급 할인과 쿠폰을 같이 계산할지는 카페24 설정(쿠폰별 적용 계산 기준, 할인 동시사용)을 그대로 따라요.</li>
+<li>결제 단계에서 쿠폰을 자동으로 적용해 주는 기능은 아니에요. 쿠폰 사용과 최종 금액은 카페24 주문서에서 정해지고, 함께 담은 상품·결제수단·쿠폰 사용 조건에 따라 예상 최저가와 달라질 수 있어요.</li>
+</ul>
+<p>요금은 쇼핑몰 월 방문자 수(MAU)에 따라 자동으로 정해져요. 30만 미만은 Basic 월 49,900원, 30만 이상은 Standard 월 69,900원이고 부가세 별도, 후불이에요(공식 페이지 2026-11-05 확인). 자세한 내용은 <a href="1sec-coupon-faq.html">1초 쿠폰 자주 묻는 질문</a>에 있어요.</p>
+<p class="note">출처: <a href="https://app.keepgrow.com/products/process-templates/431">킵그로우 1초 쿠폰 공식 페이지 FAQ·요금제 안내</a> (2026-11-06 확인)</p>
+
+<h2>자주 묻는 질문</h2>
+<h3>회원 할인가를 상품 가격에 노출하고 싶은데 어떻게 해야 하나요?</h3>
+<p>카페24에서 회원 할인가를 가격에 보이게 하려면 프로모션 &gt; 고객 혜택 관리에서 회원할인을 등록하고, 상품 정보 표시 설정에서 '할인판매가'를 표시함으로 두면 돼요. 회원 등급 관리로 등급 할인을 걸었다면 상품 관련 설정의 할인판매가 표시기준도 '상품의 할인가 + 회원등급별 할인가 표시'로 바꾸고, 로그인 전 손님에게도 보이게 하려면 '회원등급별 할인가 표시'를 '로그인 전부터 표시'로 바꿔요.</p>
+<h3>판매가 옆에 할인율이나 할인 금액을 같이 보여 주고 싶은데 어떻게 하나요?</h3>
+<p>상품 정보 표시 설정 아래 '추가설정 &gt; 할인판매가 할인금액 표시문구'를 '사용함'으로 두고, 옆의 '?' 툴팁에 나온 변수로 문구를 넣어요. 화면의 할인율이 설정과 다르게 보이면 상품 관련 설정의 '할인판매가 할인율 절사 기준'을 확인해요.</p>
+<h3>원가에 취소선이 그어지고 밑에 세일가가 뜨는 게 컴퓨터에서는 되는데 모바일에서는 안 돼요.</h3>
+<p>카페24 도움말 기준으로 상품정보표시 설정을 했는데 모바일에서만 항목이 안 보이면 모바일 디자인에 해당 소스가 들어가 있지 않은 경우예요. 디자인을 직접 편집하거나 카페24 디자인 유지보수를 이용해야 해요. 취소선은 '판매가 취소선 사용여부'가 사용함이고 할인판매가나 쿠폰적용가가 표시함일 때, 할인이 적용된 상품에만 붙어요.</p>
+<h3>비회원일 때 가격과 회원가입하면 받는 가격을 상품마다 할인율 다르게 설정할 수 있나요?</h3>
+<p>프로모션 &gt; 고객 혜택 관리 &gt; 혜택 등록에서 혜택 유형을 회원할인으로, 참여대상을 회원으로 두고 상품범위 설정에서 적용 상품을 고르면 상품별로 회원 할인을 걸 수 있어요. 할인율이 다른 상품은 혜택을 나눠 등록해요. 한 상품에 여러 혜택이 걸리면 할인이 합산된 금액으로 표시되니 겹치지 않는지 확인해요. 비회원가와 회원가를 나란히 보여 주려면 상품 정보 표시 설정에서 '할인 판매가'와 '할인 판매가(회원)'를 둘 다 표시함으로 두면 돼요.</p>
+<h3>로그인하지 않은 손님에게도 회원 할인가를 보여 줄 수 있나요?</h3>
+<p>네. 상품 관련 설정에서 할인판매가 표시기준을 '상품의 할인가 + 회원등급별 할인가'로, 회원등급별 할인가 표시를 '로그인 전부터 표시'로 바꾸면 로그인 전에는 최대로 할인받을 수 있는 회원등급별 할인가가 보여요. '회원 등급별 할인가 적용 등급'에서 체크한 등급의 할인가만 노출돼요.</p>
+<h3>회원이 가진 쿠폰까지 반영한 가격도 보여 줄 수 있나요?</h3>
+<p>카페24 기본 '최적할인가'는 할인과 쿠폰이 모두 적용된 가격이지만, 쿠폰은 비회원이 회원가입 즉시 아무 조건 없이 받을 수 있는 쿠폰만 들어가요. 회원이 이미 받아 둔 쿠폰까지 보이게 하려면 앱을 써야 해요. 예를 들어 킵그로우 1초 쿠폰은 지금 쓸 수 있는 쿠폰 중 할인이 가장 큰 1장을 적용한 '예상 최저가'를(로그인 전에는 받을 수 있는 쿠폰과 회원가입 쿠폰, 로그인 후에는 보유 쿠폰과 받을 수 있는 쿠폰 기준) 가격 아래에 보여 주고, 쿠폰 사용과 최종 금액은 카페24 주문서에서 정해져요.</p>
+
+<p class="note">출처(모두 2026-11-06 확인): 카페24 도움말 <a href="https://support.cafe24.com/hc/ko/articles/17456887235865">쇼핑몰 상품 정보 표시 관련 자주 묻는 질문</a> · <a href="https://support.cafe24.com/hc/ko/articles/16352680352793">비회원에게 할인판매가 표시</a> · <a href="https://support.cafe24.com/hc/ko/articles/8467148104729">회원 등급별 할인 혜택</a> · <a href="https://support.cafe24.com/hc/ko/articles/8467203981593">상품 할인 혜택 적용 시 할인가 표시</a> · <a href="https://support.cafe24.com/hc/ko/articles/8467227659673">판매가 취소선</a> · <a href="https://support.cafe24.com/hc/ko/articles/7751300048281">상품 정보 표시 설정</a> · <a href="https://support.cafe24.com/hc/ko/articles/18771863081625">여러 혜택이 있을 때 할인가 기준</a> · <a href="https://support.cafe24.com/hc/ko/articles/18807902273433">쿠폰 및 혜택 할인금액/할인율 FAQ</a> · <a href="https://support.cafe24.com/hc/ko/articles/8467250094489">회원에게만 가격 표시</a> · <a href="https://support.cafe24.com/hc/ko/articles/8469488529945">할인판매가·판매가취소선 표시하기</a> · <a href="https://app.keepgrow.com/products/process-templates/431">킵그로우 1초 쿠폰 공식 페이지</a></p>
+</article>
+<footer>
+<p class="disclosure">이 글은 1초 쿠폰을 만든 유니드컴즈(킵그로우) 직원이 썼습니다. 참고: <a href="https://support.cafe24.com/hc/ko/articles/17456887235865">카페24 도움말</a> · <a href="https://app.keepgrow.com/products/process-templates/431">1초 쿠폰 공식 페이지</a></p>
+</footer>
+</main>
+<p style="max-width:760px;margin:0 auto 32px;padding:0 16px">관련: <a href="cafe24-optimal-discount-coupon.html">최적할인가에 쿠폰이 안 들어갈 때</a> · <a href="cafe24-discount-rate.html">카페24 할인율 보이는법</a> · <a href="coupon-usage-rate.html">쇼핑몰 쿠폰 사용률 높이는 방법</a> · <a href="1sec-coupon-faq.html">1초 쿠폰 자주 묻는 질문</a> · <a href="cafe24-cart-abandonment.html">카페24 장바구니 이탈 줄이는 방법</a></p></body>
+</html>
