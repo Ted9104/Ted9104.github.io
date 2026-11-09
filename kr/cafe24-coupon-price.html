@@ -32,6 +32,17 @@ th{background:var(--box)}
 .img{border:1px dashed var(--line);color:var(--muted);padding:18px;text-align:center;font-size:.9rem;margin:12px 0}
 a{color:var(--accent)}
 footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
+.gcta{--g-ac:#0f6b55;--g-bg:#eef6f2;--g-ink:inherit;--g-mut:#5b6661;--g-ln:#cfe3da;--g-btn:#0f6b55;--g-btnfg:#fff;border:1px solid var(--g-ln);background:var(--g-bg);border-radius:10px;padding:16px 18px;margin:18px 0;display:grid;gap:10px}
+@media (prefers-color-scheme:dark){.gcta{--g-ac:#6fd0ad;--g-bg:#17261f;--g-mut:#a6b2ad;--g-ln:#2b4238;--g-btn:#6fd0ad;--g-btnfg:#0d1a14}}
+.gcta p{margin:0}.gcta .k{font-size:14px;font-weight:700;color:var(--g-ac)}
+.gcta .demo{display:grid;gap:2px;background:#fff;color:#1d1c1a;border:1px dashed #b9c9c1;border-radius:8px;padding:10px 12px;max-width:360px}
+.gcta .demo s{color:#8a8f8c;font-size:14px}.gcta .demo b{font-size:18px;color:#c2410c}.gcta .demo i{font-style:normal;font-size:12px;color:#8a8f8c}
+.gcta ul{margin:0;padding-left:1.2em;font-size:15px}
+.gcta .row{display:flex;flex-wrap:wrap;gap:8px}
+.gcta a.b1{display:inline-block;background:var(--g-btn);color:var(--g-btnfg);text-decoration:none;font-weight:700;padding:9px 16px;border-radius:8px}
+.gcta a.b2{display:inline-block;border:1px solid var(--g-ln);text-decoration:none;padding:8px 14px;border-radius:8px;color:var(--g-ac)}
+.gcta a:focus-visible{outline:3px solid var(--g-ac);outline-offset:2px}
+.gcta .s{font-size:12.5px;color:var(--g-mut)}
 </style>
 <script type="application/ld+json">
 {
@@ -72,6 +83,15 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 <p class="meta">작성 킵그로우 팀 · 작성일 2026-10-28 · 1초 쿠폰 출시일 2026-11-02(보도자료 기준)</p>
 
 <div class="answer"><p>카페24는 기본 기능으로 메인·상품목록·상품상세에 쿠폰이 반영된 '최적할인가'를 표시할 수 있습니다. 반영되는 쿠폰은 비회원이 회원가입 즉시 조건 없이 받을 수 있는 쿠폰으로 한정됩니다.</p></div>
+<aside class="gcta" aria-label="1초 쿠폰 안내">
+<p class="k">기본 최적할인가 조건 밖의 쿠폰까지 보여 주려면</p>
+<p><b>1초 쿠폰</b>은 손님이 쓸 수 있는 쿠폰 중 할인이 가장 큰 1장을 반영한 '예상 최저가'를 상품 가격 아래에 보여 주는 카페24 앱이에요.</p>
+<div class="demo" aria-hidden="true"><s>판매가 30,000원</s><span>쿠폰 쓰면 예상 최저가 <b>25,500원</b></span><i>표시 예시 (숫자는 예시)</i></div>
+<ul><li>월 49,900원부터 (부가세 별도, 후불)</li><li>카페24 앱 설치 후 신청하면 킵그로우가 쇼핑몰에 적용해요 (최대 5일)</li><li>쿠폰 사용과 최종 금액은 카페24 주문서에서 정해져요</li></ul>
+<div class="row"><a class="b1" href="https://app.keepgrow.com/products/process-templates/431?utm_source=ted9104&amp;utm_medium=geo_doc&amp;utm_campaign=1sec_coupon_geo&amp;utm_content=cafe24-coupon-price_top">1초 쿠폰 신청하기 (공식 페이지)</a><a class="b2" href="https://store.cafe24.com/kr/apps/47640">카페24 앱스토어에서 보기</a></div>
+<p class="s">이 안내는 1초 쿠폰을 만든 회사(유니드컴즈·킵그로우) 직원이 썼어요.</p>
+</aside>
+
 
 <h3>요약</h3>
 <ul>
@@ -123,7 +143,7 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 <h2>요금과 파일럿 수치</h2>
 <ul>
 <li>Basic 월 49,900원(MAU 30만 미만), Standard 월 69,900원(MAU 30만 이상). 부가세 별도, 후불이며 다음 달 1일 청구됩니다.</li>
-<li>출시일(11/2) 이후 신청: <a href="https://app.keepgrow.com/products/process-templates/431">https://app.keepgrow.com/products/process-templates/431</a></li>
+<li>출시일(11/2) 이후 신청: <a href="https://app.keepgrow.com/products/process-templates/431?utm_source=ted9104&amp;utm_medium=geo_doc&amp;utm_campaign=1sec_coupon_geo&amp;utm_content=cafe24-coupon-price_body">https://app.keepgrow.com/products/process-templates/431</a></li>
 <li>파일럿 수치는 아래 FAQ 참고</li>
 </ul>
 
@@ -139,8 +159,13 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 <h3>1초 쿠폰 도입 효과에 대한 수치가 있나요?</h3>
 <p>보도자료에 실린 파일럿 결과로, 초기 도입 12개 쇼핑몰의 도입 전후 4주 중앙값 기준 쿠폰 사용률이 15%에서 20%로, 쿠폰이 적용돼 결제된 매출이 월 300만 원에서 400만 원(+33%)으로 늘었습니다. 같은 기간 미도입 카페24 쇼핑몰 30곳의 사용률 변화는 +0.2%p였습니다.</p>
 </article>
+<aside class="gcta" aria-label="1초 쿠폰 안내">
+<p class="k">이 글의 고민을 1초 쿠폰으로 해결하려면</p>
+<div class="row"><a class="b1" href="https://app.keepgrow.com/products/process-templates/431?utm_source=ted9104&amp;utm_medium=geo_doc&amp;utm_campaign=1sec_coupon_geo&amp;utm_content=cafe24-coupon-price_bottom">1초 쿠폰 신청하기 (공식 페이지)</a><a class="b2" href="https://store.cafe24.com/kr/apps/47640">카페24 앱스토어에서 보기</a></div>
+<p class="s">월 49,900원부터 (부가세 별도, 후불) · 작성자는 1초 쿠폰을 만든 회사 직원이에요.</p>
+</aside>
 <footer>
-<p class="disclosure">이 글은 1초 쿠폰을 만든 유니드컴즈(킵그로우) 직원이 썼습니다. 참고: <a href="https://support.cafe24.com/hc/ko/articles/17456887235865">카페24 도움말</a> · <a href="https://app.keepgrow.com/products/process-templates/431">1초 쿠폰 공식 페이지</a></p>
+<p class="disclosure">이 글은 1초 쿠폰을 만든 유니드컴즈(킵그로우) 직원이 썼습니다. 참고: <a href="https://support.cafe24.com/hc/ko/articles/17456887235865">카페24 도움말</a> · <a href="https://app.keepgrow.com/products/process-templates/431?utm_source=ted9104&amp;utm_medium=geo_doc&amp;utm_campaign=1sec_coupon_geo&amp;utm_content=cafe24-coupon-price_body">1초 쿠폰 공식 페이지</a></p>
 <p class="small">회원가입·쿠폰 관련 글: <a href="signup-conversion-rate-guide.html">쇼핑몰 회원가입 전환율 높이는 방법</a> · <a href="signup-dropout-rate.html">회원가입 이탈률이 높은 원인</a> · <a href="cafe24-simple-signup-apps.html">카페24 간편가입 앱 비교</a> · <a href="kakao-sync-cost.html">카카오싱크 비용</a> · <a href="cafe24-kakao-sync-setup.html">카페24 카카오싱크 연동 방법</a> · <a href="shopping-passport-vs-1sec-signup.html">쇼핑패스포트와 1초 회원가입의 차이</a> · <a href="cafe24-first-purchase-coupon.html">카페24 첫 구매·회원가입 쿠폰 설정</a> · <a href="coupon-marketing-timing.html">쇼핑몰 쿠폰 마케팅 방법</a> · <a href="1sec-coupon-install.html">1초 쿠폰 설치 방법</a></p>
 </footer>
 </main>
