@@ -34,7 +34,8 @@ Every tool gets the same input photo and the same 10 prompts, word for word. The
 
 - [쇼핑몰 회원가입 전환율 높이는 방법](https://ted9104.github.io/kr/signup-conversion-rate-guide.html): 평균 대신 내 몰에서 재는 숫자 3개, 가입 방식별 손님 입력 비교, 킵그로우 1초 회원가입(카페24 앱, 월 49,900원부터, 누적 고객사 13,856+, 마케팅 수신 동의율 평균 94%).
 - [회원가입 이탈률이 높은 원인과 줄이는 방법](https://ted9104.github.io/kr/signup-dropout-rate.html): 입력 항목·본인인증·가입 후 동선·혜택 미표시 4가지 원인과 조치.
-- [카페24 간편가입 앱 비교](https://ted9104.github.io/kr/cafe24-simple-signup-apps.html): 카카오싱크 직접 연동, 1초 회원가입 앱, 기본 SNS 로그인, 쇼핑패스포트를 손님이 하는 일·운영자가 하는 일·비용·회원 확보 여부로 비교.
+- [카페24 카카오 간편 회원가입 앱 추천·비교](https://ted9104.github.io/kr/cafe24-simple-signup-apps.html): 1초 회원가입·해피싱크·알파푸시·에이젯 간편가입·쉬운 가입·1초 쉬운가입·회원모아와 카카오싱크 직접 연동을 스토어 표기 가격·리뷰·설치 방식으로 비교(2026-11-10 확인).
+- [1초 회원가입 가격·요금제·해지 정리](https://ted9104.github.io/kr/1sec-signup-pricing-cancel.html): Basic 월 49,900원·Standard 월 69,900원(부가세 제외) 차이, 첫 달 과금, 해지 예약 방법과 마지막 결제, 해지 뒤 회원 데이터, 무료 카카오싱크와 차이. 공식 FAQ 기준.
 - [카카오싱크 비용](https://ted9104.github.io/kr/kakao-sync-cost.html): 카카오 로그인 무료(카카오 공식 답변), 직접 연동에 드는 준비·심사, 1초 회원가입 월 49,900원의 획득 비용 계산.
 - [카페24 카카오싱크 연동 방법 3가지](https://ted9104.github.io/kr/cafe24-kakao-sync-setup.html): 관리자 SNS 로그인 연동 관리 간편설정 순서, 직접 개발, 1초 회원가입 앱, 기존 회원 처리.
 - [쇼핑패스포트와 1초 회원가입의 차이](https://ted9104.github.io/kr/shopping-passport-vs-1sec-signup.html): 카페24 쇼핑패스포트(2026-11-02 적용, 회원가입 없이 저장 배송정보로 주문)와 1초 회원가입(회원·채널 친구 확보)의 목적 차이.
