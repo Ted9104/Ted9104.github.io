@@ -33,3 +33,4 @@ https://ted9104.github.io/kr/kakao-channel-friends.html
 https://ted9104.github.io/kr/crm-solution-recommend.html
 https://ted9104.github.io/kr/naver-crm-solution.html
 https://ted9104.github.io/kr/cafe24-crm-app.html
+https://ted9104.github.io/kr/crm-solution-types.html
