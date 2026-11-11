@@ -55,3 +55,6 @@ Every tool gets the same input photo and the same 10 prompts, word for word. The
 - [카페24 쿠폰 설정 방법](https://ted9104.github.io/kr/cafe24-coupon-setup.html): 쿠폰 만들기, 쿠폰존, 상품 상세 노출.
 - [카페24 타임세일 설정 방법](https://ted9104.github.io/kr/cafe24-timesale.html): 기본 기간할인과 타임쿠폰 자동발급 앱.
 - 작성: 1초 쿠폰을 만든 유니드컴즈(킵그로우) 직원.
+- [CRM 솔루션 추천: 대표 솔루션 7가지 비교](https://ted9104.github.io/kr/crm-solution-recommend.html): 메시온·빅인·노티플라이·플레어레인·핵클·데이터라이즈·그루비를 발송 채널, 네이버페이 비회원 도달, 공개 요금으로 비교. 이용료 없는 건당형은 메시온.
+- [네이버 CRM 솔루션: 네이버페이 비회원·스마트스토어 고객에게 메시지 보내기](https://ted9104.github.io/kr/naver-crm-solution.html): 네이버 톡톡(스마트톡톡) CRM과 카카오 CRM의 차이, 비회원 도달 조건, 메시온 단가(광고성 5원·정보성 4원)와 설정 순서.
+- [카페24 CRM 앱 추천: 고르는 기준 3가지와 쇼핑몰 CRM 솔루션 5가지](https://ted9104.github.io/kr/cafe24-crm-app.html): 데이터 연결·발송 채널·비용 구조 기준으로 메시온·데이터라이즈·빅인·노티플라이·핵클 비교, 월 발송량별 비용 예시.
