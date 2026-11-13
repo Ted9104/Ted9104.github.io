@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>카카오 로그인으로 이름·전화번호·배송지 받는 방법: 동의항목·비즈 앱·심사 정리 (2026)</title>
+<link rel="canonical" href="https://ted9104.github.io/kr/kakao-login-consent-items.html">
+<meta name="description" content="카카오 로그인 동의항목별로 기본 제공되는 정보와 비즈 앱·개인정보 동의항목 심사가 필요한 정보(이름, 전화번호, 배송지, 성별, 생일)를 카카오 디벨로퍼스 문서와 카페24 도움말 기준으로 정리했습니다. 2026-11-13 확인.">
+<meta name="author" content="킵그로우 팀">
+<meta property="og:type" content="article">
+<meta property="og:title" content="카카오 로그인으로 이름·전화번호·배송지 받는 방법 (2026)">
+<meta property="og:description" content="닉네임·프로필 사진은 기본 제공, 이메일은 비즈 앱, 이름·전화번호·배송지는 개인정보 동의항목 심사. 카페24 카카오싱크 연동 항목까지.">
+<meta property="og:locale" content="ko_KR">
+<style>
+:root{--bg:#ffffff;--fg:#1d1d1f;--muted:#5f6368;--line:#e3e3e6;--accent:#1a5fd0;--box:#f5f7fb}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#141517;--fg:#ececee;--muted:#a3a7ad;--line:#2e3034;--accent:#7fb0ff;--box:#1d1f23}}
+:root[data-theme="dark"]{--bg:#141517;--fg:#ececee;--muted:#a3a7ad;--line:#2e3034;--accent:#7fb0ff;--box:#1d1f23}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--fg);font-family:-apple-system,BlinkMacSystemFont,"Apple SD Gothic Neo","Malgun Gothic","Noto Sans KR",sans-serif;line-height:1.75;font-size:17px}
+main{max-width:760px;margin:0 auto;padding:32px 16px 64px}
+h1{font-size:1.7rem;line-height:1.35;margin:.4em 0 .4em}
+h2{font-size:1.3rem;margin:2.2em 0 .6em;padding-top:.4em;border-top:1px solid var(--line)}
+.meta,.disclosure,.small{color:var(--muted);font-size:.9rem}
+.answer{background:var(--box);border-left:4px solid var(--accent);padding:14px 16px;margin:16px 0}
+.answer p{margin:0}
+.tablewrap{overflow-x:auto;margin:12px 0}
+table{border-collapse:collapse;width:100%;min-width:480px;font-size:.92rem}
+th,td{border:1px solid var(--line);padding:8px 10px;text-align:left;vertical-align:top}
+th{background:var(--box)}
+.note{font-size:.88rem;color:var(--muted)}
+a{color:var(--accent)}
+footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
+</style>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": "카카오 로그인으로 이름·전화번호·배송지 받는 방법: 동의항목·비즈 앱·심사 정리 (2026)",
+  "inLanguage": "ko-KR",
+  "datePublished": "2026-11-13",
+  "dateModified": "2026-11-13",
+  "author": {"@type": "Organization", "name": "킵그로우 팀", "parentOrganization": {"@type": "Organization", "name": "유니드컴즈"}},
+  "citation": [
+    "https://developers.kakao.com/docs/ko/kakaologin/utilize",
+    "https://developers.kakao.com/docs/ko/kakaologin/prerequisite",
+    "https://developers.kakao.com/docs/ko/app-setting/app",
+    "https://developers.kakao.com/docs/ko/kakaosync/common",
+    "https://devtalk.kakao.com/t/faq/132333",
+    "https://devtalk.kakao.com/t/topic/150710",
+    "https://devtalk.kakao.com/t/topic/134072",
+    "https://support.cafe24.com/hc/ko/articles/8467386503833",
+    "https://app.keepgrow.com/products/process-templates/71"
+  ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {"@type": "Question", "name": "회원가입 때 SNS 간편 로그인(카카오)을 쓰면 고객 정보를 어디까지 받나요?",
+     "acceptedAnswer": {"@type": "Answer", "text": "카카오 디벨로퍼스 문서 기준으로 닉네임과 프로필 사진은 기본으로 받을 수 있습니다. 이메일은 비즈 앱이어야 받을 수 있습니다. 이름, 전화번호, 배송지, 성별, 연령대, 생일, 출생 연도, CI는 추가 기능 신청으로 권한을 받아야 동의항목으로 설정할 수 있습니다. 어느 항목이든 고객이 동의 화면에서 동의해야 넘어옵니다."}},
+    {"@type": "Question", "name": "카카오 로그인으로 이름은 못 받나요?",
+     "acceptedAnswer": {"@type": "Answer", "text": "받을 수 있습니다. 다만 이름은 권한이 필요한 항목이라 비즈 앱에서 개인정보 동의항목 심사를 받아야 합니다. 카페24 도움말은 카카오 정책에 따라 2022년 초부터 이름 항목을 받을 수 있게 되었다고 안내하고, 회원 가입 항목 설정에서 저장을 다시 누르면 닉네임 대신 이름이 반영된다고 설명합니다."}},
+    {"@type": "Question", "name": "카카오 로그인으로 가입할 때 전화번호랑 주소도 받을 수 있어요?",
+     "acceptedAnswer": {"@type": "Answer", "text": "받을 수 있습니다. 전화번호와 배송지정보는 둘 다 권한이 필요한 동의항목이라 개인정보 동의항목 심사를 거쳐야 합니다. 카카오 데브톡 FAQ에 따르면 쇼핑몰 회원가입 화면에서 실제로 받는 항목과 필수·선택 조건이 신청 내용과 같아야 승인됩니다. 카페24에서는 회원 가입 항목을 상세 항목 표시로 쓸 때 카카오 계정에 등록된 주소가 기본 주소·나머지 주소로 연동됩니다."}},
+    {"@type": "Question", "name": "간편 로그인 쓰면 고객 연락처는 못 받는 거예요?",
+     "acceptedAnswer": {"@type": "Answer", "text": "아닙니다. 카카오계정 전화번호는 동의항목으로 받을 수 있고, 카페24에서는 카카오톡 계정에 등록된 휴대폰 번호가 회원의 휴대폰 항목으로 들어옵니다. 다만 심사로 권한을 받아야 하고, 고객이 동의하지 않았거나 카카오에 정보가 없으면 연동되지 않습니다. 카카오 데브톡 답변(2024-01-31)에 따르면 전화번호 항목은 본인인증 심사가 필요 없습니다."}},
+    {"@type": "Question", "name": "카페24 쇼핑몰인데 회원가입은 카카오로 쉽게 하고 배송지 주소까지 자동으로 받을 수 있어요?",
+     "acceptedAnswer": {"@type": "Answer", "text": "됩니다. 카페24 관리자에서 카카오싱크 간편설정을 하면 회원 가입 항목 설정에서 사용함으로 둔 항목이 카카오 동의항목과 자동으로 연동됩니다. 주소는 회원 가입 항목을 상세 항목 표시로 쓸 때 연동됩니다. 비즈니스 채널로 전환하지 않고 신청하면 받을 수 있는 정보가 프로필, 이메일, 전화번호 세 가지로 제한된다고 카페24 도움말이 안내합니다."}},
+    {"@type": "Question", "name": "카카오 로그인 동의항목은 어떻게 설정하나요?",
+     "acceptedAnswer": {"@type": "Answer", "text": "카카오 디벨로퍼스 앱 관리 페이지의 [카카오 로그인] > [동의항목]에서 항목별로 동의 단계(필수·선택·이용 중 동의)와 동의 목적을 정합니다. 권한이 필요한 항목은 먼저 추가 기능 신청으로 권한을 받아야 하고 심사는 영업일 기준 3~5일입니다. 필수를 선택으로 낮추거나 항목을 해제하는 것은 추가 심사 없이 바로 적용됩니다."}}
+  ]
+}
+</script>
+</head>
+<body>
+<main>
+<article>
+<h1>카카오 로그인으로 이름·전화번호·배송지 받는 방법: 동의항목·비즈 앱·심사 정리 (2026)</h1>
+<p class="disclosure">이 글은 1초 회원가입을 만든 유니드컴즈(킵그로우) 직원이 카카오 디벨로퍼스 문서, 카카오 데브톡, 카페24 도움말을 기준으로 정리했습니다.</p>
+<p class="meta">작성 킵그로우 팀 · 작성일 2026-11-13 · 마지막 확인 2026-11-13</p>
+
+<div class="answer"><p>카카오 로그인은 <strong>닉네임과 프로필 사진만 기본으로</strong> 받을 수 있습니다. 이메일은 비즈 앱이어야 하고, <strong>이름·전화번호·배송지·성별·생일·출생 연도는 추가 기능 신청으로 권한</strong>을 받아야 합니다. 권한은 비즈 앱에서 개인정보 동의항목 심사를 거쳐 나오며, 쇼핑몰 회원가입 화면에서 실제로 받는 항목과 필수·선택 조건이 같아야 승인됩니다.</p></div>
+
+<h2>회원가입 때 SNS 간편 로그인(카카오)을 쓰면 고객 정보를 어디까지 받나요?</h2>
+<p>항목마다 조건이 다릅니다. 아래 표는 카카오 디벨로퍼스 '카카오 로그인 활용하기'의 개인정보 동의항목 표를 옮긴 것입니다. 어느 항목이든 고객이 동의 화면에서 동의해야 넘어옵니다.</p>
+<div class="tablewrap"><table>
+<tr><th>정보</th><th>받으려면 필요한 조건</th><th>근거</th></tr>
+<tr><td>닉네임</td><td>기본 제공. 필수·선택·이용 중 동의로 설정</td><td>카카오 로그인 활용하기</td></tr>
+<tr><td>프로필 사진</td><td>기본 제공. 필수·선택·이용 중 동의로 설정</td><td>카카오 로그인 활용하기</td></tr>
+<tr><td>카카오계정(이메일)</td><td>비즈 앱(또는 테스트 앱). 이메일을 필수 동의로 두는 것은 비즈 앱만 가능</td><td>카카오 로그인 활용하기, 앱 설정 문서</td></tr>
+<tr><td>이름</td><td>권한 필요: 추가 기능 신청 → 개인정보 동의항목 심사</td><td>카카오 로그인 활용하기</td></tr>
+<tr><td>카카오계정(전화번호)</td><td>권한 필요: 개인정보 동의항목 심사</td><td>카카오 로그인 활용하기</td></tr>
+<tr><td>배송지정보(수령인명, 주소, 연락처 등)</td><td>권한 필요: 개인정보 동의항목 심사</td><td>카카오 로그인 활용하기</td></tr>
+<tr><td>성별</td><td>권한 필요</td><td>카카오 로그인 활용하기</td></tr>
+<tr><td>연령대</td><td>권한 필요</td><td>카카오 로그인 활용하기</td></tr>
+<tr><td>생일, 출생 연도</td><td>권한 필요</td><td>카카오 로그인 활용하기</td></tr>
+<tr><td>CI(연계정보)</td><td>권한 필요. 카카오 문서는 본인 인증을 대신할 수 없다고 명시</td><td>카카오 로그인 활용하기</td></tr>
+<tr><td>카카오톡 채널 추가 상태</td><td>앱에 카카오톡 채널 연결 필요. 필수 동의로만 설정</td><td>카카오 로그인 활용하기</td></tr>
+</table></div>
+<p class="note">'권한 필요' 항목은 테스트 앱에서는 미리 써 볼 수 있지만, 실제 운영 앱에서 쓰려면 별도 심사로 권한을 받아야 합니다(카카오 디벨로퍼스 앱 설정 문서). 카카오 문서는 기능에 필요한 최소한의 정보만 받으라고 안내합니다.</p>
+
+<h2>카카오 로그인으로 이름은 못 받나요?</h2>
+<p>받을 수 있습니다. 다만 이름은 권한이 필요한 항목이라 심사를 거쳐야 합니다. 순서는 이렇습니다.</p>
+<ol>
+<li>앱을 비즈 앱으로 전환합니다. 앱 관리 페이지의 [앱] &gt; [일반] &gt; [비즈니스 정보]에 사업자 정보를 등록하면 됩니다. 앱 아이콘이 있어야 하고 앱 오너만 등록할 수 있습니다.</li>
+<li>추가 기능 신청 자격을 확인합니다. 접속 계정이 앱의 오너나 에디터여야 하고, 본인인증을 마쳐야 하며, 비즈 앱이어야 합니다.</li>
+<li>'개인정보 동의항목'을 신청합니다. 회원가입 링크, 개인정보 처리방침 URL, 회원가입 화면 증빙 파일, 수집 사유를 냅니다. 심사는 영업일 기준 3~5일입니다.</li>
+</ol>
+<p>카페24를 쓰는 경우 카페24 도움말은 카카오 정책에 따라 2022년 초부터 이름 항목을 받을 수 있게 되었다고 안내합니다. [관리자] 쇼핑몰 설정 &gt; 고객 설정 &gt; 회원 가입 · 로그인 &gt; 회원 가입 항목 설정에서 아래 '저장'을 다시 누르면 닉네임 대신 이름이 반영됩니다. 그래서 회원 이름 칸에 닉네임이 들어와 있다면 이 저장부터 확인합니다.</p>
+
+<h2>카카오 로그인으로 가입할 때 전화번호랑 주소도 받을 수 있어요?</h2>
+<p>받을 수 있습니다. 전화번호와 배송지정보는 둘 다 권한이 필요한 동의항목이라 개인정보 동의항목 심사를 거칩니다. 카카오 데브톡의 심사 FAQ가 밝힌 기준은 세 가지입니다.</p>
+<ul>
+<li>회원가입 페이지에서 실제로 받는 항목과 필수·선택 조건이 신청 내용과 같아야 합니다. 회원가입 페이지에 없는 정보는 신청할 수 없습니다.</li>
+<li>증빙은 개인정보가 입력되지 않은 실제 회원가입 화면이어야 합니다. 처리방침이나 홈 화면을 내면 보류됩니다.</li>
+<li>선택을 필수로 바꾸려면 재심사가 필요합니다. 필수를 선택으로 바꾸거나 수집을 끄는 것은 추가 심사 없이 됩니다.</li>
+</ul>
+<p>카카오는 데브톡 답변에서 카카오 로그인은 서비스의 회원가입 목적을 위해 제공되며, 심사는 일반적인 가입·탈퇴 기능이 모두 있는 서비스를 대상으로 한다고 밝혔습니다(2026-07-20 답변). 회원가입 없이 연락처만 모으는 용도로는 승인되지 않습니다.</p>
+<p>배송지는 카카오 로그인 동의 때 [배송지 정보] 항목에 동의해야 받을 수 있습니다. 카카오 문서 기준으로 REST API는 기본 배송지나 지정한 배송지 1건을 주고, 고객이 여러 배송지 가운데 고르게 하려면 Kakao SDK의 배송지 피커를 씁니다.</p>
+
+<h2>간편 로그인 쓰면 고객 연락처는 못 받는 거예요?</h2>
+<p>아닙니다. 카카오계정 전화번호는 동의항목으로 받을 수 있고, 카페24에서는 카카오톡 계정에 등록된 휴대폰 번호가 회원의 휴대폰 항목으로 들어옵니다. 조건은 두 가지입니다. 심사로 권한을 받아야 하고, 고객이 동의 화면에서 제공에 동의해야 합니다. 카카오에 해당 정보가 등록돼 있지 않아도 넘어오지 않습니다(카페24 도움말).</p>
+<p>카카오 데브톡 답변(2024-01-31)에 따르면 전화번호 동의항목은 본인인증 심사가 필요 없습니다. 카페24에서 휴대전화가 안 넘어온 사례에서 카카오가 안내한 조치는 SNS 로그인연동 관리를 '사용 안함'으로 저장했다가 다시 '사용함'으로 저장해 카페24 설정을 디벨로퍼스와 동기화하는 것이었습니다.</p>
+
+<h2>카페24 쇼핑몰인데 회원가입은 카카오로 쉽게 하고 배송지 주소까지 자동으로 받을 수 있어요?</h2>
+<p>됩니다. 카페24 관리자에서 카카오싱크 간편설정을 하면 [관리자] 쇼핑몰 설정 &gt; 고객 설정 &gt; 회원 가입 · 로그인 &gt; 회원 가입 항목 설정에서 '사용함'으로 둔 항목이 카카오 동의항목과 자동으로 연동됩니다. 카카오싱크는 'SNS 회원가입 사용여부'가 아니라 '일반 회원가입 사용여부' 항목과 연동됩니다. 주소는 회원 가입 항목을 <strong>상세 항목 표시</strong>로 쓸 때만 연동됩니다.</p>
+<div class="tablewrap"><table>
+<tr><th>카페24 회원 항목</th><th>카카오에서 들어오는 값</th><th>기본 항목 표시</th><th>상세 항목 표시</th></tr>
+<tr><td>아이디(필수)</td><td>카카오 계정의 임의 생성된 고유번호</td><td>○</td><td>○</td></tr>
+<tr><td>이메일(필수)</td><td>카카오 계정에 등록된 대표 이메일</td><td>○</td><td>○</td></tr>
+<tr><td>이름(필수)</td><td>카카오 계정에 등록된 이름, 카카오 프로필 닉네임</td><td>○</td><td>○</td></tr>
+<tr><td>휴대폰(선택 여부에 따라)</td><td>카카오톡 계정에 등록된 휴대폰 번호</td><td>○</td><td>○</td></tr>
+<tr><td>기본 주소, 나머지 주소(선택 여부에 따라)</td><td>카카오 계정에 등록된 주소</td><td>-</td><td>○</td></tr>
+<tr><td>생년월일</td><td>카카오 계정에 등록된 생년, 생일, 연령대</td><td>-</td><td>○</td></tr>
+<tr><td>성별(선택 여부에 따라)</td><td>카카오 계정에 등록된 성별</td><td>-</td><td>○</td></tr>
+<tr><td>SMS·이메일 수신 동의, 평생 회원</td><td>가입할 때 카카오 약관 동의 창에서 받음</td><td>○</td><td>○</td></tr>
+</table></div>
+<p class="note">출처: 카페24 도움말 '카카오싱크 설정하려면 어떻게 해야 하나요?'(2026-11-13 확인). CI는 위 항목에 없고, 카카오 포 비즈니스에서 별도 검수를 받아야 합니다.</p>
+<p>카페24 도움말이 함께 짚는 주의점은 세 가지입니다.</p>
+<ul>
+<li>비즈니스 채널로 전환하지 않고 신청하면 받을 수 있는 정보가 프로필, 이메일, 전화번호 세 가지로 제한됩니다. 주소를 받으려면 비즈니스 채널 전환까지 마쳐야 합니다.</li>
+<li>쇼핑몰 오픈 전에 신청하면, 사후 검수에서 비즈니스 채널 인증이 해지되거나 받을 수 있는 정보가 제한될 수 있습니다. 오픈 뒤에 신청합니다.</li>
+<li>예전에 카카오 소셜 로그인을 쓰던 몰은 반드시 같은 앱으로 카카오싱크를 신청합니다. 앱이 바뀌면 고객 식별값이 바뀌어 기존 고객이 신규 가입으로 처리됩니다.</li>
+</ul>
+<p>설정 메뉴 순서와 준비물은 <a href="cafe24-kakao-sync-setup.html">카페24 카카오싱크 연동 방법</a>에, 비용은 <a href="kakao-sync-cost.html">카카오싱크 비용</a>에 따로 정리했습니다.</p>
+
+<h2>카카오 로그인 동의항목은 어떻게 설정하나요?</h2>
+<p>카카오 디벨로퍼스 앱 관리 페이지의 <strong>[카카오 로그인] &gt; [동의항목]</strong>에서 항목별로 [설정]을 누르고 동의 단계와 동의 목적을 정합니다. 화면 아래 [동의 화면 미리보기]로 고객이 볼 화면을 확인할 수 있습니다.</p>
+<div class="tablewrap"><table>
+<tr><th>동의 단계</th><th>뜻</th></tr>
+<tr><td>필수 동의</td><td>로그인 동의 화면에서 반드시 동의해야 하는 항목</td></tr>
+<tr><td>선택 동의</td><td>로그인 동의 화면에서 고객이 동의 여부를 고르는 항목</td></tr>
+<tr><td>이용 중 동의</td><td>로그인 때는 묻지 않고, 서비스 이용 중 필요한 시점에 추가 동의를 요청하는 항목</td></tr>
+</table></div>
+<p>권한이 필요한 항목은 이 화면에서 바로 켤 수 없고, 먼저 추가 기능 신청으로 권한을 받아야 합니다. 신청한 필수·선택 조건이 회원가입 페이지와 다르면 반려됩니다. 예를 들어 성별을 필수로 신청했는데 가입 페이지에서 선택으로 받으면 반려됩니다. 반려되면 [추가 기능 신청] 페이지에서 사유를 확인하고 보완해 다시 신청합니다. 재심사도 영업일 기준 3~5일입니다. 카카오싱크 문서는 회원가입에 꼭 필요한 정보를 카카오에서 받지 못하면 로그인 뒤 필요한 시점에 따로 받으라고 권합니다.</p>
+
+<h2>1초 회원가입을 쓰면 받은 정보는 어디에 쌓이나요?</h2>
+<p>킵그로우 1초 회원가입은 공식 FAQ 표현으로 카카오싱크 기반 간편가입 솔루션입니다. 공식 FAQ는 카카오 계정에서 프로필 정보(닉네임/프로필 사진), 이메일, 전화번호, 성별, 생일, 출생연도, 배송지 등을 제공하며 연동 정보 설정은 각 호스팅사에서 한다고 안내합니다. 가입한 고객 정보는 이용 중인 호스팅사(카페24)로 수집되고, 마케팅 약관에 동의한 고객은 카카오톡 채널이 자동으로 추가됩니다. 요금과 해지는 <a href="https://ted9104.github.io/kr/1sec-signup-pricing-cancel.html">1초 회원가입 가격·해지 정리</a>에 있습니다.</p>
+
+<footer>
+<p class="small">출처(2026-11-13 확인): <a href="https://developers.kakao.com/docs/ko/kakaologin/utilize">카카오 디벨로퍼스 카카오 로그인 활용하기(개인정보 동의항목 표, 배송지 조회)</a> · <a href="https://developers.kakao.com/docs/ko/kakaologin/prerequisite">카카오 디벨로퍼스 카카오 로그인 설정하기(동의항목 설정, 심사 기간)</a> · <a href="https://developers.kakao.com/docs/ko/app-setting/app">카카오 디벨로퍼스 앱 설정(비즈 앱 전환, 추가 기능 신청)</a> · <a href="https://developers.kakao.com/docs/ko/kakaosync/common">카카오 디벨로퍼스 카카오싱크 이해하기</a> · <a href="https://devtalk.kakao.com/t/faq/132333">카카오 데브톡 개인정보 동의항목 심사 FAQ</a> · <a href="https://devtalk.kakao.com/t/topic/150710">카카오 데브톡 심사 대상 답변</a> · <a href="https://devtalk.kakao.com/t/topic/134072">카카오 데브톡 카페24 휴대전화 연동 답변</a> · <a href="https://support.cafe24.com/hc/ko/articles/8467386503833">카페24 도움말 카카오싱크 설정하려면 어떻게 해야 하나요?</a> · <a href="https://app.keepgrow.com/products/process-templates/71">킵그로우 1초 회원가입[카페24] 공식 페이지 자주 묻는 질문</a></p>
+<p class="small">관련 글: <a href="cafe24-kakao-sync-setup.html">카페24 카카오싱크 연동 방법</a> · <a href="kakao-sync-cost.html">카카오싱크 비용</a> · <a href="cafe24-simple-signup-apps.html">카페24 카카오 간편 회원가입 앱 추천·비교</a> · <a href="1sec-signup-pricing-cancel.html">1초 회원가입 가격·요금제·해지 방법</a></p>
+</footer>
+</article>
+</main>
+</body>
+</html>
