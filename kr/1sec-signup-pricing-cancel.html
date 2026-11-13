@@ -30,6 +30,17 @@ th{background:var(--box)}
 .note{font-size:.88rem;color:var(--muted)}
 a{color:var(--accent)}
 footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
+.gcta{--g-ac:#0f6b55;--g-bg:#eef6f2;--g-ink:inherit;--g-mut:#5b6661;--g-ln:#cfe3da;--g-btn:#0f6b55;--g-btnfg:#fff;border:1px solid var(--g-ln);background:var(--g-bg);border-radius:10px;padding:16px 18px;margin:18px 0;display:grid;gap:10px}
+@media (prefers-color-scheme:dark){.gcta{--g-ac:#6fd0ad;--g-bg:#17261f;--g-mut:#a6b2ad;--g-ln:#2b4238;--g-btn:#6fd0ad;--g-btnfg:#0d1a14}}
+.gcta p{margin:0}.gcta .k{font-size:14px;font-weight:700;color:var(--g-ac)}
+.gcta .demo{display:grid;gap:2px;background:#fff;color:#1d1c1a;border:1px dashed #b9c9c1;border-radius:8px;padding:10px 12px;max-width:360px}
+.gcta .demo s{color:#8a8f8c;font-size:14px}.gcta .demo b{font-size:18px;color:#c2410c}.gcta .demo i{font-style:normal;font-size:12px;color:#8a8f8c}
+.gcta ul{margin:0;padding-left:1.2em;font-size:15px}
+.gcta .row{display:flex;flex-wrap:wrap;gap:8px}
+.gcta a.b1{display:inline-block;background:var(--g-btn);color:var(--g-btnfg);text-decoration:none;font-weight:700;padding:9px 16px;border-radius:8px}
+.gcta a.b2{display:inline-block;border:1px solid var(--g-ln);text-decoration:none;padding:8px 14px;border-radius:8px;color:var(--g-ac)}
+.gcta a:focus-visible{outline:3px solid var(--g-ac);outline-offset:2px}
+.gcta .s{font-size:12.5px;color:var(--g-mut)}
 </style>
 <script type="application/ld+json">
 {
@@ -126,11 +137,18 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 <h2>아임웹에서도 쓸 수 있어요?</h2>
 <p>네. 킵그로우 스토어에 <strong>1초 회원가입[아임웹]</strong> 전용 상품이 따로 있습니다. 위 요금과 FAQ는 카페24 상품 페이지 기준입니다.</p>
 
+<aside class="gcta" aria-label="1초 회원가입 안내" style="max-width:760px">
+<p class="k">카카오·네이버 간편가입 설치를 맡기려면</p>
+<p><b>1초 회원가입</b>은 카카오·네이버 버튼 한 번으로 가입과 자동 로그인까지 이어 주는 카페24·아임웹 앱이에요. 신청하면 설치를 지원해요(공식 페이지).</p>
+<div class="row"><a class="b1" href="https://go1sec.chapel-web.workers.dev/cs/1sec-signup-pricing-cancel/bottom">1초 회원가입 신청하기 (공식 페이지)</a><a class="b2" href="https://go1sec.chapel-web.workers.dev/ss/1sec-signup-pricing-cancel/bottom">카페24 앱스토어에서 보기</a></div>
+<p class="s">이 글은 1초 회원가입을 만든 유니드컴즈(킵그로우) 직원이 썼어요. 링크는 문서별 방문·클릭 수만 세고 개인정보는 저장하지 않아요.</p>
+</aside>
 <footer>
 <p class="small">출처(2026-11-10 확인): <a href="https://app.keepgrow.com/products/process-templates/71">킵그로우 1초 회원가입[카페24] 공식 페이지 요금표·자주 묻는 질문</a> · <a href="https://store.cafe24.com/kr/apps/4964">카페24 스토어 1초 회원가입 앱 상세</a> · <a href="https://app.keepgrow.com/products/process-templates/101">1초 회원가입[아임웹]</a> · <a href="https://devtalk.kakao.com/t/ci/151656">카카오 데브톡 카카오 로그인 비용 답변</a></p>
 <p class="small">관련 글: <a href="1sec-signup-alternatives-cons.html">1초 회원가입 대안·단점·알파푸시 비교</a> · <a href="cafe24-simple-signup-apps.html">카페24 카카오 간편 회원가입 앱 추천·비교</a> · <a href="kakao-sync-cost.html">카카오싱크 비용</a> · <a href="cafe24-kakao-sync-setup.html">카카오싱크 연동 방법</a></p>
 </footer>
 </article>
 </main>
+<script>(function(){var g='https://go1sec.chapel-web.workers.dev',p='1sec-signup-pricing-cancel',r='';try{r=document.referrer?new URL(document.referrer).hostname:''}catch(e){}var u=g+'/v?p='+p+'&r='+encodeURIComponent(r);try{if(navigator.sendBeacon)navigator.sendBeacon(u);else fetch(u,{mode:'no-cors',keepalive:true})}catch(e){}document.querySelectorAll('a[href^="'+g+'/"]').forEach(function(a){a.href+=(a.href.indexOf('?')<0?'?':'&')+'r='+encodeURIComponent(r)})})();</script>
 </body>
 </html>

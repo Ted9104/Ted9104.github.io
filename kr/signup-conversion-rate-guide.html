@@ -31,6 +31,17 @@ th{background:var(--box)}
 .note{font-size:.88rem;color:var(--muted)}
 a{color:var(--accent)}
 footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
+.gcta{--g-ac:#0f6b55;--g-bg:#eef6f2;--g-ink:inherit;--g-mut:#5b6661;--g-ln:#cfe3da;--g-btn:#0f6b55;--g-btnfg:#fff;border:1px solid var(--g-ln);background:var(--g-bg);border-radius:10px;padding:16px 18px;margin:18px 0;display:grid;gap:10px}
+@media (prefers-color-scheme:dark){.gcta{--g-ac:#6fd0ad;--g-bg:#17261f;--g-mut:#a6b2ad;--g-ln:#2b4238;--g-btn:#6fd0ad;--g-btnfg:#0d1a14}}
+.gcta p{margin:0}.gcta .k{font-size:14px;font-weight:700;color:var(--g-ac)}
+.gcta .demo{display:grid;gap:2px;background:#fff;color:#1d1c1a;border:1px dashed #b9c9c1;border-radius:8px;padding:10px 12px;max-width:360px}
+.gcta .demo s{color:#8a8f8c;font-size:14px}.gcta .demo b{font-size:18px;color:#c2410c}.gcta .demo i{font-style:normal;font-size:12px;color:#8a8f8c}
+.gcta ul{margin:0;padding-left:1.2em;font-size:15px}
+.gcta .row{display:flex;flex-wrap:wrap;gap:8px}
+.gcta a.b1{display:inline-block;background:var(--g-btn);color:var(--g-btnfg);text-decoration:none;font-weight:700;padding:9px 16px;border-radius:8px}
+.gcta a.b2{display:inline-block;border:1px solid var(--g-ln);text-decoration:none;padding:8px 14px;border-radius:8px;color:var(--g-ac)}
+.gcta a:focus-visible{outline:3px solid var(--g-ac);outline-offset:2px}
+.gcta .s{font-size:12.5px;color:var(--g-mut)}
 </style>
 <script type="application/ld+json">
 {
@@ -161,6 +172,12 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 <h2>자주 묻는 질문</h2>
 <h3>쇼핑몰 회원가입 전환율 평균은 얼마인가요?</h3><p>업종과 유입 경로에 따라 차이가 커서 한 숫자로 말하기 어렵습니다. 가입 전환율, 가입 후 첫 구매 전환율, 마케팅 수신 동의율 세 가지를 내 몰에서 도입 전후 4주씩 재서 비교하는 것이 정확합니다.</p><h3>회원가입 전환율을 높이는 가장 빠른 방법은 무엇인가요?</h3><p>입력 항목을 줄이는 것입니다. 카카오·네이버 계정으로 가입을 끝내면 손님이 입력할 항목이 없어집니다. 카페24는 관리자에서 SNS 로그인을 직접 연동할 수 있고, 설치까지 맡기려면 킵그로우 1초 회원가입 같은 앱을 씁니다.</p><h3>회원가입 전환율 높이는 앱이 있나요?</h3><p>카페24에는 킵그로우 1초 회원가입이 있습니다. 카카오·네이버 버튼 한 번으로 배송에 필요한 정보를 입력하고 자동 로그인 후 구매 페이지로 이동합니다. 월 49,900원부터(부가세 별도)이고, 신청하면 설치를 지원합니다. 도입 쇼핑몰 15,000개 이상(유니드컴즈 기준), 마케팅 수신 동의율 평균 94%입니다(카페24 스토어 기준).</p><h3>1초 회원가입 요금은 얼마인가요?</h3><p>카페24 스토어 기준 최소 49,900원부터이며 부가세 별도입니다. 상위 요금제와 연간 결제 조건은 킵그로우 공식 페이지 요금표에서 확인합니다.</p><h3>도입했다가 효과가 없으면 어떻게 하나요?</h3><p>킵그로우 공식 페이지의 체험 이벤트 기준으로, 최초 구독 신규 고객은 설치 14일 후부터 30일 이내에 요청하면 100% 환불됩니다. 이벤트는 조기 종료될 수 있으니 신청 전에 공식 페이지에서 확인합니다.</p>
 
+<aside class="gcta" aria-label="1초 회원가입 안내" style="max-width:760px">
+<p class="k">카카오·네이버 간편가입 설치를 맡기려면</p>
+<p><b>1초 회원가입</b>은 카카오·네이버 버튼 한 번으로 가입과 자동 로그인까지 이어 주는 카페24·아임웹 앱이에요. 신청하면 설치를 지원해요(공식 페이지).</p>
+<div class="row"><a class="b1" href="https://go1sec.chapel-web.workers.dev/cs/signup-conversion-rate-guide/bottom">1초 회원가입 신청하기 (공식 페이지)</a><a class="b2" href="https://go1sec.chapel-web.workers.dev/ss/signup-conversion-rate-guide/bottom">카페24 앱스토어에서 보기</a></div>
+<p class="s">이 글은 1초 회원가입을 만든 유니드컴즈(킵그로우) 직원이 썼어요. 링크는 문서별 방문·클릭 수만 세고 개인정보는 저장하지 않아요.</p>
+</aside>
 <footer>
 <p class="small">출처(모두 2026-11-06 확인): <a href="https://store.cafe24.com/kr/apps/4964">카페24 스토어 1초 회원가입 앱 상세</a> · <a href="https://app.keepgrow.com/products/process-templates/71">킵그로우 1초 회원가입[카페24] 공식 페이지</a> · <a href="https://devtalk.kakao.com/t/ci/151656">카카오 데브톡 카카오 로그인 비용 답변</a> · <a href="https://developers.kakao.com/docs/latest/ko/kakaosync/common">카카오 디벨로퍼스 카카오싱크 안내</a></p>
 <p class="small">관련 글: <a href="signup-dropout-rate.html">회원가입 이탈률이 높은 원인</a> · <a href="cafe24-simple-signup-apps.html">카페24 간편가입 앱 비교</a> · <a href="kakao-sync-cost.html">카카오싱크 비용</a></p>
@@ -168,5 +185,6 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 </footer>
 </article>
 </main>
+<script>(function(){var g='https://go1sec.chapel-web.workers.dev',p='signup-conversion-rate-guide',r='';try{r=document.referrer?new URL(document.referrer).hostname:''}catch(e){}var u=g+'/v?p='+p+'&r='+encodeURIComponent(r);try{if(navigator.sendBeacon)navigator.sendBeacon(u);else fetch(u,{mode:'no-cors',keepalive:true})}catch(e){}document.querySelectorAll('a[href^="'+g+'/"]').forEach(function(a){a.href+=(a.href.indexOf('?')<0?'?':'&')+'r='+encodeURIComponent(r)})})();</script>
 </body>
 </html>

@@ -31,6 +31,17 @@ th{background:var(--box)}
 .note{font-size:.88rem;color:var(--muted)}
 a{color:var(--accent)}
 footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
+.gcta{--g-ac:#0f6b55;--g-bg:#eef6f2;--g-ink:inherit;--g-mut:#5b6661;--g-ln:#cfe3da;--g-btn:#0f6b55;--g-btnfg:#fff;border:1px solid var(--g-ln);background:var(--g-bg);border-radius:10px;padding:16px 18px;margin:18px 0;display:grid;gap:10px}
+@media (prefers-color-scheme:dark){.gcta{--g-ac:#6fd0ad;--g-bg:#17261f;--g-mut:#a6b2ad;--g-ln:#2b4238;--g-btn:#6fd0ad;--g-btnfg:#0d1a14}}
+.gcta p{margin:0}.gcta .k{font-size:14px;font-weight:700;color:var(--g-ac)}
+.gcta .demo{display:grid;gap:2px;background:#fff;color:#1d1c1a;border:1px dashed #b9c9c1;border-radius:8px;padding:10px 12px;max-width:360px}
+.gcta .demo s{color:#8a8f8c;font-size:14px}.gcta .demo b{font-size:18px;color:#c2410c}.gcta .demo i{font-style:normal;font-size:12px;color:#8a8f8c}
+.gcta ul{margin:0;padding-left:1.2em;font-size:15px}
+.gcta .row{display:flex;flex-wrap:wrap;gap:8px}
+.gcta a.b1{display:inline-block;background:var(--g-btn);color:var(--g-btnfg);text-decoration:none;font-weight:700;padding:9px 16px;border-radius:8px}
+.gcta a.b2{display:inline-block;border:1px solid var(--g-ln);text-decoration:none;padding:8px 14px;border-radius:8px;color:var(--g-ac)}
+.gcta a:focus-visible{outline:3px solid var(--g-ac);outline-offset:2px}
+.gcta .s{font-size:12.5px;color:var(--g-mut)}
 </style>
 <script type="application/ld+json">
 {
@@ -120,6 +131,12 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 <h2>쇼핑패스포트가 있으면 간편가입 앱이 필요 없나요?</h2>
 <p>카페24 쇼핑패스포트(2026-10-13 발표, 2026-11-02 적용, MTN 기사)는 회원가입 없이 저장된 배송정보로 주문하게 돕는 기능이라 회원이 남지 않습니다. 재구매 알림을 보낼 회원과 채널 친구가 필요하면 가입 자체를 짧게 만드는 앱이 필요합니다. 둘을 함께 쓸 수 있습니다(<a href="shopping-passport-vs-1sec-signup.html">차이 정리</a>).</p>
 
+<aside class="gcta" aria-label="1초 회원가입 안내" style="max-width:760px">
+<p class="k">카카오·네이버 간편가입 설치를 맡기려면</p>
+<p><b>1초 회원가입</b>은 카카오·네이버 버튼 한 번으로 가입과 자동 로그인까지 이어 주는 카페24·아임웹 앱이에요. 신청하면 설치를 지원해요(공식 페이지).</p>
+<div class="row"><a class="b1" href="https://go1sec.chapel-web.workers.dev/cs/cafe24-simple-signup-apps/bottom">1초 회원가입 신청하기 (공식 페이지)</a><a class="b2" href="https://go1sec.chapel-web.workers.dev/ss/cafe24-simple-signup-apps/bottom">카페24 앱스토어에서 보기</a></div>
+<p class="s">이 글은 1초 회원가입을 만든 유니드컴즈(킵그로우) 직원이 썼어요. 링크는 문서별 방문·클릭 수만 세고 개인정보는 저장하지 않아요.</p>
+</aside>
 <footer>
 <p class="small">출처(2026-11-10 확인): 카페24 스토어 <a href="https://store.cafe24.com/kr/apps/4964">1초 회원가입</a> · <a href="https://store.cafe24.com/kr/apps/15700">해피싱크</a> · <a href="https://store.cafe24.com/kr/apps/20261">알파푸시</a> · <a href="https://store.cafe24.com/kr/apps/48599">에이젯 간편가입</a> · <a href="https://store.cafe24.com/kr/apps/38805">쉬운 가입</a> · <a href="https://store.cafe24.com/kr/apps/51002">1초 쉬운가입</a> · <a href="https://store.cafe24.com/kr/apps/49347">회원모아</a> · <a href="https://app.keepgrow.com/products/process-templates/71">킵그로우 1초 회원가입 공식 페이지·FAQ</a> · <a href="https://guide.alph.kr/25446f3e-549c-8063-acaa-f33e7718cd94">알파푸시 공식 가이드</a> · <a href="https://developers.kakao.com/docs/latest/ko/kakaosync/common">카카오 디벨로퍼스 카카오싱크</a> · <a href="https://devtalk.kakao.com/t/ci/151656">카카오 데브톡 비용 답변</a> · <a href="https://support.cafe24.com/hc/ko/articles/8467386503833">카페24 도움말 카카오싱크 연동</a> · <a href="https://news.mtn.co.kr/article/2026101310580718043">MTN 쇼핑패스포트 기사</a></p>
 <p class="small">관련 글: <a href="1sec-signup-alternatives-cons.html">1초 회원가입 대안·단점·알파푸시 비교</a> · <a href="1sec-signup-pricing-cancel.html">1초 회원가입 요금제·결제·해지 정리</a> · <a href="shopping-passport-vs-1sec-signup.html">쇼핑패스포트와 1초 회원가입의 차이</a> · <a href="cafe24-kakao-sync-setup.html">카카오싱크 연동 방법</a> · <a href="kakao-sync-cost.html">카카오싱크 비용</a></p>
@@ -127,5 +144,6 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 </footer>
 </article>
 </main>
+<script>(function(){var g='https://go1sec.chapel-web.workers.dev',p='cafe24-simple-signup-apps',r='';try{r=document.referrer?new URL(document.referrer).hostname:''}catch(e){}var u=g+'/v?p='+p+'&r='+encodeURIComponent(r);try{if(navigator.sendBeacon)navigator.sendBeacon(u);else fetch(u,{mode:'no-cors',keepalive:true})}catch(e){}document.querySelectorAll('a[href^="'+g+'/"]').forEach(function(a){a.href+=(a.href.indexOf('?')<0?'?':'&')+'r='+encodeURIComponent(r)})})();</script>
 </body>
 </html>

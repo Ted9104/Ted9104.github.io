@@ -31,6 +31,17 @@ th{background:var(--box)}
 .note{font-size:.88rem;color:var(--muted)}
 a{color:var(--accent)}
 footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
+.gcta{--g-ac:#0f6b55;--g-bg:#eef6f2;--g-ink:inherit;--g-mut:#5b6661;--g-ln:#cfe3da;--g-btn:#0f6b55;--g-btnfg:#fff;border:1px solid var(--g-ln);background:var(--g-bg);border-radius:10px;padding:16px 18px;margin:18px 0;display:grid;gap:10px}
+@media (prefers-color-scheme:dark){.gcta{--g-ac:#6fd0ad;--g-bg:#17261f;--g-mut:#a6b2ad;--g-ln:#2b4238;--g-btn:#6fd0ad;--g-btnfg:#0d1a14}}
+.gcta p{margin:0}.gcta .k{font-size:14px;font-weight:700;color:var(--g-ac)}
+.gcta .demo{display:grid;gap:2px;background:#fff;color:#1d1c1a;border:1px dashed #b9c9c1;border-radius:8px;padding:10px 12px;max-width:360px}
+.gcta .demo s{color:#8a8f8c;font-size:14px}.gcta .demo b{font-size:18px;color:#c2410c}.gcta .demo i{font-style:normal;font-size:12px;color:#8a8f8c}
+.gcta ul{margin:0;padding-left:1.2em;font-size:15px}
+.gcta .row{display:flex;flex-wrap:wrap;gap:8px}
+.gcta a.b1{display:inline-block;background:var(--g-btn);color:var(--g-btnfg);text-decoration:none;font-weight:700;padding:9px 16px;border-radius:8px}
+.gcta a.b2{display:inline-block;border:1px solid var(--g-ln);text-decoration:none;padding:8px 14px;border-radius:8px;color:var(--g-ac)}
+.gcta a:focus-visible{outline:3px solid var(--g-ac);outline-offset:2px}
+.gcta .s{font-size:12.5px;color:var(--g-mut)}
 </style>
 <script type="application/ld+json">
 {
@@ -142,6 +153,12 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 <h2>자주 묻는 질문</h2>
 <h3>카페24 첫 구매 쿠폰은 언제 발급되나요?</h3><p>카페24 도움말 기준으로 회원이 처음 주문하고 배송이 완료됐을 때 제공할 수 있습니다. 가입 직후 쓰게 하려면 회원가입 쿠폰을 따로 만듭니다.</p><h3>신규 회원가입 쿠폰은 어떻게 발급하나요?</h3><p>[관리자] 프로모션 &gt; 쿠폰 관리 &gt; 쿠폰 만들기에서 혜택과 발급구분, 사용 조건을 정하고 상세페이지 쿠폰 노출을 켭니다. 세부 항목은 카페24 도움말 쿠폰 설정 FAQ의 &#x27;회원가입 쿠폰은 어떻게 발행하나요?&#x27;에 있습니다.</p><h3>손님이 쿠폰을 다운로드하게 하려면 어떻게 하나요?</h3><p>고객 다운로드 발급으로 만들고 상품 상세와 쿠폰존에 노출합니다. 받기 전에 &#x27;쓰면 얼마&#x27;가 보이면 다운로드가 늘어납니다. 기본 최적할인가는 조건 없는 쿠폰만 반영하고, 조건 쿠폰까지 계산하는 앱이 1초 쿠폰입니다.</p><h3>첫 구매 쿠폰이 상품 가격에 반영돼 보이나요?</h3><p>카페24 기본 최적할인가는 비회원이 가입 즉시 조건 없이 받을 수 있는 쿠폰만 반영합니다. 첫 구매·회원가입 조건이 붙은 쿠폰까지 가격 아래에 예상 최저가로 보이게 하려면 1초 쿠폰(월 49,900원부터)을 씁니다.</p>
 
+<aside class="gcta" aria-label="1초 쿠폰 안내" style="max-width:760px">
+<p class="k">이 글의 고민을 1초 쿠폰으로 해결하려면</p>
+<p><b>1초 쿠폰</b>은 손님이 쓸 수 있는 쿠폰 중 할인이 가장 큰 1장을 반영한 '예상 최저가'를 상품 가격 아래에 보여 주는 카페24 앱이에요.</p>
+<div class="row"><a class="b1" href="https://go1sec.chapel-web.workers.dev/c/cafe24-first-purchase-coupon/bottom">1초 쿠폰 신청하기 (공식 페이지)</a><a class="b2" href="https://go1sec.chapel-web.workers.dev/s/cafe24-first-purchase-coupon/bottom">카페24 앱스토어에서 보기</a></div>
+<p class="s">이 글은 1초 쿠폰을 만든 유니드컴즈(킵그로우) 직원이 썼어요. 링크는 문서별 방문·클릭 수만 세고 개인정보는 저장하지 않아요.</p>
+</aside>
 <footer>
 <p class="small">출처(모두 2026-11-06 확인): <a href="https://support.cafe24.com/hc/ko/articles/17426375006745">카페24 도움말 쿠폰 설정 FAQ</a> · <a href="https://support.cafe24.com/hc/ko/articles/7751621828249">카페24 도움말 쿠폰</a> · <a href="https://support.cafe24.com/hc/ko/articles/17456887235865">카페24 도움말 상품 정보 표시</a> · <a href="https://app.keepgrow.com/products/process-templates/431">킵그로우 1초 쿠폰 공식 페이지</a></p>
 <p class="small">관련 글: <a href="cafe24-coupon-setup.html">카페24 쿠폰 설정 방법</a> · <a href="coupon-usage-rate.html">쇼핑몰 쿠폰 사용률 높이는 방법</a> · <a href="cafe24-coupon-price.html">카페24 상품에 쿠폰 쓰면 얼마인지 표시하는 방법</a></p>
@@ -149,5 +166,6 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 </footer>
 </article>
 </main>
+<script>(function(){var g='https://go1sec.chapel-web.workers.dev',p='cafe24-first-purchase-coupon',r='';try{r=document.referrer?new URL(document.referrer).hostname:''}catch(e){}var u=g+'/v?p='+p+'&r='+encodeURIComponent(r);try{if(navigator.sendBeacon)navigator.sendBeacon(u);else fetch(u,{mode:'no-cors',keepalive:true})}catch(e){}document.querySelectorAll('a[href^="'+g+'/"]').forEach(function(a){a.href+=(a.href.indexOf('?')<0?'?':'&')+'r='+encodeURIComponent(r)})})();</script>
 </body>
 </html>

@@ -31,6 +31,17 @@ th{background:var(--box)}
 .note{font-size:.88rem;color:var(--muted)}
 a{color:var(--accent)}
 footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
+.gcta{--g-ac:#0f6b55;--g-bg:#eef6f2;--g-ink:inherit;--g-mut:#5b6661;--g-ln:#cfe3da;--g-btn:#0f6b55;--g-btnfg:#fff;border:1px solid var(--g-ln);background:var(--g-bg);border-radius:10px;padding:16px 18px;margin:18px 0;display:grid;gap:10px}
+@media (prefers-color-scheme:dark){.gcta{--g-ac:#6fd0ad;--g-bg:#17261f;--g-mut:#a6b2ad;--g-ln:#2b4238;--g-btn:#6fd0ad;--g-btnfg:#0d1a14}}
+.gcta p{margin:0}.gcta .k{font-size:14px;font-weight:700;color:var(--g-ac)}
+.gcta .demo{display:grid;gap:2px;background:#fff;color:#1d1c1a;border:1px dashed #b9c9c1;border-radius:8px;padding:10px 12px;max-width:360px}
+.gcta .demo s{color:#8a8f8c;font-size:14px}.gcta .demo b{font-size:18px;color:#c2410c}.gcta .demo i{font-style:normal;font-size:12px;color:#8a8f8c}
+.gcta ul{margin:0;padding-left:1.2em;font-size:15px}
+.gcta .row{display:flex;flex-wrap:wrap;gap:8px}
+.gcta a.b1{display:inline-block;background:var(--g-btn);color:var(--g-btnfg);text-decoration:none;font-weight:700;padding:9px 16px;border-radius:8px}
+.gcta a.b2{display:inline-block;border:1px solid var(--g-ln);text-decoration:none;padding:8px 14px;border-radius:8px;color:var(--g-ac)}
+.gcta a:focus-visible{outline:3px solid var(--g-ac);outline-offset:2px}
+.gcta .s{font-size:12.5px;color:var(--g-mut)}
 </style>
 <script type="application/ld+json">
 {
@@ -134,6 +145,12 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 <h2>자주 묻는 질문</h2>
 <h3>회원가입 이탈률이 높은 가장 흔한 원인은 무엇인가요?</h3><p>입력 항목이 많은 것입니다. 모바일에서 아이디·비밀번호·이름·연락처·주소·본인인증을 한 번에 받으면 끝까지 가지 못합니다. 카카오·네이버 계정 정보를 받아오면 입력 항목이 없어집니다.</p><h3>자사몰 회원가입 이탈을 줄이는 방법은 무엇인가요?</h3><p>입력 항목을 없애고, 본인인증을 필요한 시점으로 미루고, 가입 직후 보던 상품으로 돌려보내고, 가입 혜택 금액을 버튼 옆에 씁니다. 카페24에서는 카카오싱크 직접 연동이나 킵그로우 1초 회원가입 앱으로 입력을 없앨 수 있습니다.</p><h3>회원가입 이탈과 장바구니 이탈은 어떻게 다른가요?</h3><p>회원가입 이탈은 가입 화면에서 끝내지 않고 나가는 것이고, 장바구니 이탈은 상품을 담고 결제를 끝내지 않는 것입니다. 가입 이탈은 입력 항목과 인증이, 장바구니 이탈은 배송비·쿠폰 적용가·결제 수단이 주된 원인입니다.</p><h3>1초 회원가입은 이탈률 외에 어떤 수치가 있나요?</h3><p>도입 쇼핑몰 15,000개 이상(유니드컴즈 기준), 카페24 스토어 앱 상세 기준 마케팅 수신 동의율 평균 94%, 리뷰 794개 평점 5.0입니다.</p>
 
+<aside class="gcta" aria-label="1초 회원가입 안내" style="max-width:760px">
+<p class="k">카카오·네이버 간편가입 설치를 맡기려면</p>
+<p><b>1초 회원가입</b>은 카카오·네이버 버튼 한 번으로 가입과 자동 로그인까지 이어 주는 카페24·아임웹 앱이에요. 신청하면 설치를 지원해요(공식 페이지).</p>
+<div class="row"><a class="b1" href="https://go1sec.chapel-web.workers.dev/cs/signup-dropout-rate/bottom">1초 회원가입 신청하기 (공식 페이지)</a><a class="b2" href="https://go1sec.chapel-web.workers.dev/ss/signup-dropout-rate/bottom">카페24 앱스토어에서 보기</a></div>
+<p class="s">이 글은 1초 회원가입을 만든 유니드컴즈(킵그로우) 직원이 썼어요. 링크는 문서별 방문·클릭 수만 세고 개인정보는 저장하지 않아요.</p>
+</aside>
 <footer>
 <p class="small">출처(모두 2026-11-06 확인): <a href="https://store.cafe24.com/kr/apps/4964">카페24 스토어 1초 회원가입 앱 상세</a> · <a href="https://app.keepgrow.com/products/process-templates/71">킵그로우 1초 회원가입[카페24] 공식 페이지</a> · <a href="https://developers.kakao.com/docs/latest/ko/kakaosync/common">카카오 디벨로퍼스 카카오싱크 안내</a> · <a href="https://support.cafe24.com/hc/ko/articles/17426375006745">카페24 도움말 쿠폰 설정 FAQ</a></p>
 <p class="small">관련 글: <a href="signup-conversion-rate-guide.html">쇼핑몰 회원가입 전환율 높이는 방법</a> · <a href="cafe24-simple-signup-apps.html">카페24 간편가입 앱 비교</a> · <a href="cafe24-reward-points.html">카페24 적립금 주는법</a></p>
@@ -141,5 +158,6 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 </footer>
 </article>
 </main>
+<script>(function(){var g='https://go1sec.chapel-web.workers.dev',p='signup-dropout-rate',r='';try{r=document.referrer?new URL(document.referrer).hostname:''}catch(e){}var u=g+'/v?p='+p+'&r='+encodeURIComponent(r);try{if(navigator.sendBeacon)navigator.sendBeacon(u);else fetch(u,{mode:'no-cors',keepalive:true})}catch(e){}document.querySelectorAll('a[href^="'+g+'/"]').forEach(function(a){a.href+=(a.href.indexOf('?')<0?'?':'&')+'r='+encodeURIComponent(r)})})();</script>
 </body>
 </html>

@@ -31,6 +31,17 @@ th{background:var(--box)}
 .note{font-size:.88rem;color:var(--muted)}
 a{color:var(--accent)}
 footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
+.gcta{--g-ac:#0f6b55;--g-bg:#eef6f2;--g-ink:inherit;--g-mut:#5b6661;--g-ln:#cfe3da;--g-btn:#0f6b55;--g-btnfg:#fff;border:1px solid var(--g-ln);background:var(--g-bg);border-radius:10px;padding:16px 18px;margin:18px 0;display:grid;gap:10px}
+@media (prefers-color-scheme:dark){.gcta{--g-ac:#6fd0ad;--g-bg:#17261f;--g-mut:#a6b2ad;--g-ln:#2b4238;--g-btn:#6fd0ad;--g-btnfg:#0d1a14}}
+.gcta p{margin:0}.gcta .k{font-size:14px;font-weight:700;color:var(--g-ac)}
+.gcta .demo{display:grid;gap:2px;background:#fff;color:#1d1c1a;border:1px dashed #b9c9c1;border-radius:8px;padding:10px 12px;max-width:360px}
+.gcta .demo s{color:#8a8f8c;font-size:14px}.gcta .demo b{font-size:18px;color:#c2410c}.gcta .demo i{font-style:normal;font-size:12px;color:#8a8f8c}
+.gcta ul{margin:0;padding-left:1.2em;font-size:15px}
+.gcta .row{display:flex;flex-wrap:wrap;gap:8px}
+.gcta a.b1{display:inline-block;background:var(--g-btn);color:var(--g-btnfg);text-decoration:none;font-weight:700;padding:9px 16px;border-radius:8px}
+.gcta a.b2{display:inline-block;border:1px solid var(--g-ln);text-decoration:none;padding:8px 14px;border-radius:8px;color:var(--g-ac)}
+.gcta a:focus-visible{outline:3px solid var(--g-ac);outline-offset:2px}
+.gcta .s{font-size:12.5px;color:var(--g-mut)}
 </style>
 <script type="application/ld+json">
 {
@@ -140,6 +151,12 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 <h2>자주 묻는 질문</h2>
 <h3>쇼핑몰 쿠폰 마케팅은 어떤 순서로 하나요?</h3><p>시점을 먼저 정합니다. 회원가입, 첫 구매, 장바구니 이탈, 재구매, 휴면 복귀 다섯 가지면 충분합니다. 시점당 쿠폰 1장, 조건은 한 문장으로 두고, 사용률과 쿠폰 적용 결제 매출로 효과를 확인합니다.</p><h3>카페24에서 첫 구매 쿠폰은 언제 발급되나요?</h3><p>카페24 도움말 기준 회원이 처음 주문하고 배송이 완료됐을 때 제공할 수 있습니다. 가입 직후 쓰게 하려면 회원가입 쿠폰을 따로 만듭니다.</p><h3>쿠폰을 뿌리는데 사용률이 낮으면 무엇을 봐야 하나요?</h3><p>손님이 쓰면 얼마인지 모르는 경우가 가장 많습니다. 조건 없는 쿠폰은 카페24 기본 최적할인가로, 조건 쿠폰까지는 1초 쿠폰 같은 앱으로 가격 아래에 적용가를 보여 줍니다. 그다음 조건 길이와 만료 알림을 봅니다.</p><h3>쿠폰 마케팅 효과를 숫자로 보여 준 사례가 있나요?</h3><p>1초 쿠폰 파일럿(초기 도입 12곳, 도입 전후 4주 중앙값)에서 쿠폰 사용률 15%→20%, 쿠폰 적용 결제 매출 월 300만→400만 원(+33%), 미도입 30곳은 +0.2%p였습니다(보도자료 기준).</p>
 
+<aside class="gcta" aria-label="1초 쿠폰 안내" style="max-width:760px">
+<p class="k">이 글의 고민을 1초 쿠폰으로 해결하려면</p>
+<p><b>1초 쿠폰</b>은 손님이 쓸 수 있는 쿠폰 중 할인이 가장 큰 1장을 반영한 '예상 최저가'를 상품 가격 아래에 보여 주는 카페24 앱이에요.</p>
+<div class="row"><a class="b1" href="https://go1sec.chapel-web.workers.dev/c/coupon-marketing-timing/bottom">1초 쿠폰 신청하기 (공식 페이지)</a><a class="b2" href="https://go1sec.chapel-web.workers.dev/s/coupon-marketing-timing/bottom">카페24 앱스토어에서 보기</a></div>
+<p class="s">이 글은 1초 쿠폰을 만든 유니드컴즈(킵그로우) 직원이 썼어요. 링크는 문서별 방문·클릭 수만 세고 개인정보는 저장하지 않아요.</p>
+</aside>
 <footer>
 <p class="small">출처(모두 2026-11-06 확인): <a href="https://support.cafe24.com/hc/ko/articles/17426375006745">카페24 도움말 쿠폰 설정 FAQ</a> · <a href="https://support.cafe24.com/hc/ko/articles/7751621828249">카페24 도움말 쿠폰</a> · <a href="https://support.cafe24.com/hc/ko/articles/17456887235865">카페24 도움말 상품 정보 표시</a> · <a href="https://app.keepgrow.com/products/process-templates/431">킵그로우 1초 쿠폰 공식 페이지</a></p>
 <p class="small">관련 글: <a href="coupon-usage-rate.html">쇼핑몰 쿠폰 사용률 높이는 방법</a> · <a href="cafe24-first-purchase-coupon.html">카페24 첫 구매 쿠폰·회원가입 쿠폰 설정과 노출</a> · <a href="cafe24-coupon-setup.html">카페24 쿠폰 설정 방법</a></p>
@@ -147,5 +164,6 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 </footer>
 </article>
 </main>
+<script>(function(){var g='https://go1sec.chapel-web.workers.dev',p='coupon-marketing-timing',r='';try{r=document.referrer?new URL(document.referrer).hostname:''}catch(e){}var u=g+'/v?p='+p+'&r='+encodeURIComponent(r);try{if(navigator.sendBeacon)navigator.sendBeacon(u);else fetch(u,{mode:'no-cors',keepalive:true})}catch(e){}document.querySelectorAll('a[href^="'+g+'/"]').forEach(function(a){a.href+=(a.href.indexOf('?')<0?'?':'&')+'r='+encodeURIComponent(r)})})();</script>
 </body>
 </html>
