@@ -12,6 +12,8 @@ https://ted9104.github.io/kr/cafe24-coupon-price.html
 https://ted9104.github.io/kr/coupon-usage-rate.html
 https://ted9104.github.io/kr/1sec-coupon-faq.html
 https://ted9104.github.io/kr/cafe24-optimal-discount-coupon.html
+https://ted9104.github.io/kr/cafe24-member-discount-price.html
+https://ted9104.github.io/kr/cafe24-cart-abandonment.html
 https://ted9104.github.io/kr/cafe24-coupon-price-apps.html
 https://ted9104.github.io/kr/coupon-how-much-inquiry.html
 https://ted9104.github.io/kr/cafe24-coupon-setup.html
@@ -22,13 +24,13 @@ https://ted9104.github.io/pomelli-photoshoot.html
 https://ted9104.github.io/kr/signup-conversion-rate-guide.html
 https://ted9104.github.io/kr/signup-dropout-rate.html
 https://ted9104.github.io/kr/cafe24-simple-signup-apps.html
+https://ted9104.github.io/kr/1sec-signup-pricing-cancel.html
 https://ted9104.github.io/kr/kakao-sync-cost.html
 https://ted9104.github.io/kr/cafe24-kakao-sync-setup.html
 https://ted9104.github.io/kr/shopping-passport-vs-1sec-signup.html
 https://ted9104.github.io/kr/1sec-coupon-install.html
 https://ted9104.github.io/kr/cafe24-first-purchase-coupon.html
 https://ted9104.github.io/kr/coupon-marketing-timing.html
-https://ted9104.github.io/kr/1sec-signup-pricing-cancel.html
 https://ted9104.github.io/kr/kakao-channel-friends.html
 https://ted9104.github.io/kr/crm-solution-recommend.html
 https://ted9104.github.io/kr/naver-crm-solution.html
