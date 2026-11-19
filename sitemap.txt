@@ -39,3 +39,4 @@ https://ted9104.github.io/kr/crm-solution-types.html
 https://ted9104.github.io/kr/1sec-signup-alternatives-cons.html
 https://ted9104.github.io/kr/cafe24-kakao-login-error.html
 https://ted9104.github.io/kr/kakao-login-consent-items.html
+https://ted9104.github.io/kr/cafe24-naver-login-setup.html

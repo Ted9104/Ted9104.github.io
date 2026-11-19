@@ -50,7 +50,7 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
   "headline": "카페24 카카오 로그인 연동 방법·안 될 때 해결 (2026)",
   "inLanguage": "ko-KR",
   "datePublished": "2026-11-13",
-  "dateModified": "2026-11-13",
+  "dateModified": "2026-11-19",
   "author": {"@type": "Organization", "name": "킵그로우 팀", "parentOrganization": {"@type": "Organization", "name": "유니드컴즈"}},
   "citation": [
     "https://support.cafe24.com/hc/ko/articles/7751406614809",
@@ -71,16 +71,78 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {"@type": "Question", "name": "카페24 쇼핑몰에 카카오 로그인 연동하는 방법 알려주세요",
-     "acceptedAnswer": {"@type": "Answer", "text": "카카오 디벨로퍼스에서 앱을 만들고 REST API 키를 확인한 뒤, 쇼핑몰 도메인(Web 플랫폼)과 Redirect URI를 등록하고 카카오 로그인 상태를 ON으로 둡니다. 그다음 카페24 관리자 쇼핑몰 설정 > 고객 설정 > 회원 가입·로그인 > SNS 로그인 연동 관리에서 카카오를 '사용함'으로 바꾸고 키를 넣어 저장합니다. 마지막으로 로그인 화면 디자인에 SNS 로그인 버튼을 적용해야 버튼이 보입니다. 카카오싱크는 카페24 관리자의 간편설정으로 앱·채널·동의항목을 한 번에 설정합니다."}},
-    {"@type": "Question", "name": "카페24 카카오톡 로그인 연동 문제, 원인별로 어떻게 고쳐요?",
-     "acceptedAnswer": {"@type": "Answer", "text": "카페24 도움말과 카카오 디벨로퍼스 문서가 안내하는 원인은 로그인 화면 디자인 미적용, Redirect URI 미등록(KOE006), 사이트 도메인 미등록(KOE009), 카카오 로그인 비활성화(KOE004), 잘못된 앱 키(KOE101), 설정하지 않은 동의항목 요청(KOE205), 카카오싱크에서 Client Secret 사용(Bad client credentials)입니다. 화면에 뜬 에러 코드나 문구로 원인을 찾고 해당 설정을 고칩니다."}},
-    {"@type": "Question", "name": "카카오 로그인 버튼이 쇼핑몰에 안 보여요. 왜 그래요?",
-     "acceptedAnswer": {"@type": "Answer", "text": "SNS 로그인 연동을 '사용함'으로 저장해도 로그인 화면 디자인에 버튼을 따로 적용해야 보입니다. 관리자 디자인 > 디자인 보관함에서 대표 디자인의 '편집'을 눌러 스마트디자인 편집창을 열고, 자주 쓰는 화면 > 로그인 > 회원 로그인 영역 '편집' > 꾸미기 탭 > SNS 로그인 디자인을 골라 적용합니다. PC와 모바일 디자인을 각각 설정합니다."}},
-    {"@type": "Question", "name": "스킨 바꾸고 나서 카페24 카카오 로그인이 안 돼요. 어떻게 고쳐요?",
-     "acceptedAnswer": {"@type": "Answer", "text": "버튼 설정은 대표 디자인 기준이라 새 스킨을 대표 디자인으로 바꿨다면 새 스킨에서 SNS 로그인 디자인을 다시 적용합니다. 카카오싱크를 쓰는데 '일시적으로 카카오로그인을 사용할 수 없습니다' 메시지가 뜨면 카페24 도움말대로 mapping_login.html과 mapping_login_kakao.css 파일을 추가합니다. 기존 계정 연동 때 로그인 화면만 반복되면 /member/login.html에 아이디·비밀번호 입력란이 있는지 확인합니다. 카카오 앱이나 연동 설정은 바꾸지 않습니다."}},
-    {"@type": "Question", "name": "쇼핑몰 카카오톡 로그인 중요한가요?",
-     "acceptedAnswer": {"@type": "Answer", "text": "카페24 도움말은 SNS 로그인으로 고객이 기존 계정으로 바로 가입·로그인할 수 있고, 재방문율 증가, 빠른 신규 회원 확보, 회원가입·로그인 문의 감소를 기대할 수 있다고 안내합니다. 다만 생년월일·본인 인증 정보를 못 받을 수 있어 성인 인증이 필요한 쇼핑몰에는 쓸 수 없습니다."}}
+    {
+      "@type": "Question",
+      "name": "카페24 쇼핑몰에 카카오 로그인 연동하는 방법 알려주세요",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "카카오 디벨로퍼스에서 앱을 만들고 REST API 키를 확인한 뒤, 쇼핑몰 도메인(Web 플랫폼)과 Redirect URI를 등록하고 카카오 로그인 상태를 ON으로 둡니다. 그다음 카페24 관리자 쇼핑몰 설정 > 고객 설정 > 회원 가입·로그인 > SNS 로그인 연동 관리에서 카카오를 '사용함'으로 바꾸고 키를 넣어 저장합니다. 마지막으로 로그인 화면 디자인에 SNS 로그인 버튼을 적용해야 버튼이 보입니다. 카카오싱크는 카페24 관리자의 간편설정으로 앱·채널·동의항목을 한 번에 설정합니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "카페24 카카오 로그인 오류, 카카오톡 로그인 연동 문제는 원인별로 어떻게 고쳐요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "카페24 도움말과 카카오 디벨로퍼스 문서가 안내하는 원인은 로그인 화면 디자인 미적용, Redirect URI 미등록(KOE006), 사이트 도메인 미등록(KOE009), 카카오 로그인 비활성화(KOE004), 잘못된 앱 키(KOE101), 설정하지 않은 동의항목 요청(KOE205), 카카오싱크에서 Client Secret 사용(Bad client credentials)입니다. 화면에 뜬 에러 코드나 문구로 원인을 찾고 해당 설정을 고칩니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "카카오 로그인 버튼이 쇼핑몰에 안 보여요. 왜 그래요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "SNS 로그인 연동을 '사용함'으로 저장해도 로그인 화면 디자인에 버튼을 따로 적용해야 보입니다. 관리자 디자인 > 디자인 보관함에서 대표 디자인의 '편집'을 눌러 스마트디자인 편집창을 열고, 자주 쓰는 화면 > 로그인 > 회원 로그인 영역 '편집' > 꾸미기 탭 > SNS 로그인 디자인을 골라 적용합니다. PC와 모바일 디자인을 각각 설정합니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "스킨 변경 후 카카오 로그인이 안 보여요. 어떻게 고쳐요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "버튼 설정은 대표 디자인 기준이라 새 스킨을 대표 디자인으로 바꿨다면 새 스킨에서 SNS 로그인 디자인을 다시 적용합니다. 카카오싱크를 쓰는데 '일시적으로 카카오로그인을 사용할 수 없습니다' 메시지가 뜨면 카페24 도움말대로 mapping_login.html과 mapping_login_kakao.css 파일을 추가합니다. 기존 계정 연동 때 로그인 화면만 반복되면 /member/login.html에 아이디·비밀번호 입력란이 있는지 확인합니다. 카카오 앱이나 연동 설정은 바꾸지 않습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "쇼핑몰 카카오톡 로그인 중요한가요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "카페24 도움말은 SNS 로그인으로 고객이 기존 계정으로 바로 가입·로그인할 수 있고, 재방문율 증가, 빠른 신규 회원 확보, 회원가입·로그인 문의 감소를 기대할 수 있다고 안내합니다. 다만 생년월일·본인 인증 정보를 못 받을 수 있어 성인 인증이 필요한 쇼핑몰에는 쓸 수 없습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "카카오 로그인 연동은 어떤 순서로 하나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "카카오 디벨로퍼스 기준 순서는 앱 만들기, 사이트 도메인과 Redirect URI 등록, 카카오 로그인 활성화(ON), 받을 동의항목 설정입니다. 그다음 쓰고 있는 쇼핑몰 관리자에 REST API 키를 넣고, 로그인 화면에 카카오 로그인 버튼을 붙이면 연동이 끝납니다. Redirect URI 형식은 호스팅사마다 달라서 카페24는 도메인 뒤에 /Api/Member/Oauth2ClientCallback/kakao/를 붙이고, 다른 호스팅사는 그 회사 도움말의 주소를 씁니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "카카오 로그인 KOE006 오류는 왜 뜨나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "KOE006은 앱에 등록하지 않은 Redirect URI로 로그인을 요청했을 때 뜨는 오류입니다(카카오 디벨로퍼스 문제 해결 문서). 카카오 디벨로퍼스 [앱] > [플랫폼 키] > [REST API 키]의 리다이렉트 URI에 쇼핑몰이 쓰는 주소를 빠짐없이 등록하면 풀립니다. 카페24는 등록한 도메인마다 /Api/Member/Oauth2ClientCallback/kakao/를 붙여 넣고, SSL을 쓰면 http·https를, www·m·멀티샵 같은 2차 도메인도 모두 넣습니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "카페24 SNS 로그인 오류는 어떻게 해결하나요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "먼저 어느 SNS에서 난 오류인지 나눕니다. 카카오는 화면에 뜬 KOE 코드나 문구로 위 표에서 원인을 찾고, 네이버는 네이버 개발자센터에 등록한 서비스 URL과 Callback URL에 지금 쓰는 쇼핑몰 도메인이 모두 들어 있는지 봅니다. 두 SNS 모두 연동을 '사용함'으로 저장해도 로그인 화면 디자인에 SNS 로그인 버튼을 적용해야 버튼이 보입니다."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "PC에서 SNS 로그인이 안 보여요. 모바일은 보이는데 왜 그래요?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "카페24는 PC와 모바일 디자인을 따로 설정하므로 SNS 로그인 디자인도 각각 적용해야 합니다. 모바일에만 적용했다면 디자인 보관함의 PC 대표 디자인을 열고 로그인 > 회원 로그인 영역 '편집' > 꾸미기 탭에서 SNS 로그인 디자인을 적용합니다. 최근 PC 대표 디자인(스킨)을 바꿨다면 새 대표 디자인에도 다시 적용합니다."
+      }
+    }
   ]
 }
 </script>
@@ -90,7 +152,7 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 <article>
 <h1>카페24 카카오 로그인 연동 방법과 안 될 때 해결 (2026)</h1>
 <p class="disclosure">이 글은 1초 회원가입을 만든 유니드컴즈(킵그로우) 직원이 카페24 도움말과 카카오 디벨로퍼스 문서를 기준으로 정리했습니다.</p>
-<p class="meta">작성 킵그로우 팀 · 작성일 2026-11-13 · 마지막 확인 2026-11-13</p>
+<p class="meta">작성 킵그로우 팀 · 작성일 2026-11-13 · 마지막 확인 2026-11-13 · 수정 2026-11-19</p>
 
 <div class="answer"><p>카카오 디벨로퍼스에서 앱을 만들어 <strong>REST API 키, 쇼핑몰 도메인, Redirect URI</strong>를 등록하고, 카페24 관리자 <strong>SNS 로그인 연동 관리</strong>에서 카카오를 '사용함'으로 저장한 뒤 <strong>로그인 화면 디자인에 SNS 버튼을 적용</strong>하면 연동됩니다. 안 될 때 공식 문서가 짚는 원인은 버튼 디자인 미적용(스킨 변경 포함), Redirect URI·도메인 미등록, 카카오 로그인 비활성화, 앱 키 오류, Client Secret 설정입니다.</p></div>
 
@@ -109,7 +171,10 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 <p class="note">SNS 로그인을 쓰면 SNS에서 받는 개인정보 항목을 쇼핑몰 개인정보 처리방침에 적어야 합니다(카페24 도움말).</p>
 <p>카카오싱크(가입 동의 화면과 채널 추가까지 묶은 방식)는 카페24 관리자 SNS 로그인 연동 관리의 '카카오싱크 간편설정'으로 진행합니다. 대표 운영자 계정으로 해야 하고, 쇼핑몰 정보에 사업자등록번호를 하이픈 포함해 정확히 넣어야 신청됩니다. 자세한 단계는 <a href="cafe24-kakao-sync-setup.html">카페24 카카오싱크 연동 방법</a>에 정리했습니다.</p>
 
-<h2>카페24 카카오톡 로그인 연동 문제, 원인별로 어떻게 고쳐요?</h2>
+<h2>카카오 로그인 연동은 어떤 순서로 하나요?</h2>
+<p>카카오 디벨로퍼스 기준 순서는 앱 만들기, 사이트 도메인과 Redirect URI 등록, 카카오 로그인 활성화(ON), 받을 동의항목 설정입니다. 그다음 쓰고 있는 쇼핑몰 관리자에 REST API 키를 넣고, 로그인 화면에 카카오 로그인 버튼을 붙이면 연동이 끝납니다. Redirect URI 형식은 호스팅사마다 달라서 카페24는 도메인 뒤에 <code>/Api/Member/Oauth2ClientCallback/kakao/</code>를 붙이고, 다른 호스팅사는 그 회사 도움말의 주소를 씁니다.</p>
+
+<h2>카페24 카카오 로그인 오류, 카카오톡 로그인 연동 문제는 원인별로 어떻게 고쳐요?</h2>
 <p>카페24 도움말과 카카오 디벨로퍼스 문서가 안내하는 원인은 로그인 화면 디자인 미적용, Redirect URI 미등록(KOE006), 사이트 도메인 미등록(KOE009), 카카오 로그인 비활성화(KOE004), 잘못된 앱 키(KOE101), 설정하지 않은 동의항목 요청(KOE205), 카카오싱크에서 Client Secret 사용(Bad client credentials)입니다. 화면에 뜬 에러 코드나 문구로 원인을 찾고 해당 설정을 고칩니다.</p>
 <div class="tablewrap"><table>
 <tr><th>증상</th><th>원인</th><th>해결</th></tr>
@@ -125,6 +190,16 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 </table></div>
 <p class="note">KOE 코드 설명은 카카오 디벨로퍼스 문제 해결 문서, 그 밖의 행은 카페24 도움말 기준입니다(2026-11-13 확인). 카카오 운영 정책상 금지된 사이트에 해당하면 카카오 로그인 자체가 차단될 수 있습니다(카페24 도움말).</p>
 
+<h2>카카오 로그인 KOE006 오류는 왜 뜨나요?</h2>
+<p>KOE006은 앱에 등록하지 않은 Redirect URI로 로그인을 요청했을 때 뜨는 오류입니다(카카오 디벨로퍼스 문제 해결 문서). 카카오 디벨로퍼스 [앱] &gt; [플랫폼 키] &gt; [REST API 키]의 리다이렉트 URI에 쇼핑몰이 쓰는 주소를 빠짐없이 등록하면 풀립니다. 카페24는 등록한 도메인마다 <code>/Api/Member/Oauth2ClientCallback/kakao/</code>를 붙여 넣고, SSL을 쓰면 http·https를, www·m·멀티샵 같은 2차 도메인도 모두 넣습니다.</p>
+
+<h2>카페24 SNS 로그인 오류는 어떻게 해결하나요?</h2>
+<p>먼저 어느 SNS에서 난 오류인지 나눕니다. 카카오는 화면에 뜬 KOE 코드나 문구로 위 표에서 원인을 찾고, 네이버는 네이버 개발자센터에 등록한 서비스 URL과 Callback URL에 지금 쓰는 쇼핑몰 도메인이 모두 들어 있는지 봅니다. 두 SNS 모두 연동을 '사용함'으로 저장해도 로그인 화면 디자인에 SNS 로그인 버튼을 적용해야 버튼이 보입니다.</p>
+<ul>
+<li>네이버 개발자센터에서 직접 만든 앱은 '개발 중' 상태로 시작하며, 검수가 승인돼야 네이버 로그인을 쓸 수 있습니다(카페24 도움말).</li>
+<li>SNS의 Client(App) ID를 바꾸면 기존 회원 정보·주문 정보와 연동할 수 없습니다(카페24 도움말). 오류가 나도 앱을 새로 만들지 않습니다.</li>
+<li>네이버 로그인 설정 전체 순서: <a href="cafe24-naver-login-setup.html">카페24 네이버 로그인 설정 방법</a></li>
+</ul>
 <h2>카카오 로그인 버튼이 쇼핑몰에 안 보여요. 왜 그래요?</h2>
 <p>SNS 로그인 연동을 '사용함'으로 저장해도 로그인 화면 디자인에 버튼을 따로 적용해야 보입니다. 관리자 디자인 &gt; 디자인 보관함에서 대표 디자인의 '편집'을 눌러 스마트디자인 편집창을 열고, 자주 쓰는 화면 &gt; 로그인 &gt; 회원 로그인 영역 '편집' &gt; 꾸미기 탭 &gt; SNS 로그인 디자인을 골라 적용합니다. PC와 모바일 디자인을 각각 설정합니다.</p>
 <ol>
@@ -136,7 +211,10 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 </ol>
 <p class="note">직접 소스를 고치려면 카페24 도움말의 '카카오로그인, 카카오싱크 SNS 로그인 연동 - HTML/CSS' 안내를 따릅니다.</p>
 
-<h2>스킨 바꾸고 나서 카페24 카카오 로그인이 안 돼요. 어떻게 고쳐요?</h2>
+<h2>PC에서 SNS 로그인이 안 보여요. 모바일은 보이는데 왜 그래요?</h2>
+<p>카페24는 PC와 모바일 디자인을 따로 설정하므로 SNS 로그인 디자인도 각각 적용해야 합니다. 모바일에만 적용했다면 디자인 보관함의 PC 대표 디자인을 열고 로그인 &gt; 회원 로그인 영역 '편집' &gt; 꾸미기 탭에서 SNS 로그인 디자인을 적용합니다. 최근 PC 대표 디자인(스킨)을 바꿨다면 새 대표 디자인에도 다시 적용합니다.</p>
+
+<h2>스킨 변경 후 카카오 로그인이 안 보여요. 어떻게 고쳐요?</h2>
 <p>버튼 설정은 대표 디자인 기준이라 새 스킨을 대표 디자인으로 바꿨다면 새 스킨에서 SNS 로그인 디자인을 다시 적용합니다. 카카오싱크를 쓰는데 '일시적으로 카카오로그인을 사용할 수 없습니다' 메시지가 뜨면 카페24 도움말대로 mapping_login.html과 mapping_login_kakao.css 파일을 추가합니다. 기존 계정 연동 때 로그인 화면만 반복되면 /member/login.html에 아이디·비밀번호 입력란이 있는지 확인합니다. 카카오 앱이나 연동 설정은 바꾸지 않습니다.</p>
 <div class="tablewrap"><table>
 <tr><th>새 스킨에서 보이는 증상</th><th>확인할 것(카페24 도움말)</th></tr>
@@ -166,7 +244,7 @@ footer{margin-top:48px;padding-top:16px;border-top:1px solid var(--line)}
 </aside>
 <footer>
 <p class="small">출처(모두 2026-11-13 확인): <a href="https://support.cafe24.com/hc/ko/articles/7751406614809">카페24 도움말 SNS 로그인 연동 관리</a> · <a href="https://support.cafe24.com/hc/ko/articles/8470541387929">SNS 로그인 연동 서비스 이용하는 방법</a> · <a href="https://support.cafe24.com/hc/ko/articles/8467226483353">카카오 Rest API 키 발급</a> · <a href="https://support.cafe24.com/hc/ko/articles/8470505469465">로그인 페이지에 SNS 로그인 버튼 표시</a> · <a href="https://support.cafe24.com/hc/ko/articles/8467386503833">카카오싱크 설정 방법</a> · <a href="https://support.cafe24.com/hc/ko/articles/18822027092121">카카오 로그인 오류 자주 묻는 질문</a> · <a href="https://support.cafe24.com/hc/ko/articles/38171119880985">SNS 로그인 Client ID 변경·사용 안함</a> · <a href="https://support.cafe24.com/hc/ko/articles/18783949286169">SNS 회원가입 사용여부 항목이 안 보일 때</a> · <a href="https://developers.kakao.com/docs/latest/ko/kakaologin/trouble-shooting">카카오 디벨로퍼스 카카오 로그인 문제 해결</a> · <a href="https://app.keepgrow.com/products/process-templates/71">킵그로우 1초 회원가입[카페24] 공식 페이지</a></p>
-<p class="small">관련 글: <a href="cafe24-kakao-sync-setup.html">카페24 카카오싱크 연동 방법</a> · <a href="kakao-sync-cost.html">카카오싱크 비용</a> · <a href="cafe24-simple-signup-apps.html">카페24 간편가입 앱 비교</a> · <a href="1sec-signup-pricing-cancel.html">1초 회원가입 가격·요금제·해지</a></p>
+<p class="small">관련 글: <a href="cafe24-kakao-sync-setup.html">카페24 카카오싱크 연동 방법</a> · <a href="cafe24-naver-login-setup.html">카페24 네이버 로그인 설정 방법</a> · <a href="kakao-sync-cost.html">카카오싱크 비용</a> · <a href="cafe24-simple-signup-apps.html">카페24 간편가입 앱 비교</a> · <a href="1sec-signup-pricing-cancel.html">1초 회원가입 가격·요금제·해지</a></p>
 </footer>
 </article>
 </main>
