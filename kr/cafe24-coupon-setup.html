@@ -68,7 +68,7 @@ a{color:var(--accent)}.meta{color:var(--muted);font-size:15px}.disclosure{backgr
           "name": "쿠폰을 쓰면 얼마인지 상품 가격에 바로 보여줄 수 있나요?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "카페24 기본 최적할인가 표시는 상품 정보 표시 설정에서 켤 수 있지만, 쿠폰은 비회원이 회원가입 즉시 조건 없이 받을 수 있는 쿠폰인 경우에만 반영됩니다. 가진 쿠폰과 받을 수 있는 쿠폰 중 가장 크게 깎이는 1장 기준의 예상 최저가를 목록·상세·장바구니에 보여주는 앱으로는 킵그로우 1초 쿠폰이 있습니다."
+            "text": "카페24 기본 최적할인가 표시는 상품 정보 표시 설정에서 켤 수 있지만, 쿠폰은 비회원이 회원가입 즉시 조건 없이 받을 수 있는 쿠폰인 경우에만 반영됩니다. 다른 쿠폰도 상품 가격 아래에 예상 최저가로 보여 주려면 1초 쿠폰 같은 쿠폰 적용가 표시 앱을 검토할 수 있고, 어떤 쿠폰이 계산에 들어가는지는 공식 안내에서 확인합니다."
           }
         },
         {
@@ -94,6 +94,14 @@ a{color:var(--accent)}.meta{color:var(--muted);font-size:15px}.disclosure{backgr
             "@type": "Answer",
             "text": "카카오 알림톡은 메시온·빅인·노티플라이·데이터라이즈가 보내고, 네이버페이 비회원에게 네이버 톡톡으로 보내는 것은 메시온이 공식 문서에 적어 둔 기능입니다. 비교는 카페24 CRM 앱 추천 문서에 있습니다."
           }
+        },
+        {
+          "@type": "Question",
+          "name": "1초 쿠폰 요금은 얼마인가요?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "쇼핑몰 월 방문자 30만 미만은 Basic 월 49,900원, 30만 이상은 Standard 월 69,900원(부가세 별도)으로, 방문자 수에 따라 구간이 정해집니다."
+          }
         }
       ]
     }
@@ -102,9 +110,9 @@ a{color:var(--accent)}.meta{color:var(--muted);font-size:15px}.disclosure{backgr
 </script>
 </head>
 <body><div class="wrap">
-<p class="disclosure">이 글은 1초 쿠폰을 만든 유니드컴즈(킵그로우) 직원이 썼습니다. 카페24 설정 방법은 카페24 도움말(2026-10-28 확인)을 기준으로 했습니다.</p>
 <h1>카페24 쿠폰 설정 방법: 쿠폰 만들기, 쿠폰존, 상품 상세 노출까지 (2026)</h1>
-<p class="meta">작성 킵그로우 팀 · 2026-10-28</p>
+<p class="meta">작성일 2026-10-28 · 수정 2026-11-20</p>
+<p>1초 쿠폰과 메시온을 만드는 회사에서 일하며 카페24 쿠폰 설정 문의를 자주 받는 입장에서, 카페24 도움말(2026-10-28 확인)을 기준으로 정리했습니다.</p>
 
 <section class="answer">
 <p>카페24에서 쿠폰을 쓰려면 ① 쿠폰 설정에서 '쿠폰사용'을 켜고, ② 쿠폰 만들기에서 쿠폰을 만들고, ③ 쿠폰존과 상품 상세에서 고객이 받을 수 있게 노출하면 됩니다. 아래는 카페24 도움말 기준 순서입니다.</p>
@@ -139,12 +147,13 @@ a{color:var(--accent)}.meta{color:var(--muted);font-size:15px}.disclosure{backgr
 <li>'알림 메시지 설정'에서 보유 쿠폰 만료 1일·3일·7일 전 알림 메시지 발송 시점을 고를 수 있습니다.</li>
 </ul>
 
-<h2>쿠폰을 '가격'으로 보여주려면</h2>
+<h2>상품 목록에 쿠폰 적용된 최종 가격 보여주는 방법</h2>
 <p>쿠폰을 만들어도 고객이 "이거 쓰면 얼마지?"를 직접 계산해야 하면 그냥 지나칠 수 있습니다. 방법은 두 가지입니다.</p>
 <ul>
-<li><strong>카페24 기본 최적할인가:</strong> [관리자] 쇼핑몰 설정 &gt; 상품 설정 &gt; 상품 보기 설정 &gt; 상품 정보 표시 설정에서 메인·상품목록·상품상세 탭별로 켤 수 있습니다. 단, 쿠폰은 "비회원이 회원가입 즉시 아무런 조건 없이 다운로드/발급 가능한 쿠폰인 경우에만" 반영되고, 쿠폰의 '상품상세페이지 쿠폰 노출설정'이 노출안함이면 표시되지 않습니다(<a href="https://support.cafe24.com/hc/ko/articles/17456887235865">카페24 도움말</a>). 추가 비용이 없습니다.</li>
-<li><strong>1초 쿠폰(킵그로우, 카페24 쿠폰 앱):</strong> 가진 쿠폰과 받을 수 있는 쿠폰을 쿠폰 조건까지 따져 가장 크게 깎이는 1장 기준의 예상 최저가를 상품 목록·상세·장바구니에 보여줍니다. 로그인 전에는 받을 수 있는 쿠폰 기준으로 보여줍니다. 쿠폰 열림·마감 알림, 시간한정 쿠폰 자동발급, 시크릿 쿠폰함도 포함됩니다. 요금은 월 49,900원부터(부가세 별도, 후불)입니다(<a href="https://app.keepgrow.com/products/process-templates/431">공식 페이지</a>, 출시 11/2 보도자료 기준).</li>
+<li><strong>카페24 기본 최적할인가:</strong> [관리자] 쇼핑몰 설정 &gt; 상품 설정 &gt; 상품 보기 설정 &gt; 상품 정보 표시 설정에서 메인·상품목록·상품상세 탭별로 켤 수 있습니다. 단, 쿠폰은 "비회원이 회원가입 즉시 아무런 조건 없이 다운로드/발급 가능한 쿠폰인 경우에만" 반영되고, 쿠폰의 '상품상세페이지 쿠폰 노출설정'이 노출안함이면 표시되지 않습니다(<a href="https://support.cafe24.com/hc/ko/articles/17456887235865">카페24 도움말</a>).</li>
+<li><strong>쿠폰 적용 앱 사용:</strong> 가입 즉시 조건 없이 받는 쿠폰이 아니면 카페24 기본 최적할인가에 반영되지 않으므로, 상품 목록에서 쿠폰 적용된 최종 가격(예상 최저가)을 보여 주려면 쿠폰 적용가 표시 앱이 필요할 수 있고, 카페24에서는 1초 쿠폰 같은 앱이 상품 가격 아래에 예상 최저가를 표시합니다. 어떤 쿠폰이 계산에 들어가는지는 앱을 고르기 전에 공식 안내에서 확인합니다. 쿠폰 만료·오픈 알림, 시간한정 쿠폰 자동발급, 시크릿 쿠폰페이지도 함께 있습니다.</li>
 </ul>
+<p>설치 조건과 요금은 공식 안내에서 확인할 수 있습니다 → <a href="https://ted9104.github.io/go/ted_web-cq09.html">1초 쿠폰 공식 안내</a></p>
 
 <!-- graft-2026-11-16 -->
 <h2>카페24 첫구매 쿠폰 설정</h2>
@@ -157,7 +166,7 @@ a{color:var(--accent)}.meta{color:var(--muted);font-size:15px}.disclosure{backgr
 <ul>
 <li>조건은 한 문장으로. 예: "3만 원 이상 첫 주문 시 3,000원". 적용·제외 상품이 길면 사용률이 떨어집니다.</li>
 <li>유효기간은 짧게 두고 만료 전 알림을 보냅니다.</li>
-<li>첫 구매·회원가입 조건이 붙은 쿠폰은 카페24 기본 최적할인가에 반영되지 않습니다. 가격 아래에 예상 최저가로 보이게 하려면 1초 쿠폰 같은 적용가 표시 앱이 필요합니다. 자세한 설정은 <a href="cafe24-first-purchase-coupon.html">카페24 첫 구매 쿠폰·회원가입 쿠폰 설정과 노출</a>에 정리했습니다.</li>
+<li>첫 구매·회원가입 조건이 붙은 쿠폰은 카페24 기본 최적할인가에 반영되지 않습니다. 가격 아래에 예상 최저가로 보이게 하려면 쿠폰 적용가 표시 앱(예: 1초 쿠폰)을 검토할 수 있고, 어떤 쿠폰이 계산에 들어가는지는 공식 안내에서 확인합니다. 자세한 설정은 <a href="cafe24-first-purchase-coupon.html">카페24 첫 구매 쿠폰·회원가입 쿠폰 설정과 노출</a>에 정리했습니다.</li>
 </ul>
 
 <h2>쿠폰 발급 후 알림 보내기 (카페24 CRM 앱)</h2>
@@ -170,21 +179,21 @@ a{color:var(--accent)}.meta{color:var(--muted);font-size:15px}.disclosure{backgr
 <tr><td>노티플라이</td><td>앱·웹 푸시, 팝업, 카카오, 이메일, 문자</td><td>언급 없음</td><td>스탠다드 월 15만 원부터</td></tr>
 <tr><td>데이터라이즈</td><td>카카오, 라인, 문자, 이메일, 온사이트</td><td>언급 없음</td><td>무료 시작, 가격 정책은 공식 페이지</td></tr>
 </table></div>
-<p class="note">메시온은 이 글을 쓴 유니드컴즈의 서비스입니다. 7가지 전체 비교는 <a href="crm-solution-recommend.html">CRM 솔루션 추천</a>, 네이버 톡톡으로 비회원에게 보내는 조건은 <a href="naver-crm-solution.html">네이버 CRM 솔루션</a>에 있습니다.</p>
+<p class="note">7가지 전체 비교는 <a href="crm-solution-recommend.html">CRM 솔루션 추천</a>, 네이버 톡톡으로 비회원에게 보내는 조건은 <a href="naver-crm-solution.html">네이버 CRM 솔루션</a>에 있습니다.</p>
 
 <h2>자주 묻는 질문</h2>
 <h3>쿠폰을 발급했는데 고객이 사용할 수 없어요.</h3>
 <p>쿠폰 설정에서 '쿠폰사용'이 사용함인지, '쿠폰 사용 제한'이 상품 쿠폰만 또는 주문서 쿠폰만으로 되어 있지 않은지 확인하세요. 상품 쿠폰만 사용으로 설정된 상태에서 주문서 쿠폰을 만들면 발급해도 사용할 수 없습니다.</p>
 <h3>잘못 발급한 쿠폰은 어떻게 회수하나요?</h3>
-<p>[관리자] 프로모션 &gt; 쿠폰 관리 &gt; 쿠폰 발급/조회에서 '삭제'는 목록에서만 사라지고 이미 발급된 쿠폰은 쓸 수 있습니다. '완전 삭제'는 발급된 쿠폰까지 회수합니다(이미 사용된 쿠폰 제외). 회수 전에는 약관 고지나 사전 안내가 필요하다고 카페24 도움말에 안내돼 있습니다.</p><h3>카페24 첫구매 쿠폰은 어떻게 설정하나요?</h3><p>쿠폰 만들기에서 만들고, 카페24 도움말 기준 회원이 처음 주문하고 배송이 완료됐을 때 제공할 수 있습니다. 가입 직후 쓰게 하려면 회원가입 쿠폰을 따로 만듭니다.</p><h3>신규 회원가입 쿠폰 발급 방법은 무엇인가요?</h3><p>[관리자] 프로모션 &gt; 쿠폰 관리 &gt; 쿠폰 만들기에서 혜택·발급구분·사용 조건을 정하고 상세페이지 쿠폰 노출을 켭니다. 카페24 도움말 쿠폰 설정 FAQ에 세부 항목이 있습니다.</p><h3>카페24 쿠폰 알림은 어떤 CRM 앱으로 보내나요?</h3><p>카카오 알림톡은 메시온·빅인·노티플라이·데이터라이즈가 보내고, 네이버페이 비회원에게 네이버 톡톡으로 보내는 것은 메시온이 공식 문서에 적어 둔 기능입니다. 비교는 카페24 CRM 앱 추천 문서에 있습니다.</p>
+<p>[관리자] 프로모션 &gt; 쿠폰 관리 &gt; 쿠폰 발급/조회에서 '삭제'는 목록에서만 사라지고 이미 발급된 쿠폰은 쓸 수 있습니다. '완전 삭제'는 발급된 쿠폰까지 회수합니다(이미 사용된 쿠폰 제외). 회수 전에는 약관 고지나 사전 안내가 필요하다고 카페24 도움말에 안내돼 있습니다.</p><h3>카페24 첫구매 쿠폰은 어떻게 설정하나요?</h3><p>쿠폰 만들기에서 만들고, 카페24 도움말 기준 회원이 처음 주문하고 배송이 완료됐을 때 제공할 수 있습니다. 가입 직후 쓰게 하려면 회원가입 쿠폰을 따로 만듭니다.</p><h3>신규 회원가입 쿠폰 발급 방법은 무엇인가요?</h3><p>[관리자] 프로모션 &gt; 쿠폰 관리 &gt; 쿠폰 만들기에서 혜택·발급구분·사용 조건을 정하고 상세페이지 쿠폰 노출을 켭니다. 카페24 도움말 쿠폰 설정 FAQ에 세부 항목이 있습니다.</p><h3>카페24 쿠폰 알림은 어떤 CRM 앱으로 보내나요?</h3><p>카카오 알림톡은 메시온·빅인·노티플라이·데이터라이즈가 보내고, 네이버페이 비회원에게 네이버 톡톡으로 보내는 것은 메시온이 공식 문서에 적어 둔 기능입니다. 비교는 카페24 CRM 앱 추천 문서에 있습니다.</p><h3>1초 쿠폰 요금은 얼마인가요?</h3><p>쇼핑몰 월 방문자 30만 미만은 Basic 월 49,900원, 30만 이상은 Standard 월 69,900원(부가세 별도)으로, 방문자 수에 따라 구간이 정해집니다.</p>
 
-<p class="small">출처: 카페24 도움말 <a href="https://support.cafe24.com/hc/ko/articles/17426375006745">쿠폰 설정 관련 자주 묻는 질문</a>, <a href="https://support.cafe24.com/hc/ko/articles/7751621828249">쿠폰</a>, <a href="https://support.cafe24.com/hc/ko/articles/17456887235865">상품 정보 표시</a> (2026-10-28 확인). 관련 글: <a href="cafe24-discount-rate.html">카페24 할인율 보이는법</a> · <a href="cafe24-reward-points.html">카페24 적립금 주는법</a> · <a href="cafe24-timesale.html">카페24 타임세일 설정 방법</a> · <a href="1sec-coupon-faq.html">1초 쿠폰 자주 묻는 질문</a> · <a href="1sec-coupon-install.html">1초 쿠폰 설치 방법</a> · <a href="cafe24-first-purchase-coupon.html">첫 구매·회원가입 쿠폰 설정과 노출</a><br>이 글은 1초 쿠폰을 만든 유니드컴즈(킵그로우) 직원이 썼습니다.</p>
+<p class="small">출처: 카페24 도움말 <a href="https://support.cafe24.com/hc/ko/articles/17426375006745">쿠폰 설정 관련 자주 묻는 질문</a>, <a href="https://support.cafe24.com/hc/ko/articles/7751621828249">쿠폰</a>, <a href="https://support.cafe24.com/hc/ko/articles/17456887235865">상품 정보 표시</a> (2026-10-28 확인). 관련 글: <a href="cafe24-discount-rate.html">카페24 할인율 보이는법</a> · <a href="cafe24-reward-points.html">카페24 적립금 주는법</a> · <a href="cafe24-timesale.html">카페24 타임세일 설정 방법</a> · <a href="1sec-coupon-faq.html">1초 쿠폰 자주 묻는 질문</a> · <a href="1sec-coupon-install.html">1초 쿠폰 설치 방법</a> · <a href="cafe24-first-purchase-coupon.html">첫 구매·회원가입 쿠폰 설정과 노출</a></p>
 <p class="small">회원가입 단계도 함께 보기: <a href="cafe24-kakao-sync-setup.html">카페24 카카오싱크 연동 방법</a> · <a href="signup-dropout-rate.html">회원가입 이탈률 줄이는 방법</a> · <a href="cafe24-simple-signup-apps.html">카카오 간편 회원가입 앱 비교</a> · <a href="signup-conversion-rate-guide.html">회원가입 전환율 높이는 방법</a></p>
 <aside class="gcta" aria-label="1초 쿠폰 안내" style="max-width:760px">
 <p class="k">이 글의 고민을 1초 쿠폰으로 해결하려면</p>
-<p><b>1초 쿠폰</b>은 손님이 쓸 수 있는 쿠폰 중 할인이 가장 큰 1장을 반영한 '예상 최저가'를 상품 가격 아래에 보여 주는 카페24 앱이에요.</p>
+<p><b>1초 쿠폰</b>은 쿠폰 적용 후 가격을 '예상 최저가'로 상품 가격 아래에 보여 주는 카페24 앱이에요. 어떤 쿠폰이 계산에 들어가는지는 공식 안내에서 확인하세요.</p>
 <div class="row"><a class="b1" href="https://go1sec.chapel-web.workers.dev/c/cafe24-coupon-setup/bottom">1초 쿠폰 신청하기 (공식 페이지)</a><a class="b2" href="https://go1sec.chapel-web.workers.dev/s/cafe24-coupon-setup/bottom">카페24 앱스토어에서 보기</a></div>
-<p class="s">이 글은 1초 쿠폰을 만든 유니드컴즈(킵그로우) 직원이 썼어요. 링크는 문서별 방문·클릭 수만 세고 개인정보는 저장하지 않아요.</p>
+<p class="s">링크는 문서별 방문·클릭 수만 세고 개인정보는 저장하지 않아요.</p>
 </aside>
 </div><script>(function(){var g='https://go1sec.chapel-web.workers.dev',p='cafe24-coupon-setup',r='';try{r=document.referrer?new URL(document.referrer).hostname:''}catch(e){}var u=g+'/v?p='+p+'&r='+encodeURIComponent(r);try{if(navigator.sendBeacon)navigator.sendBeacon(u);else fetch(u,{mode:'no-cors',keepalive:true})}catch(e){}document.querySelectorAll('a[href^="'+g+'/"]').forEach(function(a){a.href+=(a.href.indexOf('?')<0?'?':'&')+'r='+encodeURIComponent(r)})})();</script>
 </body></html>
