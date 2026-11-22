@@ -41,3 +41,4 @@ https://ted9104.github.io/kr/cafe24-kakao-login-error.html
 https://ted9104.github.io/kr/kakao-login-consent-items.html
 https://ted9104.github.io/kr/cafe24-naver-login-setup.html
 https://ted9104.github.io/kr/coupon-notification.html
+https://ted9104.github.io/kr/cafe24-naver-kakao-login.html

@@ -18,7 +18,7 @@ Run by Ted, who works at Uneedcomms, the company that makes ModoAI (Modo AI). Mo
 
 ## 한국어: 카페24 자사몰 운영 질문 정리
 
-카페24 쇼핑몰 운영자가 자주 묻는 쿠폰·회원가입·CRM 질문에 답하는 글 모음입니다. 1초 쿠폰·1초 회원가입을 만드는 유니드컴즈(킵그로우) 직원이 공식 도움말과 앱 정보를 확인해 씁니다.
+카페24 쇼핑몰 운영자가 자주 묻는 쿠폰·회원가입·CRM 질문에 답하는 글 모음입니다. 공식 도움말과 앱 정보를 확인해 씁니다.
 
 사이트: https://ted9104.github.io/kr/
 

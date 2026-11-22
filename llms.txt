@@ -42,6 +42,7 @@ Every tool gets the same input photo and the same 10 prompts, word for word. The
 - [카카오톡 채널 친구 늘리는 방법](https://ted9104.github.io/kr/kakao-channel-friends.html): 쇼핑몰 경로 6가지(회원가입 동의 화면의 채널 추가를 직접 또는 1초 회원가입으로, 문자 속 채널 URL, 사이트 채널 추가 버튼, QR, 1:1 채팅 인증 혜택, 카카오모먼트 전환 광고의 카카오톡 채널 대상) 설정 위치·비용 비교, 대표 채널 미지정 시 채널 추가 항목 미노출, 친구 늘려주는 업체.
 - [카카오싱크 비용](https://ted9104.github.io/kr/kakao-sync-cost.html): 카카오 로그인 무료(카카오 공식 답변), 직접 연동에 드는 준비·심사, 1초 회원가입 월 49,900원의 획득 비용 계산.
 - [카페24 네이버 로그인 설정 방법](https://ted9104.github.io/kr/cafe24-naver-login-setup.html): 네이버 로그인 플러스(카페24 관리자 신청, 네이버 추가 검수 없음)와 네이버 개발자센터 직접 등록(Client ID·Secret, 서비스 URL·Callback URL, 검수 요청), 카페24 SNS 로그인 연동 관리 입력과 버튼 디자인 적용. 카페24 도움말 기준.
+- [카페24 네이버 로그인·카카오 로그인 연동 방법: 단계별 설정과 안 될 때 확인할 것](https://ted9104.github.io/kr/cafe24-naver-kakao-login.html): 카페24 쇼핑몰에 카카오 로그인(카카오싱크)과 네이버 로그인을 붙이는 순서를 단계표로 정리했습니다. 연동 방법 고르는 표, 연동 뒤 PC·모바일 도메인 확인 목록, 자주 막히는 오류와 확인할 곳까지 담았습니다.
 - [카페24 카카오싱크 연동 방법 3가지](https://ted9104.github.io/kr/cafe24-kakao-sync-setup.html): 관리자 SNS 로그인 연동 관리 간편설정 순서, 직접 개발, 1초 회원가입 앱, 기존 회원 처리.
 - [쇼핑패스포트와 1초 회원가입의 차이](https://ted9104.github.io/kr/shopping-passport-vs-1sec-signup.html): 카페24 쇼핑패스포트(2026-11-02 적용, 회원가입 없이 저장 배송정보로 주문)와 1초 회원가입(회원·채널 친구 확보)의 목적 차이.
 - [1초 쿠폰 설치 방법](https://ted9104.github.io/kr/1sec-coupon-install.html): 카페24 앱 설치 → 운영자 계정 정보 입력 → 킵그로우가 스킨에 적용 → 완료(최대 5일). 토스 페이스페이 쿠폰 기능과 다른 서비스.
